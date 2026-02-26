@@ -1,0 +1,33 @@
+{
+
+    "trader_update_min_time": 3600, // 3600 Seconds
+    "trader_update_max_time": 4000, // 4000 Seconds
+
+
+    "Items": {
+        "gambling_wallet": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 100000,
+            "flea_price_roubles": 115000,
+            "handbook_price_roubles": 100000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+                "odds": {
+                    "Mythical": 2.5,
+                    "Legendary": 5.0,
+                    "Ultra-Rare": 7.5,
+                    "Rare": 10.0,
+                    "Uncommon": 15.0,
+                    "Common": 20.0,
+                    "Extra-Common": 20.0,
+                    "Base": 20.0
+                }
+            }
+        }
+    }
+}

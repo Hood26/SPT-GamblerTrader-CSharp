@@ -1,0 +1,19 @@
+ideas:
+
+Add 50k, 200k, 500k, 1Million, 2.5 Million, 10Million Coinflips 
+Add poker chips and make them findable in-raid. They are treated like currency and can be trader with Gambler for some new/interesting loot boxes
+Add Streamer Item Loot box to gamble for streamer items - purchasable with poker chips???
+
+Gambler Progression 4 Tiers:
+
+Tier I:
+    - Scav gear/weapons low wager gambles: 50k Rub coin flip, ...
+Tier II:
+    -...
+Tier III:
+    -...
+Tier IV:
+    -...
+
+Fixes:
+    - Need to fix incompatabilites with loadout gear/items
