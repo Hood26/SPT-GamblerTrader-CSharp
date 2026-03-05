@@ -6,7 +6,7 @@ using SPTarkov.Server.Core.Models.Spt.Config;
 using SPTarkov.Server.Core.Services;
 using SPTarkov.Server.Core.Utils.Cloners;
 
-namespace _13._1AddTraderWithDynamicAssorts
+namespace AddTraderWithDynamicAssorts
 {
     /// <summary>
     /// We inject this class into 'AddTraderWithDynamicAssorts' to help us with adding the new trader into the server

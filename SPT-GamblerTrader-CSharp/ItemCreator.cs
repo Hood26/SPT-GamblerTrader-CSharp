@@ -9,7 +9,7 @@ class ItemCreator(GamblerData gamblerData)
 
     public void BuildItems(CustomItemService customItemService)
     {
-        foreach (var (name, props) in gamblerData.lootBoxData.Items)
+        foreach (var (name, props) in gamblerData.lootBoxInfo.Items)
         {
             var itemConfig = gamblerData.config.Items[name];
             var newItem = new NewItemFromCloneDetails

@@ -1,0 +1,37 @@
+
+{
+    "manifest": [
+      {
+        "key": "assets/weapon_mystery_box_early_wipe.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders",
+          "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+      },
+      {
+        "key": "assets/weapon_mystery_box.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders",
+          "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+      },
+      {
+        "key": "assets/weapon_mystery_box_mid_wipe.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders",
+          "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+      },
+      {
+        "key": "assets/weapon_mystery_box_late_wipe.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders",
+          "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+      }
+    ]
+}

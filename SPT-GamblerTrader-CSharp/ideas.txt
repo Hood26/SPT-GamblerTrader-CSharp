@@ -1,19 +1,40 @@
 ideas:
 
-Add 50k, 200k, 500k, 1Million, 2.5 Million, 10Million Coinflips 
-Add poker chips and make them findable in-raid. They are treated like currency and can be trader with Gambler for some new/interesting loot boxes
-Add Streamer Item Loot box to gamble for streamer items - purchasable with poker chips???
+- Add rare tech lootboxs for barter traders for intelligence folders and other rare barter items
+- Loyalty LL
+- Change armour lootbox prefab to an armour plate for each better tier
+- Add 50k, 200k, 500k, 1Million, 2.5 Million, 10Million Coinflips 
+- Add poker chips and make them findable in-raid. They are treated like currency and can be trader with Gambler for some new/interesting loot boxes
+- Add Streamer Item Loot box to gamble for streamer items - purchasable with poker chips???
 
 Gambler Progression 4 Tiers:
 
-Tier I:
+Idea:(The higher the Loyalty Level achieved offers a minor discount for purchases)
+Tier I: 
+    - Early Wipe Weapon Mystery Box: Generates scav weapons and early wipe weapons
     - Scav gear/weapons low wager gambles: 50k Rub coin flip, ...
-Tier II:
-    -...
-Tier III:
-    -...
-Tier IV:
-    -...
+Tier II: 2 Million
+    - Weapon Mystery Box: containes a weapon of scav or early-wipe tier
+    - Early-wipe gear, ...
+Tier III: 6 Million
+    - Mid Wipe Weapon Mystery Box
+    - Mid-wipe gear, ...
+Tier IV: 12 Million
+    - Late Wipe Mystery Box
+    - Late-wipe gear, ...
+    - Craziest Gambles available
 
 Fixes:
     - Need to fix incompatabilites with loadout gear/items
+
+
+Rarites:??? This is stupid
+    - Mythical
+    - Legendary
+    - Epic
+    - Rare
+    - Uncommon
+    - Common
+    - Basic
+
+Lead Into Marcus Munitions Trader once weapon presets are fleshed out

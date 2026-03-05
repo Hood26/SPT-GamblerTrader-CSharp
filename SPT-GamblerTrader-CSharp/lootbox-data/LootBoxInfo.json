@@ -1,0 +1,44 @@
+{
+    "Items": {
+        "gambling_early_wipe_weapon_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f54db",
+            "_name": "gambling_early_wipe_weapon_mystery_box",
+            "prefab": "assets/weapon_mystery_box_early_wipe.bundle",
+            "width": 5,
+            "height": 2,
+            "name": "Early Wipe Weapon Mystery Box",
+            "shortName": "Weapon",
+            "desc": "Early Wipe Weapon Mystery Box Description"
+        },
+        "gambling_weapon_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f54dc",
+            "_name": "gambling_weapon_mystery_box",
+            "prefab": "assets/weapon_mystery_box.bundle",
+            "width": 5,
+            "height": 2,
+            "name": "Weapon Mystery Box",
+            "shortName": "Weapon",
+            "desc": "Can unbox a huge variety of weapons"
+        },
+        "gambling_mid_wipe_weapon_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f54dd",
+            "_name": "gambling_mid_wipe_weapon_mystery_box",
+            "prefab": "assets/weapon_mystery_box_mid_wipe.bundle",
+            "width": 5,
+            "height": 2,
+            "name": "Mid Wipe Weapon Mystery Box",
+            "shortName": "Weapon",
+            "desc": "Mid Wipe Weapon Mystery Box Description"
+        },
+        "gambling_late_wipe_weapon_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f54de",
+            "_name": "gambling_late_wipe_weapon_mystery_box",
+            "prefab": "assets/weapon_mystery_box_late_wipe.bundle",
+            "width": 5,
+            "height": 2,
+            "name": "Late Wipe Weapon Mystery Box",
+            "shortName": "Weapon",
+            "desc": "Late Wipe Weapon Mystery Box Description"
+        }
+    }
+}

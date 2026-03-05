@@ -14,7 +14,7 @@ using SPTarkov.Server.Core.Helpers;
 using SPTarkov.Server.Core.Services;
 using SPTarkov.Server.Core.Routers;
 using SPTarkov.Server.Core.Utils.Cloners;
-using _13._1AddTraderWithDynamicAssorts;
+using AddTraderWithDynamicAssorts;
 using SPTarkov.Server.Core.Models.Spt.Config;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using Path = System.IO.Path;
@@ -93,7 +93,8 @@ public class GamblerTrader(
         var configPath = Path.GetFullPath(Path.Combine(pathToMod, "config"));
         var lootBoxPath = Path.GetFullPath(Path.Combine(pathToMod, "lootbox-data"));
         var config = modHelper.GetJsonDataFromFile<Config>(configPath, "config.jsonc");
-        var lootBoxData = modHelper.GetJsonDataFromFile<LootBoxData>(lootBoxPath, "lootboxData.json");
+        var lootBoxInfo = modHelper.GetJsonDataFromFile<LootBoxInfo>(lootBoxPath, "lootBoxInfo.json");
+        //var lootBoxData = modHelper.GetJsonDataFromFile<LootBoxData>(lootBoxPath, "lootBoxData.json");
         var traderImagePath = Path.Combine(pathToMod, "res/gambler.jpg");
         var traderBase = modHelper.GetJsonDataFromFile<TraderBase>(pathToMod, "db/base.json");
         imageRouter.AddRoute(traderBase.Avatar.Replace(".jpg", ""), traderImagePath);
@@ -101,11 +102,11 @@ public class GamblerTrader(
         _ragfairConfig.Traders.TryAdd(traderBase.Id, true);
         addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase);
         addCustomTraderHelper.AddTraderToLocales(traderBase, "Gambler", "Welcome warrior! I have many mystery boxes for sale if you wish to try your luck.");
-        var gamblerData = new GamblerData(assortCreator, config, lootBoxData, logger);
+        var gamblerData = new GamblerData(assortCreator, config, lootBoxInfo, logger);
         var itemCreator = new ItemCreator(gamblerData);
         itemCreator.BuildItems(customItemService);
         var gamblerTraderHelper = new GamblerTraderHelper(gamblerData);
-        gamblerTraderHelper.addSingleItemToTrader("67b7b52a4767af842e0521d0");
+        gamblerTraderHelper.AddSingleItemToTrader("67b7b52a4767af842e0521d0");
         logger.Info("Gambler Trader Loaded Successfully!");
         return Task.CompletedTask;
     }

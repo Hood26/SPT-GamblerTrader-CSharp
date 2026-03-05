@@ -7,10 +7,11 @@ class GamblerTraderHelper(GamblerData gamblerData)
 {
     private readonly GamblerData gamblerData = gamblerData;
 
-    public void addSingleItemToTrader(string traderId)
+    public void AddSingleItemToTrader(string traderId)
     {
-        foreach (var (name, props) in gamblerData.lootBoxData.Items)
+        foreach (var (name, props) in gamblerData.lootBoxInfo.Items)
         {
+            gamblerData.logger.Info($"Adding {name} to trader with id {traderId}");
             if (gamblerData.config.Items[name].sold_by_trader)
             {
                 gamblerData.assortCreator.CreateSingleAssortItem(props._id)

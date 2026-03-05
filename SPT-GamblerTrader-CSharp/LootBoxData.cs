@@ -2,24 +2,17 @@ namespace SPT_GamblerTrader_CSharp;
 
 public class LootBoxData
 {
-    public required Dictionary<string, LootBoxProps> Items { get; set; }
-}
+    public required Dictionary<string, LootBoxDataProps> Containers { get; set; }
 
-public class LootBoxProps
-{
-    public string _id { get; set; }
-    public string _name { get; set; }
-    public string prefab { get; set; }
-    public int width { get; set; }
-    public int height { get; set; }
-    public string name { get; set; }
-    public string shortName { get; set; }
-    public string desc { get; set; }
+    public class LootBoxDataProps
+    {
+        public required List<string> Rarities { get; set; }
+        public required List<int> RewardsAmount { get; set; }
+        public required List<List<Rewards>> Rewards { get; set; }
+    }
 
-    public BarterProps? barter { get; set; }
-}
-
-public class BarterProps
-{
-    public Dictionary<string, int>? Items { get; set; }
+    public class Rewards {
+        public required int Amount { get; set; }
+        public required List<string> Items { get; set; }
+    }
 }

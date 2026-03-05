@@ -1,14 +1,16 @@
 {
-    "Items": {
-        "gambling_wallet": {
-            "_id": "67b7b98b4767af842e0521e7",
-            "_name": "gambling_wallet",
-            "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
-            "width": 1,
-            "height": 1,
-            "name": "Mystery Wallet",
-            "shortName": "Mystery Wallet",
-            "desc": "Wager your Roubles to win more or lose it all!"
+    "Containers": {
+        "gambling_weapon_mystery_box": {
+            "Rewards": [
+                [2000000, ["5449016a4bdc2d6f028b456f"]],
+                [1000000, ["5449016a4bdc2d6f028b456f"]],
+                [500000, ["5449016a4bdc2d6f028b456f"]],
+                [250000, ["5449016a4bdc2d6f028b456f"]],
+                [100000, ["5449016a4bdc2d6f028b456f"]],
+                [50000, ["5449016a4bdc2d6f028b456f"]],
+                [25000, ["5449016a4bdc2d6f028b456f"]],
+                [0, ["NaN"]]
+            ]
         }
     }
 }
