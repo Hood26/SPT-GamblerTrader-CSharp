@@ -1,5 +1,15 @@
 {
     "Items": {
+        "gambling_wallet": {
+            "_id": "67b7b98b4767af842e0521e7",
+            "_name": "gambling_wallet",
+            "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
+            "width": 1,
+            "height": 1,
+            "name": "Mystery Wallet",
+            "shortName": "Mystery Wallet",
+            "desc": "Wager your Roubles to win more or lose it all!"
+        },
         "gambling_early_wipe_weapon_mystery_box": {
             "_id": "69aa0ed14517a9e9940f54db",
             "_name": "gambling_early_wipe_weapon_mystery_box",
@@ -18,7 +28,7 @@
             "height": 2,
             "name": "Weapon Mystery Box",
             "shortName": "Weapon",
-            "desc": "Can unbox a huge variety of weapons"
+            "desc": "Can unbox from a large variety of weapons"
         },
         "gambling_mid_wipe_weapon_mystery_box": {
             "_id": "69aa0ed14517a9e9940f54dd",

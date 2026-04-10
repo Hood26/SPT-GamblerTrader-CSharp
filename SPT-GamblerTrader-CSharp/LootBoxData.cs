@@ -12,7 +12,7 @@ public class LootBoxData
     }
 
     public class Rewards {
+        public required string Item { get; set; }
         public required int Amount { get; set; }
-        public required List<string> Items { get; set; }
     }
 }

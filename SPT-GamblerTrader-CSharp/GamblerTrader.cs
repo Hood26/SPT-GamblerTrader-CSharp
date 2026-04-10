@@ -20,52 +20,9 @@ using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using Path = System.IO.Path;
 using HoodsEnergyDrinks_CSharp;
 using SPTarkov.Server.Core.Services.Mod;
+using System.Runtime.CompilerServices;
 
 namespace SPT_GamblerTrader_CSharp;
-
-
-[Injectable(TypePriority = OnLoadOrder.PreSptModLoader)]
-public class OpenRandomLootContainerPatch : AbstractPatch
-{
-    protected override MethodBase? GetTargetMethod()
-    {
-        var inventoryController = typeof(InventoryController);
-        return inventoryController.GetMethod(
-            "OpenRandomLootContainer",
-            [
-                typeof(PmcData),
-                typeof(OpenRandomLootContainerRequestData),
-                typeof(MongoId),
-                typeof(ItemEventRouterResponse)
-            ]
-        );
-    }
-
-    [PatchPrefix]
-    public static bool Prefix(
-        InventoryController __instance,
-        PmcData pmcData,
-        OpenRandomLootContainerRequestData request,
-        MongoId sessionId,
-        ItemEventRouterResponse output
-    )
-    {
-        ServiceLocator.ServiceProvider.GetService<ISptLogger<App>>().Success("OpenRandomLootContainer intercepted by GamblerTrader");
-        var itemHelper = ServiceLocator.ServiceProvider.GetService<ItemHelper>();
-        var openedItem = pmcData.Inventory.Items.Find(x => x.Id == request.Item);
-        var containerDetails = itemHelper.GetItem(openedItem.Template);
-        var isGamblingContainer = containerDetails.Value.Properties.Name;
-
-        if (isGamblingContainer.Contains("gambling_"))
-        {
-            // Prevent original OpenRandomLootContainer from running 
-            ServiceLocator.ServiceProvider.GetService<ISptLogger<App>>().Success("Is a Gambler Item...");
-            return false;
-        }
-        // run original OpenRandomLootContainer
-        return true;
-    }
-}
 
 
 [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 1)]
@@ -85,6 +42,7 @@ public class GamblerTrader(
 
     private readonly TraderConfig _traderConfig = configServer.GetConfig<TraderConfig>();
     private readonly RagfairConfig _ragfairConfig = configServer.GetConfig<RagfairConfig>();
+    private static GamblerData? gamblerData;
 
     public Task OnLoad()
     {
@@ -101,13 +59,59 @@ public class GamblerTrader(
         addCustomTraderHelper.SetTraderUpdateTime(_traderConfig, traderBase, config.trader_update_min_time, config.trader_update_max_time);
         _ragfairConfig.Traders.TryAdd(traderBase.Id, true);
         addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase);
-        addCustomTraderHelper.AddTraderToLocales(traderBase, "Gambler", "Welcome warrior! I have many mystery boxes for sale if you wish to try your luck.");
-        var gamblerData = new GamblerData(assortCreator, config, lootBoxInfo, logger);
+        addCustomTraderHelper.AddTraderToLocales(traderBase, "Gambler", "Welcome warrior! I have many loot boxes for sale if you wish to try your luck.");
+        GamblerTrader.gamblerData = new GamblerData(assortCreator, config, lootBoxInfo, logger);
         var itemCreator = new ItemCreator(gamblerData);
         itemCreator.BuildItems(customItemService);
         var gamblerTraderHelper = new GamblerTraderHelper(gamblerData);
         gamblerTraderHelper.AddSingleItemToTrader("67b7b52a4767af842e0521d0");
         logger.Info("Gambler Trader Loaded Successfully!");
         return Task.CompletedTask;
+    }
+
+    [Injectable(TypePriority = OnLoadOrder.PreSptModLoader)]
+    public class OpenRandomLootContainerPatch : AbstractPatch
+    {
+        protected override MethodBase? GetTargetMethod()
+        {
+            var inventoryController = typeof(InventoryController);
+            return inventoryController.GetMethod(
+                "OpenRandomLootContainer",
+                [
+                    typeof(PmcData),
+                    typeof(OpenRandomLootContainerRequestData),
+                    typeof(MongoId),
+                    typeof(ItemEventRouterResponse)
+                ]
+            );
+        }
+
+        [PatchPrefix]
+        public static bool Prefix(
+            InventoryController __instance,
+            PmcData pmcData,
+            OpenRandomLootContainerRequestData request,
+            MongoId sessionId,
+            ItemEventRouterResponse output
+        )
+        {
+            ServiceLocator.ServiceProvider.GetService<ISptLogger<App>>().Success("OpenRandomLootContainer intercepted by GamblerTrader");
+            var itemHelper = ServiceLocator.ServiceProvider.GetService<ItemHelper>();
+            var openedItem = pmcData.Inventory.Items.Find(x => x.Id == request.Item);
+            var containerDetails = itemHelper.GetItem(openedItem.Template);
+            var isGamblingContainer = containerDetails.Value.Properties.Name;
+
+            if (isGamblingContainer.Contains("gambling_"))
+            {
+                // Prevent original OpenRandomLootContainer from running 
+                ServiceLocator.ServiceProvider.GetService<ISptLogger<App>>().Success("Is a Gambler Item...");
+                if (gamblerData is null) return false;
+                Gamble gamble = new Gamble(GamblerTrader.gamblerData, isGamblingContainer);
+                gamble.NewGamble();
+                return false;
+            }
+            // run original OpenRandomLootContainer
+            return true;
+        }
     }
 }

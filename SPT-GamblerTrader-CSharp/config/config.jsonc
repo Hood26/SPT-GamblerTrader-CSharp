@@ -5,6 +5,28 @@
 
 
     "Items": {
+        "gambling_wallet": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 100000,
+            "flea_price_roubles": 115000,
+            "handbook_price_roubles": 100000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+                "2 Million Roubles": 2.5,
+                "1 Million Roubles": 5.0,
+                "500K Roubles": 7.5,
+                "250K Roubles": 10.0,
+                "100K Roubles": 15.0,
+                "50K Roubles": 20.0,
+                "25K Roubles": 20.0,
+                "0 Roubles": 20.0
+            }
+        },
         "gambling_early_wipe_weapon_mystery_box": {
             "enable": true,
             "manual_pricing": true,
@@ -17,16 +39,14 @@
             "loyalty_level": 1,
             "profit_percentage": 1.0,
             "odds": {
-                "odds": {
-                    "2 Million Roubles": 2.5,
-                    "1 Million Roubles": 5.0,
-                    "500K Roubles": 7.5,
-                    "250K Roubles": 10.0,
-                    "100K Roubles": 15.0,
-                    "50K Roubles": 20.0,
-                    "25K Roubles": 20.0,
-                    "0 Roubles": 20.0
-                }
+                "2 Million Roubles": 2.5,
+                "1 Million Roubles": 5.0,
+                "500K Roubles": 7.5,
+                "250K Roubles": 10.0,
+                "100K Roubles": 15.0,
+                "50K Roubles": 20.0,
+                "25K Roubles": 20.0,
+                "0 Roubles": 20.0
             }
         },
         "gambling_weapon_mystery_box": {
@@ -41,16 +61,14 @@
             "loyalty_level": 1,
             "profit_percentage": 1.0,
             "odds": {
-                "odds": {
-                    "2 Million Roubles": 2.5,
-                    "1 Million Roubles": 5.0,
-                    "500K Roubles": 7.5,
-                    "250K Roubles": 10.0,
-                    "100K Roubles": 15.0,
-                    "50K Roubles": 20.0,
-                    "25K Roubles": 20.0,
-                    "0 Roubles": 20.0
-                }
+                "2 Million Roubles": 2.5,
+                "1 Million Roubles": 5.0,
+                "500K Roubles": 7.5,
+                "250K Roubles": 10.0,
+                "100K Roubles": 15.0,
+                "50K Roubles": 20.0,
+                "25K Roubles": 20.0,
+                "0 Roubles": 20.0
             }
         },
         "gambling_mid_wipe_weapon_mystery_box": {
@@ -65,16 +83,14 @@
             "loyalty_level": 1,
             "profit_percentage": 1.0,
             "odds": {
-                "odds": {
-                    "2 Million Roubles": 2.5,
-                    "1 Million Roubles": 5.0,
-                    "500K Roubles": 7.5,
-                    "250K Roubles": 10.0,
-                    "100K Roubles": 15.0,
-                    "50K Roubles": 20.0,
-                    "25K Roubles": 20.0,
-                    "0 Roubles": 20.0
-                }
+                "2 Million Roubles": 2.5,
+                "1 Million Roubles": 5.0,
+                "500K Roubles": 7.5,
+                "250K Roubles": 10.0,
+                "100K Roubles": 15.0,
+                "50K Roubles": 20.0,
+                "25K Roubles": 20.0,
+                "0 Roubles": 20.0
             }
         },
         "gambling_late_wipe_weapon_mystery_box": {
@@ -89,16 +105,14 @@
             "loyalty_level": 1,
             "profit_percentage": 1.0,
             "odds": {
-                "odds": {
-                    "2 Million Roubles": 2.5,
-                    "1 Million Roubles": 5.0,
-                    "500K Roubles": 7.5,
-                    "250K Roubles": 10.0,
-                    "100K Roubles": 15.0,
-                    "50K Roubles": 20.0,
-                    "25K Roubles": 20.0,
-                    "0 Roubles": 20.0
-                }
+                "2 Million Roubles": 2.5,
+                "1 Million Roubles": 5.0,
+                "500K Roubles": 7.5,
+                "250K Roubles": 10.0,
+                "100K Roubles": 15.0,
+                "50K Roubles": 20.0,
+                "25K Roubles": 20.0,
+                "0 Roubles": 20.0
             }
         }
     }

@@ -19,10 +19,5 @@ public class ConfigProps
     public int trader_stock { get; set; }
     public int loyalty_level { get; set; }
     public float profit_percentage { get; set; }
-    public required LootboxOdds odds { get; set; }
-}
-
-public class LootboxOdds
-{
-    public required Dictionary<string, float> odds { get; set;}
+    public required Dictionary<string, float> odds { get; set; }
 }
