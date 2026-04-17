@@ -2,14 +2,14 @@
     "Containers": {
         "gambling_wallet": {
             "Rewards": [
-                ["5449016a4bdc2d6f028b456f", 2000000],
-                ["5449016a4bdc2d6f028b456f", 1000000],
-                ["5449016a4bdc2d6f028b456f", 500000],
-                ["5449016a4bdc2d6f028b456f", 250000],
-                ["5449016a4bdc2d6f028b456f", 100000],
-                ["5449016a4bdc2d6f028b456f", 50000],
-                ["5449016a4bdc2d6f028b456f", 25000],
-                ["", 0]
+                [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 2000000}],
+                [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 1000000 }],
+                [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 500000 }],
+                [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 250000 }],
+                [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 100000 }],
+                [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 50000 }],
+                [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 25000 }],
+                [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 10000 }]
             ]
         }
     }

@@ -1,8 +1,8 @@
 ideas:
 
-- Add poker chips and make them findable in-raid. They are treated like currency and can be trader with Gambler for some new/interesting loot boxes
+- Add poker chips and make them findable in-raid. They are treated like currency and can be traded with Gambler for some new/interesting loot boxes
 - Add 50k, 200k, 500k, 1Million, 2.5 Million, 10Million Coinflips 
-- Add rare tech lootboxs for barter traders for intelligence folders and other rare barter items
+- Add rare tech lootboxs for barter trades for intelligence folders and other rare barter items
 - Change armour lootbox prefab to an armour plate for each better tier???
 - Add Streamer Item Loot box to gamble for streamer items - purchasable with poker chips???
 
