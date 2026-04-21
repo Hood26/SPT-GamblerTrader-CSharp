@@ -8,7 +8,67 @@
             "height": 1,
             "name": "Mystery Wallet",
             "shortName": "Mystery Wallet",
-            "desc": "Wager your Roubles to win more or lose it all!"
+            "desc": "Wager your Roubles to win more or lose it all!\n==============================\n0 Roubles - {0 Roubles}%\n25K Roubles - {25K Roubles}%\n50K Roubles - {50K Roubles}%\n100K Roubles - {100K Roubles}%\n250K Roubles - {250K Roubles}%\n500K Roubles - {500K Roubles}%\n1 Million Roubles - {1 Million Roubles}%\n2 Million Roubles - {2 Million Roubles}%"
+        },
+        "gambling_coinflip_100k": {
+            "_id": "67b7b98b4767af842e0521e8",
+            "_name": "gambling_coinflip_100k",
+            "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
+            "width": 1,
+            "height": 1,
+            "name": "Coinflip 100k Roubles",
+            "shortName": "100k",
+            "desc": "Wager your Roubles to double your money or lose it all!\n==============================\n0 Roubles - {0 Roubles}%\n200K Roubles - {200k Roubles}%"
+        },
+        "gambling_coinflip_250k": {
+            "_id": "67b7b98b4767af842e0521e9",
+            "_name": "gambling_coinflip_250k",
+            "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
+            "width": 1,
+            "height": 1,
+            "name": "Coinflip 250k Roubles",
+            "shortName": "250k",
+            "desc": "Wager your Roubles to double your money or lose it all!\n==============================\n0 Roubles - {0 Roubles}%\n500K Roubles - {500k Roubles}%"
+        },
+        "gambling_coinflip_500k": {
+            "_id": "67b7b98b4767af842e0521ea",
+            "_name": "gambling_coinflip_500k",
+            "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
+            "width": 1,
+            "height": 1,
+            "name": "Coinflip 500k Roubles",
+            "shortName": "500k",
+            "desc": "Wager your Roubles to double your money or lose it all!\n==============================\n0 Roubles - {0 Roubles}%\n1 Million Roubles - {1 Million Roubles}%"
+        },
+        "gambling_coinflip_1m": {
+            "_id": "67b7b98b4767af842e0521eb",
+            "_name": "gambling_coinflip_1m",
+            "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
+            "width": 1,
+            "height": 1,
+            "name": "Coinflip 1 Million Roubles",
+            "shortName": "1 Million",
+            "desc": "Wager your Roubles to double your money or lose it all!\n==============================\n0 Roubles - {0 Roubles}%\n2 Million Roubles - {2 Million Roubles}%"
+        },
+        "gambling_coinflip_2.5m": {
+            "_id": "67b7b98b4767af842e0521ec",
+            "_name": "gambling_coinflip_2.5m",
+            "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
+            "width": 1,
+            "height": 1,
+            "name": "Coinflip 2.5 Million Roubles",
+            "shortName": "2.5 Million",
+            "desc": "Wager your Roubles to double your money or lose it all!\n==============================\n0 Roubles - {0 Roubles}%\n5 Million Roubles - {5 Million Roubles}%"
+        },
+        "gambling_injectors": {
+            "_id": "67b7b98b4767af842e0521ed",
+            "_name": "gambling_injectors",
+            "prefab": "assets/content/items/barter/item_container_injectorcase/item_container_injectorcase.bundle",
+            "width": 1,
+            "height": 1,
+            "name": "Mystery Injector",
+            "shortName": "Injector",
+            "desc": "Looking for your next pick me up? We have all the drugs you could ask for!\n==============================\nCommon Injectors - {Common Injectors}%\nUncommon Injectors - {Uncommon Injectors}%\nRare Injectors - {Rare Injectors}%\nExtremely Rare Injectors - {Extremely Rare Injectors}%"
         },
         "gambling_early_wipe_weapon_mystery_box": {
             "_id": "69aa0ed14517a9e9940f54db",
@@ -16,9 +76,9 @@
             "prefab": "assets/weapon_mystery_box_early_wipe.bundle",
             "width": 5,
             "height": 2,
-            "name": "Early Wipe Weapon Mystery Box",
+            "name": "Early Game Weapon Mystery Box",
             "shortName": "Weapon",
-            "desc": "Early Wipe Weapon Mystery Box Description"
+            "desc": "Early Game Weapon Mystery Box Description\n==============================\n"
         },
         "gambling_weapon_mystery_box": {
             "_id": "69aa0ed14517a9e9940f54dc",
@@ -28,7 +88,7 @@
             "height": 2,
             "name": "Weapon Mystery Box",
             "shortName": "Weapon",
-            "desc": "Can unbox from a large variety of weapons"
+            "desc": "Can unbox from a large variety of weapons\n==============================\n"
         },
         "gambling_mid_wipe_weapon_mystery_box": {
             "_id": "69aa0ed14517a9e9940f54dd",
@@ -36,9 +96,9 @@
             "prefab": "assets/weapon_mystery_box_mid_wipe.bundle",
             "width": 5,
             "height": 2,
-            "name": "Mid Wipe Weapon Mystery Box",
+            "name": "Mid Game Weapon Mystery Box",
             "shortName": "Weapon",
-            "desc": "Mid Wipe Weapon Mystery Box Description"
+            "desc": "Mid Game Weapon Mystery Box Description\n==============================\n"
         },
         "gambling_late_wipe_weapon_mystery_box": {
             "_id": "69aa0ed14517a9e9940f54de",
@@ -46,9 +106,9 @@
             "prefab": "assets/weapon_mystery_box_late_wipe.bundle",
             "width": 5,
             "height": 2,
-            "name": "Late Wipe Weapon Mystery Box",
+            "name": "Late Game Weapon Mystery Box",
             "shortName": "Weapon",
-            "desc": "Late Wipe Weapon Mystery Box Description"
+            "desc": "Late Game Weapon Mystery Box Description\n==============================\n"
         }
     }
 }

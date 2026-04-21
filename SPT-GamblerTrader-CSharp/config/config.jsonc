@@ -27,6 +27,104 @@
                 "0 Roubles": 20.0
             }
         },
+        "gambling_coinflip_100k": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 100000,
+            "flea_price_roubles": 115000,
+            "handbook_price_roubles": 100000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+                "200k Roubles": 50.0,
+                "0 Roubles": 50.0
+            }
+        },
+        "gambling_coinflip_250k": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 250000,
+            "flea_price_roubles": 275000,
+            "handbook_price_roubles": 275000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+                "500k Roubles": 50.0,
+                "0 Roubles": 50.0
+            }
+        },
+        "gambling_coinflip_500k": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 500000,
+            "flea_price_roubles": 550000,
+            "handbook_price_roubles": 550000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+                "1 Million Roubles": 50.0,
+                "0 Roubles": 50.0
+            }
+        },
+        "gambling_coinflip_1m": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 1000000,
+            "flea_price_roubles": 1100000,
+            "handbook_price_roubles": 1100000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+                "2 Million Roubles": 50.0,
+                "0 Roubles": 50.0
+            }
+        },
+        "gambling_coinflip_2.5m": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 2500000,
+            "flea_price_roubles": 2650000,
+            "handbook_price_roubles": 2650000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+                "5 Million Roubles": 50.0,
+                "0 Roubles": 50.0
+            }
+        },
+        "gambling_injectors": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 50000,
+            "flea_price_roubles": 75000,
+            "handbook_price_roubles": 75000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+                "Extremely Rare Injectors": 10.0,
+                "Rare Injectors": 15.0,
+                "Uncommon Injectors": 25.0,
+                "Common Injectors": 50.0
+            }
+        },
         "gambling_early_wipe_weapon_mystery_box": {
             "enable": true,
             "manual_pricing": true,

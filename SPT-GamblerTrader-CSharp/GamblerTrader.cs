@@ -61,6 +61,7 @@ public class GamblerTrader(
         addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase);
         addCustomTraderHelper.AddTraderToLocales(traderBase, "Gambler", "Welcome warrior! I have many loot boxes for sale if you wish to try your luck.");
         GamblerTrader.gamblerData = new GamblerData(assortCreator, config, lootBoxInfo, lootBoxData, logger);
+        lootBoxInfo.DescEvaluation(config, gamblerData);
         var itemCreator = new ItemCreator(gamblerData);
         itemCreator.BuildItems(customItemService);
         var gamblerTraderHelper = new GamblerTraderHelper(gamblerData);

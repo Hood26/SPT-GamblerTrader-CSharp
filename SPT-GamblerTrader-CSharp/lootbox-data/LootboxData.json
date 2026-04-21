@@ -11,6 +11,69 @@
                 [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 25000 }],
                 [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 10000 }]
             ]
+        },
+        "gambling_coinflip_100k": {
+            "Rewards": [
+                [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 200000}],
+                [{ "Item": null, "Amount": 0 }]
+            ]
+        },
+        "gambling_coinflip_250k": {
+            "Rewards": [
+                [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 500000}],
+                [{ "Item": null, "Amount": 0 }]
+            ]
+        },
+        "gambling_coinflip_500k": {
+            "Rewards": [
+                [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 1000000}],
+                [{ "Item": null, "Amount": 0 }]
+            ]
+        },
+        "gambling_coinflip_1m": {
+            "Rewards": [
+                [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 2000000}],
+                [{ "Item": null, "Amount": 0 }]
+            ]
+        },
+        "gambling_coinflip_2.5m": {
+            "Rewards": [
+                [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 5000000}],
+                [{ "Item": null, "Amount": 0 }]
+            ]
+        },
+        "gambling_injectors": {
+            "Rewards": [
+                [
+                 { "Item": "5ed51652f6c34d2cc26336a1"},
+                 { "Item": "637b60c3b7afa97bfc3d7001"},
+                 { "Item": "5c0e534186f7747fa1419867"}
+                ],
+                [
+                 { "Item": "637b612fb7afa97bfc3d7005"},
+                 { "Item": "5c0e531d86f7747fa23f4d42"},
+                 { "Item": "5ed5160a87bb8443d10680b5"},
+                 { "Item": "5fca138c2a7b221b2852a5c6"},
+                 { "Item": "637b620db7afa97bfc3d7009"}
+                ],
+                [
+                 { "Item": "5c0e530286f7747fa1419862"},
+                 { "Item": "5c0e533786f7747fa23f4d47"},
+                 { "Item": "5ed515c8d380ab312177c0fa"},
+                 { "Item": "637b6251104668754b72f8f9"},
+                 { "Item": "637b6179104668754b72f8f5"},
+                 { "Item": "5fca13ca637ee0341a484f46"},
+                 { "Item": "5ed5166ad380ab312177c100"}
+                ],
+                [
+                 { "Item": "544fb3f34bdc2d03748b456a"},
+                 { "Item": "5ed515e03a40a50460332579"},
+                 { "Item": "5c10c8fd86f7743d7d706df3"},
+                 { "Item": "5c0e531286f7747fa54205c2"},
+                 { "Item": "5ed515f6915ec335206e4152"},
+                 { "Item": "5ed515ece452db0eb56fc028"}
+                ]
+            ]
         }
     }
 }
