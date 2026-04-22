@@ -52,7 +52,7 @@ public class GamblerTrader(
         var lootBoxPath = Path.GetFullPath(Path.Combine(pathToMod, "lootbox-data"));
         var config = modHelper.GetJsonDataFromFile<Config>(configPath, "config.jsonc");
         var lootBoxInfo = modHelper.GetJsonDataFromFile<LootBoxInfo>(lootBoxPath, "lootBoxInfo.json");
-        var lootBoxData = modHelper.GetJsonDataFromFile<LootBoxData>(lootBoxPath, "lootBoxData.json");
+        var lootBoxData = modHelper.GetJsonDataFromFile<LootBoxData>(lootBoxPath, "lootBoxData.jsonc");
         var traderImagePath = Path.Combine(pathToMod, "res/gambler.jpg");
         var traderBase = modHelper.GetJsonDataFromFile<TraderBase>(pathToMod, "db/base.json");
         imageRouter.AddRoute(traderBase.Avatar.Replace(".jpg", ""), traderImagePath);

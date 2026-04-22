@@ -10,21 +10,32 @@ public class LootBoxData
 
     public class LootBoxDataProps
     {
-        //public required List<string> Rarities { get; set; }
-        //public required List<int> RewardsAmount { get; set; }
         public required List<List<Reward>> Rewards { get; set; }
+        public required string RewardType { get; set; }
     }
 
     public class Reward {
-        public required string? Item { get; set; }
+        public string? Item { get; set; } = "preset";
         public int Amount { get; set; } = 1;
+        public string? Id { get; set; } 
+        public string? Name { get; set; } 
+        public string? Root { get; set; } 
+        public List<Attachments>? Items { get; set; } 
+    }
+
+    public class Attachments
+    {
+        public string? _id { get; set; }
+        public string? _tpl { get; set; }
+        public string? slotId { get; set; }
+        public string? parentId { get; set; }
     }
 
     // Returns only one rewards from a containers list of possible rewards
     public Reward? GetReward(GamblerData gamblerData, string containerName, int index)
     {
         var rewards = Containers[containerName].Rewards[index];
-        var test = rewards.Count() - 1;
+        gamblerData.logger.Info($"Rewards = {rewards}");
         int randomRewardIndex = Random.Shared.Next(0, rewards.Count() - 1);
         if (rewards[randomRewardIndex].Item == null) return null;
         return rewards[randomRewardIndex];

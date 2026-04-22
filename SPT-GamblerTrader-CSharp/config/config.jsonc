@@ -125,7 +125,7 @@
                 "Common Injectors": 50.0
             }
         },
-        "gambling_early_wipe_weapon_mystery_box": {
+        "gambling_weapon_mystery_box": {
             "enable": true,
             "manual_pricing": true,
             "sold_by_trader": true,
@@ -137,17 +137,16 @@
             "loyalty_level": 1,
             "profit_percentage": 1.0,
             "odds": {
-                "2 Million Roubles": 2.5,
-                "1 Million Roubles": 5.0,
-                "500K Roubles": 7.5,
-                "250K Roubles": 10.0,
-                "100K Roubles": 15.0,
-                "50K Roubles": 20.0,
-                "25K Roubles": 20.0,
-                "0 Roubles": 20.0
+                "Late Game Weapon": 15.0,
+                "Mid Game Weapon": 20.0,
+                "Early Game Weapon": 30.0,
+                "Scav Weapon": 14.0,
+                "Default Weapon": 13.3,
+                "Meme Weapon": 7.7
+                
             }
         },
-        "gambling_weapon_mystery_box": {
+        "gambling_early_wipe_weapon_mystery_box": {
             "enable": true,
             "manual_pricing": true,
             "sold_by_trader": true,

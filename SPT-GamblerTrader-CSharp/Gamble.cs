@@ -33,7 +33,16 @@ public class Gamble(GamblerData gamblerData, string containerName)
         var reward = gamblerData.LootBoxData.GetReward(gamblerData, containerName, index);
         if (reward is not null)
         {
-            _itemsWithModsToAdd.Add(new List<Item> { NewItemFormater(reward.Item, reward.Amount) });
+            if (reward.Item == "preset")
+            {
+                PresetCreator presetCreator = new(gamblerData, containerName);
+                var preset = presetCreator.CreatePreset(reward);
+                _itemsWithModsToAdd.Add(preset);
+            }
+            else
+            {
+                _itemsWithModsToAdd.Add(new List<Item> { NewItemFormater(reward.Item, reward.Amount) });
+            }
         }
     }
 
