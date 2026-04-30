@@ -30,6 +30,7 @@ public class GamblerTrader(
     ISptLogger<GamblerTrader> logger,
     ModHelper modHelper,
     DatabaseService databaseService,
+    DatabaseServer db,
     ImageRouter imageRouter,
     ConfigServer configServer,
     TimeUtil timeUtil,
@@ -67,6 +68,22 @@ public class GamblerTrader(
         var gamblerTraderHelper = new GamblerTraderHelper(gamblerData);
         gamblerTraderHelper.AddSingleItemToTrader("67b7b52a4767af842e0521d0");
         logger.Info("Gambler Trader Loaded Successfully!");
+
+
+        // Thicc Case changes for preset generation...
+        var tables = db.GetTables();
+        var thiccCase = tables.Templates.Items["5c0a840b86f7742ffa4f2482"];
+        var grid = thiccCase.Properties.Grids?.FirstOrDefault();
+        if (grid != null)
+        {
+            var filterEntry = grid.Properties.Filters?.FirstOrDefault();
+            if (filterEntry?.Filter != null && !filterEntry.Filter.Contains("5c0a840b86f7742ffa4f2482"))
+                filterEntry.Filter.Add("5c0a840b86f7742ffa4f2482");
+        }
+
+
+
+
         return Task.CompletedTask;
     }
 
