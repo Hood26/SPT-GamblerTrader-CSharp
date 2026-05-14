@@ -54,7 +54,10 @@ public class PresetCreator(GamblerData gamblerData, string containerName)
                         Id = newId,
                         Template = currentItem._tpl,
                         ParentId = parentIdMap[currentItem.parentId],
-                        SlotId = currentItem.slotId
+                        SlotId = currentItem.slotId,
+                        Upd = currentItem.upd != null
+                            ? new Upd { Togglable = new UpdTogglable { On = true }}
+                            : null
                     });
                 }
                 else
@@ -64,7 +67,10 @@ public class PresetCreator(GamblerData gamblerData, string containerName)
                         Id = newId,
                         Template = currentItem._tpl,
                         ParentId = randomId,
-                        SlotId = currentItem.slotId
+                        SlotId = currentItem.slotId,
+                        Upd = currentItem.upd != null
+                            ? new Upd { Togglable = new UpdTogglable { On = true }}
+                            : null
                     });
                 }
             }

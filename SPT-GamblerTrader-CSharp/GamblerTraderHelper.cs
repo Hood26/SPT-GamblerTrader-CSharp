@@ -22,6 +22,31 @@ class GamblerTraderHelper(GamblerData gamblerData)
                     .Export(traderId);
             }
         }
+
+
+        /*
+        List<string> lootboxes = [
+                                    "665888282c4a1b73af576b77", // Unlocked weapon crate (Common)
+                                    "665829424de4820934746ce6", // Unlocked weapon crate (Epic)
+                                    "665732e7ac60f009f270d1ef", // Unlocked weapon crate Rare
+                                    "64898e9db18e646e992aba47", // Sealed weapon case
+                                    "665829a6efd94e2d665b14a8", // Unlocked valuables crate (Epic)
+                                    "66573310a1657263d816a139", // Unlocked valuables crate (Rare)
+                                    "665886abdaadd1069736c539", // Unlocked valuables crate (Common)
+                                    "665730fa4de4820934746c48", // Unlocked equipment crate (Rare)
+                                 ];
+
+        foreach (var lootbox in lootboxes)
+        {
+            gamblerData.assortCreator.CreateSingleAssortItem(lootbox)
+                .AddUnlimitedStackCount()
+                .AddBuyRestriction(999)
+                .AddMoneyCost(Money.ROUBLES, 10)
+                .AddLoyaltyLevel(1)
+                .Export(traderId);
+        }
+        */
+
     }
 
 

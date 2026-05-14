@@ -1,8 +1,27 @@
+LootBox ideas
+  - Only Purchasable with Poker Chips
+    - High Tier Ammo Mystery Box
+      - Contains A random selection of high tier ammunition
+    - High Tier Tech Loot Mystery Box
+      - Contains a random selection of high tier tech loot
+    
+
+
+
+Mod Idea: Better Arena Loot Boxes
+  - Adds Gambler style loot to Arena Unlocked Crates
+    - Much more variety and less random useless garbage
+    - Gambler Trader mod sells these lootboxes directly for chips
+
+
+
 ideas:
 
  - Weapon Randomization:
    1. Check if attachment is flashlight/laser and randomize the flashlight/laser per tier
    1. Check if attachment is grip and randomize the grip per tier
+
+
 
 
 
@@ -21,15 +40,15 @@ Tier I:
     - Early Wipe Weapon Mystery Box: Generates scav weapons and early wipe weapons
     - Scav gear/weapons low wager gambles: 50k Rub coin flip, ...???
     - common poker chips can be bartered for low tier tech/supply items. Maybe early quest item gambles.
-Tier II: 2.5 Million
+Tier II: 1 Million
     - Weapon Mystery Box: containes a weapon of scav or early-wipe tier
     - Early-wipe gear, ...???
     - Common/Uncommon poker chips can be bartered for mid tier tech/supply items. Maybe early/mid game item/quest gambles.
-Tier III: 8 Million
+Tier III: 5 Million
     - Mid Wipe Weapon Mystery Box
     - Mid-wipe gear, ...
     - ...
-Tier IV: 15 Million
+Tier IV: 12 Million
     - Late Wipe Mystery Box
     - Late-wipe gear, ...
     - Craziest Gambles available

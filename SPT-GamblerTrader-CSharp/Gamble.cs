@@ -9,7 +9,6 @@ public class Gamble(GamblerData gamblerData, string containerName)
 {
     private readonly GamblerData gamblerData = gamblerData;
     private string containerName = containerName;
-    //private readonly string? rewardContainer = gamblerData.LootBoxData.Containers[containerName].RewardContainer;
     public AddItemsDirectRequest newItemsRequest = new()
     {
         ItemsWithModsToAdd = [],
@@ -34,7 +33,6 @@ public class Gamble(GamblerData gamblerData, string containerName)
         var rewardContainer = containerProps.RewardContainer;
         if (rewardContainer is not null)
         {
-            gamblerData.logger.Info($"OpenReward() new containerName = {rewardContainer}");
             containerName = rewardContainer;
         }
         var reward = GetReward(index);
@@ -42,15 +40,16 @@ public class Gamble(GamblerData gamblerData, string containerName)
         {
             if (containerProps.RewardType == "preset")
             {
-                gamblerData.logger.Info($"OpenReward() preset detected");
                 PresetCreator presetCreator = new(gamblerData, containerName);
                 var preset = presetCreator.CreatePreset(reward);
                 _itemsWithModsToAdd.Add(preset);
             }
             else
             {
-                gamblerData.logger.Info($"OpenReward() item detected = {rewardContainer}");
-                _itemsWithModsToAdd.Add(new List<Item> { NewItemFormater(reward.Item, reward.Amount) });
+                if (reward.Item is not null)
+                {
+                    _itemsWithModsToAdd.Add(new List<Item> { NewItemFormatter(reward.Item, reward.Amount) });
+                }
             }
             return;
         }
@@ -63,16 +62,10 @@ public class Gamble(GamblerData gamblerData, string containerName)
         var containers = gamblerData.LootBoxData.Containers;
         var rewards = containers[containerName].Rewards[index];
         int randomRewardIndex = Random.Shared.Next(0, rewards.Count - 1);
-        //gamblerData.logger.Error($"GetReward() randomRewardIndex = {randomRewardIndex}");
-        //if (rewards[randomRewardIndex].Item == null)
-        //{
-            //gamblerData.logger.Error("GetReward() rewards[randomRewardIndex].Item = null");
-            //return null;
-        //}
         return rewards[randomRewardIndex];
     }
 
-    // Returns the rewarding index in a container given a randomized roll
+    // Returns the rewarding index in a container for a randomized roll
     // Default return -1 if Index could not be found.
     private int GetIndex()
     {
@@ -87,39 +80,28 @@ public class Gamble(GamblerData gamblerData, string containerName)
             if (roll <= sum)
             {
                 var rewardContainer = gamblerData.LootBoxData.Containers[containerName].RewardContainer;
-                if (rewardContainer is null)
-                {
-                    gamblerData.logger.Info($"GetIndex() Odds tier = {item.Key}");
-                    gamblerData.logger.Info($"GetIndex() new index = {i}");
-                    return i;
-                }
-
+                if (rewardContainer is null) return i;
                 // Handles if RewardContainer is not the current container
                 // Returns odds index of the RewardContainer
                 var rewardContainerOdds = gamblerData.config.Items[rewardContainer].odds;
                 for (int j = 0; j < rewardContainerOdds.Count; j++)
                 {
                     var currentOdds = rewardContainerOdds.ElementAt(j);
-                    if (currentOdds.Key == item.Key)
-                    {
-                        gamblerData.logger.Info($"GetIndex() Odds tier = {item.Key}");
-                        gamblerData.logger.Info($"GetIndex() RewardContainer identified: new index = {j}");
-                        return j;
-                    }
+                    if (currentOdds.Key == item.Key) return j;
                 }
             }
         }
-        gamblerData.logger.Error("[Gambler Trader] GetIndex() Could not find index returned -1!");
+        gamblerData.logger.Error("[Gambler Trader] GetIndex() Could not find index returned -1");
         return -1;
     }
 
-    // Returns a randon float between 0-100
+    // Returns a random float between 0-100
     private float RandomRoll()
     {
         return MathF.Round(Random.Shared.NextSingle() * (100.0f - 0.0f) + 0.0f, 2);
     }
 
-    private Item NewItemFormater(MongoId tpl, int amount)
+    private Item NewItemFormatter(MongoId tpl, int amount)
     {
         Item item = new()
         {

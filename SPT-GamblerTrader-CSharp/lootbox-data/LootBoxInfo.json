@@ -70,25 +70,25 @@
             "shortName": "Injector",
             "desc": "Looking for your next pick me up? We have all the drugs you could ask for!\n==============================\nCommon Injectors - {Common Injectors}%\nUncommon Injectors - {Uncommon Injectors}%\nRare Injectors - {Rare Injectors}%\nExtremely Rare Injectors - {Extremely Rare Injectors}%"
         },
-        "gambling_early_wipe_weapon_mystery_box": {
-            "_id": "69aa0ed14517a9e9940f54db",
-            "_name": "gambling_early_wipe_weapon_mystery_box",
-            "prefab": "assets/weapon_mystery_box_early_wipe.bundle",
-            "width": 5,
-            "height": 2,
-            "name": "Early Game Weapon Mystery Box",
-            "shortName": "Weapon",
-            "desc": "Early Game Weapon Mystery Box Description\n==============================\n"
-        },
         "gambling_weapon_mystery_box": {
-            "_id": "69aa0ed14517a9e9940f54dc",
+            "_id": "69aa0ed14517a9e9940f54db",
             "_name": "gambling_weapon_mystery_box",
             "prefab": "assets/weapon_mystery_box.bundle",
             "width": 5,
             "height": 2,
             "name": "Weapon Mystery Box",
             "shortName": "Weapon",
-            "desc": "Can unbox from a large variety of weapons\n==============================\n"
+            "desc": "Contains a wide variety of over 1500 different possible weapons.\n==============================\nMeme Weapon - {Meme Weapon}%\nDefault Weapon - {Default Weapon}%\nScav Weapon - {Scav Weapon}%\nEarly Game Weapon - {Early Game Weapon}%\nMid Game Weapon - {Mid Game Weapon}%\nLate Game Weapon - {Late Game Weapon}%"
+        },
+        "gambling_early_wipe_weapon_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f54dc",
+            "_name": "gambling_early_wipe_weapon_mystery_box",
+            "prefab": "assets/weapon_mystery_box_early_wipe.bundle",
+            "width": 5,
+            "height": 2,
+            "name": "Early Game Weapon Mystery Box",
+            "shortName": "Weapon",
+            "desc": "Contains worn down scav weaponry and slighly modded guns.\n==============================\nScav Weapon - {Scav Weapon}%\nEarly Game Weapon - {Early Game Weapon}%"
         },
         "gambling_mid_wipe_weapon_mystery_box": {
             "_id": "69aa0ed14517a9e9940f54dd",
@@ -98,7 +98,7 @@
             "height": 2,
             "name": "Mid Game Weapon Mystery Box",
             "shortName": "Weapon",
-            "desc": "Mid Game Weapon Mystery Box Description\n==============================\n"
+            "desc": "Contains weapons that can be widely seen during the mid game of Tarkov\n==============================\nMid Game Weapon - {Mid Game Weapon}%"
         },
         "gambling_late_wipe_weapon_mystery_box": {
             "_id": "69aa0ed14517a9e9940f54de",
@@ -108,7 +108,197 @@
             "height": 2,
             "name": "Late Game Weapon Mystery Box",
             "shortName": "Weapon",
-            "desc": "Late Game Weapon Mystery Box Description\n==============================\n"
+            "desc": "Contains heavily modded weapons that can be widely seen during the late game of Tarkov\n==============================\nLate Game Weapon - {Late Game Weapon}%"
+        },
+        "gambling_helmet_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f54df",
+            "_name": "gambling_helmet_mystery_box",
+            "prefab": "assets/content/items/equipment/helmet_altyn/item_equipment_helmet_altyn.bundle",
+            "width": 2,
+            "height": 2,
+            "name": "Helmet Mystery Box",
+            "shortName": "Helmet",
+            "desc": "Test Desc"
+        },
+        "gambling_early_game_helmet_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f54e0",
+            "_name": "gambling_early_game_helmet_mystery_box",
+            "prefab": "assets/content/items/equipment/helmet_6b47/item_equipment_helmet_6b47.bundle",
+            "width": 2,
+            "height": 2,
+            "name": "Early Game Helmet Mystery Box",
+            "shortName": "Helmet",
+            "desc": "Test Desc"
+        },
+        "gambling_mid_game_helmet_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f54e1",
+            "_name": "gambling_mid_game_helmet_mystery_box",
+            "prefab": "assets/content/items/equipment/helmet_achhc/item_equipment_helmet_achhc_green.bundle",
+            "width": 2,
+            "height": 2,
+            "name": "Mid Game Helmet Mystery Box",
+            "shortName": "Helmet",
+            "desc": "Test Desc"
+        },
+        "gambling_late_game_helmet_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f54e2",
+            "_name": "gambling_late_game_helmet_mystery_box",
+            "prefab": "assets/content/items/equipment/helmet_ulach/item_equipment_helmet_ulach_black.bundle",
+            "width": 2,
+            "height": 2,
+            "name": "Late Game Helmet Mystery Box",
+            "shortName": "Helmet",
+            "desc": "Test Desc"
+        },
+        "gambling_headset_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f54e3",
+            "_name": "gambling_headset_mystery_box",
+            "prefab": "assets/content/items/equipment/headset_comtac_6/item_equipment_headset_comtac_6.bundle",
+            "width": 2,
+            "height": 2,
+            "name": "Headset Mystery Box",
+            "shortName": "Headset",
+            "desc": "Test Desc"
+        },
+        "gambling_early_game_headset_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f54e4",
+            "_name": "gambling_early_game_headset_mystery_box",
+            "prefab": "assets/content/items/equipment/headset_m32/item_equipment_headset_m32.bundle",
+            "width": 2,
+            "height": 2,
+            "name": "Early Game Headset Mystery Box",
+            "shortName": "Headset",
+            "desc": "Test Desc"
+        },
+        "gambling_mid_game_headset_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f54e5",
+            "_name": "gambling_mid_game_headset_mystery_box",
+            "prefab": "assets/content/items/equipment/headset_comtacii/item_equipment_headset_comtacii.bundle",
+            "width": 2,
+            "height": 2,
+            "name": "Mid Game Headset Mystery Box",
+            "shortName": "Headset",
+            "desc": "Test Desc"
+        },
+        "gambling_late_game_headset_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f54e6",
+            "_name": "gambling_late_game_headset_mystery_box",
+            "prefab": "assets/content/items/equipment/headset_comtaciv/item_equipment_headset_comtaciv.bundle",
+            "width": 2,
+            "height": 2,
+            "name": "Late Game Headset Mystery Box",
+            "shortName": "Headset",
+            "desc": "Test Desc"
+        },
+        "gambling_streamer_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f55e2",
+            "_name": "gambling_streamer_mystery_box",
+            "prefab": "assets/content/location_objects/lootable/prefab/rand_loot_container_twitch_event.bundle",
+            "width": 2,
+            "height": 2,
+            "name": "Streamer Item Mystery Box",
+            "shortName": "Streamer",
+            "desc": "Test Desc"
+        },
+        "gambling_medical_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f55e3",
+            "_name": "gambling_medical_mystery_box",
+            "prefab": "assets/content/items/containers/item_container_meds/item_container_meds.bundle",
+            "width": 2,
+            "height": 2,
+            "name": "Medical Mystery Box",
+            "shortName": "Meds",
+            "desc": "Test Desc"
+        },
+        "gambling_50/50_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f55e4",
+            "_name": "gambling_50/50_mystery_box",
+            "prefab": "assets/content/items/containers/item_container_money/item_container_money.bundle",
+            "width": 2,
+            "height": 2,
+            "name": "50/50 Money Case",
+            "shortName": "Meds",
+            "desc": "The true all in or nothing. This case was taken from Reshala's stash and has a 50% chance to double your money!. This could be your chance to win it all! `Scared money don't make money.` -YG \n==============================\nDelicious Can of Beef Stew - {Delicious Can Of Beef Stew}%\n5 Million Roubles - {5 Million Roubles}%"
+        },
+        "gambling_backpack_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f55e5",
+            "_name": "gambling_backpack_mystery_box",
+            "prefab": "assets/content/items/equipment/backpack_betav2/item_equipment_backpack_betav2.bundle",
+            "width": 5,
+            "height": 5,
+            "name": "Backpack Mystery Bag",
+            "shortName": "Bag",
+            "desc": "Test Desc"
+        },
+        "gambling_early_game_backpack_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f55e6",
+            "_name": "gambling_early_game_backpack_mystery_box",
+            "prefab": "assets/content/items/equipment/backpack_baselardwild/item_equipment_backpack_baselardwild.bundle",
+            "width": 4,
+            "height": 5,
+            "name": "Early Game Backpack Mystery Bag",
+            "shortName": "Bag",
+            "desc": "Test Desc"
+        },
+        "gambling_mid_game_backpack_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f55e7",
+            "_name": "gambling_mid_game_backpack_mystery_box",
+            "prefab": "assets/content/items/equipment/backpack_gr99t20/item_equipment_backpack_gr99t20_olive.bundle",
+            "width": 5,
+            "height": 5,
+            "name": "Mid Game Backpack Mystery Bag",
+            "shortName": "Bag",
+            "desc": "Test Desc"
+        },
+        "gambling_late_game_backpack_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f55e8",
+            "_name": "gambling_late_game_backpack_mystery_box",
+            "prefab": "assets/content/items/equipment/backpack_gr99t30/item_equipment_backpack_gr99t30_black.bundle",
+            "width": 6,
+            "height": 5,
+            "name": "Late Game Backpack Mystery Bag",
+            "shortName": "Bag",
+            "desc": "Test Desc"
+        },
+        "gambling_loadout_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f55e9",
+            "_name": "gambling_loadout_mystery_box",
+            "prefab": "assets/content/items/equipment/backpack_blackjack/item_equipment_backpack_blackjack.bundle",
+            "width": 5,
+            "height": 7,
+            "name": "Loadout Mystery Bag",
+            "shortName": "Loadout",
+            "desc": "Test Desc"
+        },
+        "gambling_early_game_loadout_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f55ea",
+            "_name": "gambling_mid_game_backpack_mystery_box",
+            "prefab": "assets/content/items/equipment/backpack_pilgrim/item_equipment_backpack_pilgrim.bundle",
+            "width": 5,
+            "height": 7,
+            "name": "Early Game Loadout Mystery Bag",
+            "shortName": "Bag",
+            "desc": "Test Desc"
+        },
+        "gambling_mid_game_loadout_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f55eb",
+            "_name": "gambling_mid_game_loadout_mystery_box",
+            "prefab": "assets/content/items/equipment/backpack_f4terminator/item_equipment_backpack_f4terminator.bundle",
+            "width": 5,
+            "height": 7,
+            "name": "Mid Game Loadout Mystery Bag",
+            "shortName": "Bag",
+            "desc": "Test Desc"
+        },
+        "gambling_late_game_loadout_mystery_box": {
+            "_id": "69aa0ed14517a9e9940f55ec",
+            "_name": "gambling_late_game_loadout_mystery_box",
+            "prefab": "assets/content/items/equipment/backpack_6sh118/item_equipment_backpack_6sh118.bundle",
+            "width": 5,
+            "height": 7,
+            "name": "Late Game Loadout Mystery Bag",
+            "shortName": "Bag",
+            "desc": "Test Desc"
         }
     }
 }

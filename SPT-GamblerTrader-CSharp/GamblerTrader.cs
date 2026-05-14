@@ -20,12 +20,11 @@ using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using Path = System.IO.Path;
 using HoodsEnergyDrinks_CSharp;
 using SPTarkov.Server.Core.Services.Mod;
-using System.Runtime.CompilerServices;
 
 namespace SPT_GamblerTrader_CSharp;
 
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 1)]
+[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 15)]
 public class GamblerTrader(
     ISptLogger<GamblerTrader> logger,
     ModHelper modHelper,
