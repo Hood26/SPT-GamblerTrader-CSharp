@@ -5,6 +5,21 @@
 
 
     "Items": {
+        "gambling_ace_of_spades": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 100000,
+            "flea_price_roubles": 115000,
+            "handbook_price_roubles": 100000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+                "Test": 100.0
+            }
+        },
         "gambling_wallet": {
             "enable": true,
             "manual_pricing": true,
@@ -183,10 +198,25 @@
             "loyalty_level": 1,
             "profit_percentage": 1.0,
             "odds": {
-                "Scav Helmet": 30.0,
-                "Early Game Helmet": 35.0,
-                "Mid Game Helmet": 25.0,
-                "Late Game Helmet": 10.0
+                "Late Game Helmet": 15.0,
+                "Mid Game Helmet": 30.0,
+                "Early Game Helmet": 30.0,
+                "Scav Helmet": 25.0
+            }
+        },
+        "gambling_scav_helmet_mystery_box": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 100000,
+            "flea_price_roubles": 115000,
+            "handbook_price_roubles": 100000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+                "Scav Helmet": 100.0
             }
         },
         "gambling_early_game_helmet_mystery_box": {
@@ -252,6 +282,21 @@
                 "Late Game Headset": 10.0
             }
         },
+        "gambling_scav_headset_mystery_box": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 100000,
+            "flea_price_roubles": 115000,
+            "handbook_price_roubles": 100000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+                "Scav Headset": 100.0
+            }
+        },
         "gambling_early_game_headset_mystery_box": {
             "enable": true,
             "manual_pricing": true,
@@ -264,8 +309,7 @@
             "loyalty_level": 1,
             "profit_percentage": 1.0,
             "odds": {
-                "Scav Headset": 40.0,
-                "Early Game Headset": 60.0
+                "Early Game Headset": 100.0
             }
         },
         "gambling_mid_game_headset_mystery_box": {
@@ -319,6 +363,21 @@
                 
             }
         },
+        "gambling_scav_weapon_mystery_box": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 100000,
+            "flea_price_roubles": 115000,
+            "handbook_price_roubles": 100000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+                "Scav Weapon": 100.0
+            }
+        },
         "gambling_early_wipe_weapon_mystery_box": {
             "enable": true,
             "manual_pricing": true,
@@ -331,8 +390,7 @@
             "loyalty_level": 1,
             "profit_percentage": 1.0,
             "odds": {
-                "Scav Weapon": 40.0,
-                "Early Game Weapon": 60.0
+                "Early Game Weapon": 100.0
             }
         },
         "gambling_mid_wipe_weapon_mystery_box": {
@@ -363,6 +421,116 @@
             "profit_percentage": 1.0,
             "odds": {
               "Late Game Weapon": 100.0
+            }
+        },
+        "gambling_premium_weapon_mystery_box": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 100000,
+            "flea_price_roubles": 115000,
+            "handbook_price_roubles": 100000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+              "Late Game Weapon": 50.0,
+              "Mid Game Weapon": 50.0
+            }
+        },
+        "gambling_armor_mystery_box": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 100000,
+            "flea_price_roubles": 115000,
+            "handbook_price_roubles": 100000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+              "Scav Armor": 30.0,
+              "Early Game Armor": 35.0,
+              "Mid Game Armor": 25.0,
+              "Late Game Armor": 10.0
+            }
+        },
+        "gambling_scav_armor_mystery_box": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 100000,
+            "flea_price_roubles": 115000,
+            "handbook_price_roubles": 100000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+              "Scav Armor": 100.0
+            }
+        },
+        "gambling_early_game_armor_mystery_box": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 100000,
+            "flea_price_roubles": 115000,
+            "handbook_price_roubles": 100000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+              "Early Game Armor": 100.0
+            }
+        },
+        "gambling_mid_game_armor_mystery_box": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 100000,
+            "flea_price_roubles": 115000,
+            "handbook_price_roubles": 100000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+              "Mid Game Armor": 100.0
+            }
+        },
+        "gambling_late_game_armor_mystery_box": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 100000,
+            "flea_price_roubles": 115000,
+            "handbook_price_roubles": 100000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+              "Late Game Armor": 100.0
+            }
+        },
+        "gambling_premium_armor_mystery_box": {
+            "enable": true,
+            "manual_pricing": true,
+            "sold_by_trader": true,
+            "flea_banned": false,
+            "trader_price_roubles": 100000,
+            "flea_price_roubles": 115000,
+            "handbook_price_roubles": 100000,
+            "trader_stock": 999,
+            "loyalty_level": 1,
+            "profit_percentage": 1.0,
+            "odds": {
+              "Mid Game Armor": 50.0,
+              "Late Game Armor": 50.0
             }
         },
         "gambling_backpack_mystery_box": {

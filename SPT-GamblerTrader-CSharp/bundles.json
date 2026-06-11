@@ -2,6 +2,14 @@
 {
     "manifest": [
       {
+        "key": "assets/gambler_ace_of_spades.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders",
+          "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+      },
+      {
         "key": "assets/weapon_mystery_box_early_wipe.bundle",
         "dependencyKeys": [
           "cubemaps",
@@ -27,6 +35,22 @@
       },
       {
         "key": "assets/weapon_mystery_box_late_wipe.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders",
+          "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+      },
+      {
+        "key": "assets/weapon_mystery_box_premium.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders",
+          "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+      },
+      {
+        "key": "assets/weapon_mystery_box_scav.bundle",
         "dependencyKeys": [
           "cubemaps",
           "shaders",

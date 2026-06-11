@@ -1,10 +1,26 @@
+Flea-banned Items need to replace price for price generation:
+  - WTT Items like Helmets: Caiman...
+
+
 LootBox ideas
   - Only Purchasable with Poker Chips
+    - Armor Plate Mystery Cache
+      - Contains a random assortment of Armor plates
+    - Medical Mystery Box
+      - Contains a random assortment of medical supplies
+    - Premium Weapon mystery box (purple color?)
+      - Provides a random mid or late tier weapon
+    - Premium Helmet Mystery box
+      - Provides a random mid or late tier helmet
+    - Premium Armor Mystery box
+      - Provides a random mid or late tier armor
     - High Tier Ammo Mystery Box
       - Contains A random selection of high tier ammunition
     - High Tier Tech Loot Mystery Box
       - Contains a random selection of high tier tech loot
-    
+
+    -   
+
 
 
 
@@ -13,19 +29,10 @@ Mod Idea: Better Arena Loot Boxes
     - Much more variety and less random useless garbage
     - Gambler Trader mod sells these lootboxes directly for chips
 
-
-
 ideas:
-
  - Weapon Randomization:
    1. Check if attachment is flashlight/laser and randomize the flashlight/laser per tier
    1. Check if attachment is grip and randomize the grip per tier
-
-
-
-
-
-
 - Add poker chips and make them findable in-raid. They are treated like currency and can be traded with Gambler for some new/interesting loot boxes
 - Add 100k, 250k, 500k, 1Million, 2.5 Million, 10Million Coinflips 
 - Add rare tech lootboxs for barter trades for intelligence folders and other rare barter items

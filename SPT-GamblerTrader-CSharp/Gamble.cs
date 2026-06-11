@@ -1,14 +1,15 @@
 using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Eft.Inventory;
+using SPTarkov.Server.Core.Models.Enums;
 using SPTarkov.Server.Core.Utils;
 
 namespace SPT_GamblerTrader_CSharp;
 
 public class Gamble(GamblerData gamblerData, string containerName)
 {
-    private readonly GamblerData gamblerData = gamblerData;
-    private string containerName = containerName;
+    private readonly GamblerData _gamblerData = gamblerData;
+    private string _containerName = containerName;
     public AddItemsDirectRequest newItemsRequest = new()
     {
         ItemsWithModsToAdd = [],
@@ -28,39 +29,35 @@ public class Gamble(GamblerData gamblerData, string containerName)
     // Opens a singular randomly chosen reward from a lootbox
     public void OpenReward()
     {
-        var containerProps = gamblerData.LootBoxData.Containers[containerName];
-        int index = GetIndex();
-        var rewardContainer = containerProps.RewardContainer;
-        if (rewardContainer is not null)
+        var containerProps = _gamblerData.LootBoxData.Containers[_containerName];
+        int rewardIndex = GetIndex();
+        if (rewardIndex == -1) return;
+
+        _containerName = containerProps.RewardContainer ?? _containerName;
+        var reward = GetReward(rewardIndex);
+
+        if (reward is null)
         {
-            containerName = rewardContainer;
-        }
-        var reward = GetReward(index);
-        if (reward is not null)
-        {
-            if (containerProps.RewardType == "preset")
-            {
-                PresetCreator presetCreator = new(gamblerData, containerName);
-                var preset = presetCreator.CreatePreset(reward);
-                _itemsWithModsToAdd.Add(preset);
-            }
-            else
-            {
-                if (reward.Item is not null)
-                {
-                    _itemsWithModsToAdd.Add(new List<Item> { NewItemFormatter(reward.Item, reward.Amount) });
-                }
-            }
+            _gamblerData.logger.Error($"[Gambler] No valid reward found for index '{rewardIndex}'");
             return;
         }
-        gamblerData.logger.Error($"OpenReward() reward is NULL!!");
+        if (containerProps.RewardType == "preset")
+        {
+            PresetCreator presetCreator = new(_gamblerData, _containerName);
+            var preset = presetCreator.CreatePreset(reward);
+            _itemsWithModsToAdd.Add(preset);
+        }
+        else if (reward.Item is not null)
+        {
+            _itemsWithModsToAdd.Add(new List<Item> { NewItemFormatter(reward.Item, reward.Amount) });
+        }
     }
 
     // Returns only one rewards from a containers list of possible rewards
     public LootBoxData.Reward? GetReward(int index)
     {
-        var containers = gamblerData.LootBoxData.Containers;
-        var rewards = containers[containerName].Rewards[index];
+        var containers = _gamblerData.LootBoxData.Containers;
+        var rewards = containers[_containerName].Rewards[index];
         int randomRewardIndex = Random.Shared.Next(0, rewards.Count - 1);
         return rewards[randomRewardIndex];
     }
@@ -70,7 +67,7 @@ public class Gamble(GamblerData gamblerData, string containerName)
     private int GetIndex()
     {
         float roll = RandomRoll();
-        var itemProps = gamblerData.config.Items[containerName].odds;
+        var itemProps = _gamblerData.config.Items[_containerName].odds;
         float sum = 0;
 
         for (int i = 0; i < itemProps.Count; i++)
@@ -79,11 +76,11 @@ public class Gamble(GamblerData gamblerData, string containerName)
             sum += item.Value;
             if (roll <= sum)
             {
-                var rewardContainer = gamblerData.LootBoxData.Containers[containerName].RewardContainer;
+                var rewardContainer = _gamblerData.LootBoxData.Containers[_containerName].RewardContainer;
                 if (rewardContainer is null) return i;
                 // Handles if RewardContainer is not the current container
                 // Returns odds index of the RewardContainer
-                var rewardContainerOdds = gamblerData.config.Items[rewardContainer].odds;
+                var rewardContainerOdds = _gamblerData.config.Items[rewardContainer].odds;
                 for (int j = 0; j < rewardContainerOdds.Count; j++)
                 {
                     var currentOdds = rewardContainerOdds.ElementAt(j);
@@ -91,7 +88,7 @@ public class Gamble(GamblerData gamblerData, string containerName)
                 }
             }
         }
-        gamblerData.logger.Error("[Gambler Trader] GetIndex() Could not find index returned -1");
+        _gamblerData.logger.Error($"[Gambler Trader] GetIndex() Could not find index returned -1 for container {_containerName}");
         return -1;
     }
 
