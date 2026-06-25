@@ -41,7 +41,7 @@ public class Gamble(GamblerData gamblerData, string containerName)
             _gamblerData.logger.Error($"[Gambler] No valid reward found for index '{rewardIndex}'");
             return;
         }
-        if (containerProps.RewardType == "preset")
+        if (containerProps.RewardType == "Preset")
         {
             PresetCreator presetCreator = new(_gamblerData, _containerName);
             var preset = presetCreator.CreatePreset(reward);
@@ -49,7 +49,17 @@ public class Gamble(GamblerData gamblerData, string containerName)
         }
         else if (reward.Item is not null)
         {
-            _itemsWithModsToAdd.Add(new List<Item> { NewItemFormatter(reward.Item, reward.Amount) });
+            if (IsStackable(reward.Item))
+            {
+                _itemsWithModsToAdd.Add(new List<Item> { NewItemFormatter(reward.Item, reward.Amount) });
+            }
+            else
+            {
+                for (var i = 0; i < reward.Amount; i++)
+                {
+                    _itemsWithModsToAdd.Add(new List<Item> { NewItemFormatter(reward.Item, 1) });
+                }
+            }
         }
     }
 
@@ -58,7 +68,8 @@ public class Gamble(GamblerData gamblerData, string containerName)
     {
         var containers = _gamblerData.LootBoxData.Containers;
         var rewards = containers[_containerName].Rewards[index];
-        int randomRewardIndex = Random.Shared.Next(0, rewards.Count - 1);
+        int randomRewardIndex = Random.Shared.Next(0, rewards.Count);
+        _gamblerData.logger.Info($"index = {randomRewardIndex}");
         return rewards[randomRewardIndex];
     }
 
@@ -90,6 +101,15 @@ public class Gamble(GamblerData gamblerData, string containerName)
         }
         _gamblerData.logger.Error($"[Gambler Trader] GetIndex() Could not find index returned -1 for container {_containerName}");
         return -1;
+    }
+
+    private bool IsStackable(MongoId id)
+    {
+        var db = _gamblerData.db;
+        var tables = db.GetTables();
+        var item = tables.Templates.Items[id];
+        if (item.Properties?.StackMaxSize > 1) return true;
+        return false;
     }
 
     // Returns a random float between 0-100

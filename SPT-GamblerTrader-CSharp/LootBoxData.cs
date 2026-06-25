@@ -11,7 +11,7 @@ public class LootBoxData
     public class LootBoxDataProps
     {
         public required List<List<Reward>> Rewards { get; set; }
-        public string RewardType { get; set; } = "Item";
+        public string RewardType { get; set; }
         public string? RewardContainer { get; set; } = null;
     }
 

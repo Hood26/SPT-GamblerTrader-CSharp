@@ -60,7 +60,7 @@ public class GamblerTrader(
         _ragfairConfig.Traders.TryAdd(traderBase.Id, true);
         addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase);
         addCustomTraderHelper.AddTraderToLocales(traderBase, "Gambler", "Welcome warrior! I have many loot boxes for sale if you wish to try your luck.");
-        GamblerTrader.gamblerData = new GamblerData(assortCreator, config, lootBoxInfo, lootBoxData, logger);
+        GamblerTrader.gamblerData = new GamblerData(db, assortCreator, config, lootBoxInfo, lootBoxData, logger);
         lootBoxInfo.DescEvaluation(config, gamblerData);
         var itemCreator = new ItemCreator(gamblerData);
         itemCreator.BuildItems(customItemService);
@@ -70,6 +70,7 @@ public class GamblerTrader(
 
 
         // Thicc Case changes for preset generation...
+        // Must be removed in production...
         var tables = db.GetTables();
         var thiccCase = tables.Templates.Items["5c0a840b86f7742ffa4f2482"];
         var grid = thiccCase.Properties.Grids?.FirstOrDefault();
@@ -79,9 +80,6 @@ public class GamblerTrader(
             if (filterEntry?.Filter != null && !filterEntry.Filter.Contains("5c0a840b86f7742ffa4f2482"))
                 filterEntry.Filter.Add("5c0a840b86f7742ffa4f2482");
         }
-
-
-
 
         return Task.CompletedTask;
     }

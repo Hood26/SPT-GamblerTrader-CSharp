@@ -1,6 +1,7 @@
 {
   "Containers": {
     "gambling_wallet": {
+      "RewardType": "Item",
       "Rewards": [
         [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 2000000 }],
         [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 1000000 }],
@@ -12,37 +13,92 @@
         [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 10000 }]
       ]
     },
-    "gambling_coinflip_100k": {
+    "gambling_coinflip_25k_roubles": {
+      "RewardType": "Item",
+      "Rewards": [
+        [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 50000 }],
+        [{ "Item": null, "Amount": 0 }]
+      ]
+    },
+    "gambling_coinflip_50k_roubles": {
+      "RewardType": "Item",
+      "Rewards": [
+        [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 100000 }],
+        [{ "Item": null, "Amount": 0 }]
+      ]
+    },
+    "gambling_coinflip_100k_roubles": {
+      "RewardType": "Item",
       "Rewards": [
         [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 200000 }],
         [{ "Item": null, "Amount": 0 }]
       ]
     },
-    "gambling_coinflip_250k": {
+    "gambling_coinflip_250k_roubles": {
+      "RewardType": "Item",
       "Rewards": [
         [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 500000 }],
         [{ "Item": null, "Amount": 0 }]
       ]
     },
-    "gambling_coinflip_500k": {
+    "gambling_coinflip_500k_roubles": {
+      "RewardType": "Item",
       "Rewards": [
         [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 1000000 }],
         [{ "Item": null, "Amount": 0 }]
       ]
     },
-    "gambling_coinflip_1m": {
+    "gambling_coinflip_1m_roubles": {
+      "RewardType": "Item",
       "Rewards": [
         [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 2000000 }],
         [{ "Item": null, "Amount": 0 }]
       ]
     },
-    "gambling_coinflip_2.5m": {
+    "gambling_coinflip_2.5m_roubles": {
+      "RewardType": "Item",
       "Rewards": [
         [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 5000000 }],
         [{ "Item": null, "Amount": 0 }]
       ]
     },
+    "gambling_coinflip_5m_roubles": {
+      "RewardType": "Item",
+      "Rewards": [
+        [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 10000000 }],
+        [{ "Item": null, "Amount": 0 }]
+      ]
+    },
+    "gambling_coinflip_10m_roubles": {
+      "RewardType": "Item",
+      "Rewards": [
+        [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 20000000 }],
+        [{ "Item": null, "Amount": 0 }]
+      ]
+    },
+    "gambling_50/50_mystery_box": {
+      "RewardType": "Item",
+      "Rewards": [
+        [{ "Item": "5449016a4bdc2d6f028b456f", "Amount": 50000000 }], // Can of beef stew (Small)
+        [{ "Item": "57347d7224597744596b4e72", "Amount": 1 }] // Can of beef stew (Small)
+      ]
+    },
+    "gambling_coinflip_bitcoin": {
+      "RewardType": "Item",
+      "Rewards": [
+        [{ "Item": "59faff1d86f7746c51718c9c", "Amount": 2 }], // Physical Bitcoin
+        [{ "Item": null, "Amount": 0 }]
+      ]
+    },
+    "gambling_coinflip_gpcoin": {
+      "RewardType": "Item",
+      "Rewards": [
+        [{ "Item": "5d235b4d86f7742e017bc88a", "Amount": 20 }], // GP coin
+        [{ "Item": null, "Amount": 0 }]
+      ]
+    },
     "gambling_injectors": {
+      "RewardType": "Item",
       "Rewards": [
         [
           { "Item": "5ed51652f6c34d2cc26336a1" },
@@ -75,84 +131,880 @@
         ]
       ]
     },
+    "gambling_keycards": {
+      "RewardType": "Item",
+      "Rewards": [
+        [
+          { "Item": "5e42c83786f7742a021fdf3c" } // Object #21WS keycard
+        ],
+        [
+          { "Item": "5e42c81886f7742a01529f57" } // Object #11SR keycard
+        ],
+        [
+          { "Item": "5efde6b4f5448336730dbd61" } // Keycard with a blue marking
+        ],
+        [
+          { "Item": "5c94bbff86f7747ee735c08f" } // TerraGroup Labs access keycard
+        ],
+        [
+          { "Item": "6711039f9e648049e50b3307" } // TerraGroup Labs residential unit keycard 
+        ],
+        [
+          { "Item": "5c1d0d6d86f7744bb2683e1f" } // TerraGroup Labs keycard (Yellow)
+        ],
+        [
+          { "Item": "679b9819a2f2dd4da9023512" } // Labrys access keycard
+        ],
+        [
+          { "Item": "5c1e495a86f7743109743dfb" } // TerraGroup Labs keycard (Violet)
+        ],
+        [
+          { "Item": "5c1d0c5f86f7744bb2683cf0" } // TerraGroup Labs keycard (Blue)
+        ],
+        [
+          { "Item": "5c1d0f4986f7744bb01837fa" } // TerraGroup Labs keycard (Black)
+        ],
+        [
+          { "Item": "5c1d0dc586f7744baf2e7b79" } // TerraGroup Labs keycard (Green)
+        ],
+        [
+          { "Item": "5c1d0efb86f7744baf2e7b7b" } // TerraGroup Labs keycard (Red)
+        ],
+        [
+          { "Item": "66acd6702b17692df20144c0" } // TerraGroup storage room keycard
+        ]
+      ]
+    },
+    "gambling_scav_facecover_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_facecover_mystery_box",
+      "Rewards": [[{ "Item": "Scav Facecover" }]]
+    },
+    "gambling_early_game_facecover_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_facecover_mystery_box",
+      "Rewards": [[{ "Item": "Early Game Facecover" }]]
+    },
+    "gambling_mid_game_facecover_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_facecover_mystery_box",
+      "Rewards": [[{ "Item": "Mid Game Facecover" }]]
+    },
+    "gambling_late_game_facecover_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_facecover_mystery_box",
+      "Rewards": [[{ "Item": "Late Game Facecover" }]]
+    },
+    "gambling_scav_headcover_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_headcover_mystery_box",
+      "Rewards": [[{ "Item": "Scav headcover" }]]
+    },
+    "gambling_early_game_headcover_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_headcover_mystery_box",
+      "Rewards": [[{ "Item": "Early Game headcover" }]]
+    },
+    "gambling_mid_game_headcover_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_headcover_mystery_box",
+      "Rewards": [[{ "Item": "Mid Game headcover" }]]
+    },
+    "gambling_late_game_headcover_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_headcover_mystery_box",
+      "Rewards": [[{ "Item": "Late Game headcover" }]]
+    },
     "gambling_scav_weapon_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "RewardContainer": "gambling_weapon_mystery_box",
       "Rewards": [[{ "Item": "Scav Weapon" }]]
     },
     "gambling_early_wipe_weapon_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "RewardContainer": "gambling_weapon_mystery_box",
       "Rewards": [[{ "Item": "Early Game Weapon" }]]
     },
     "gambling_mid_wipe_weapon_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "RewardContainer": "gambling_weapon_mystery_box",
       "Rewards": [[{ "Item": "Mid Game Weapon" }]]
     },
     "gambling_late_wipe_weapon_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "RewardContainer": "gambling_weapon_mystery_box",
       "Rewards": [[{ "Item": "Late Game Weapon" }]]
     },
     "gambling_premium_weapon_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "RewardContainer": "gambling_weapon_mystery_box",
       "Rewards": [
-        [{ "Item": "Late Game Weapon" }],
-        [{ "Item": "Mid Game Weapon" }]
+        [{ "Item": "Mid Game Weapon" }],
+        [{ "Item": "Late Game Weapon" }]
       ]
     },
     "gambling_scav_helmet_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "RewardContainer": "gambling_helmet_mystery_box",
       "Rewards": [[{ "Item": "Scav Helmet" }]]
     },
     "gambling_early_game_helmet_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "RewardContainer": "gambling_helmet_mystery_box",
       "Rewards": [[{ "Item": "Early Game Helmet" }]]
     },
     "gambling_mid_game_helmet_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "RewardContainer": "gambling_helmet_mystery_box",
       "Rewards": [[{ "Item": "Mid Game Helmet" }]]
     },
     "gambling_late_game_helmet_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "RewardContainer": "gambling_helmet_mystery_box",
       "Rewards": [[{ "Item": "Late Game Helmet" }]]
     },
+    "gambling_scav_headset_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_headset_mystery_box",
+      "Rewards": [[{ "Item": "Scav Headset" }]]
+    },
+    "gambling_early_game_headset_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_headset_mystery_box",
+      "Rewards": [[{ "Item": "Early Game Headset" }]]
+    },
+    "gambling_mid_game_headset_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_headset_mystery_box",
+      "Rewards": [[{ "Item": "Mid Game Headset" }]]
+    },
+    "gambling_late_game_headset_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_headset_mystery_box",
+      "Rewards": [[{ "Item": "Late Game Headset" }]]
+    },
+    "gambling_premium_headset_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_headset_mystery_box",
+      "Rewards": [
+        [{ "Item": "Mid Game Headset" }],
+        [{ "Item": "Late Game Headset" }]
+      ]
+    },
+    "gambling_scav_backpack_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_backpack_mystery_box",
+      "Rewards": [[{ "Item": "Scav backpack" }]]
+    },
+    "gambling_early_game_backpack_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_backpack_mystery_box",
+      "Rewards": [[{ "Item": "Early Game backpack" }]]
+    },
+    "gambling_mid_game_backpack_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_backpack_mystery_box",
+      "Rewards": [[{ "Item": "Mid Game backpack" }]]
+    },
+    "gambling_late_game_backpack_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_backpack_mystery_box",
+      "Rewards": [[{ "Item": "Late Game backpack" }]]
+    },
+    "gambling_premium_backpack_mystery_box": {
+      "RewardType": "Item",
+      "RewardContainer": "gambling_backpack_mystery_box",
+      "Rewards": [
+        [{ "Item": "Mid Game Backpack" }],
+        [{ "Item": "Late Game Backpack" }]
+      ]
+    },
     "gambling_scav_armor_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "RewardContainer": "gambling_armor_mystery_box",
       "Rewards": [[{ "Item": "Scav Armor" }]]
     },
     "gambling_early_game_armor_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "RewardContainer": "gambling_armor_mystery_box",
       "Rewards": [[{ "Item": "Early Game Armor" }]]
     },
     "gambling_mid_game_armor_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "RewardContainer": "gambling_armor_mystery_box",
       "Rewards": [[{ "Item": "Mid Game Armor" }]]
     },
     "gambling_late_game_armor_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "RewardContainer": "gambling_armor_mystery_box",
       "Rewards": [[{ "Item": "Late Game Armor" }]]
     },
     "gambling_premium_armor_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "RewardContainer": "gambling_armor_mystery_box",
       "Rewards": [
-        [{ "Item": "Late Game Armor" }],
-        [{ "Item": "Mid Game Armor" }]
+        [{ "Item": "Mid Game Armor" }],
+        [{ "Item": "Late Game Armor" }]
+      ]
+    },
+    "gambling_headset_mystery_box": {
+      "RewardType": "Item",
+      "Rewards": [
+        // Scav Headset
+        [
+          { "Item": "5b432b965acfc47a8774094e" }, // GSSh-01 active headset [GSSh-01]
+          { "Item": "5b432b965acfc47a8774094e" }, // GSSh-01 active headset [GSSh-01]
+          { "Item": "5b432b965acfc47a8774094e" }, // GSSh-01 active headset [GSSh-01]
+          { "Item": "5b432b965acfc47a8774094e" }, // GSSh-01 active headset [GSSh-01]
+          { "Item": "5b432b965acfc47a8774094e" }, // GSSh-01 active headset [GSSh-01]
+          { "Item": "6033fa48ffd42c541047f728" }, // OPSMEN Earmor M32 headset [M32]
+          { "Item": "6033fa48ffd42c541047f728" }, // OPSMEN Earmor M32 headset [M32]
+          { "Item": "5e4d34ca86f774264f758330" }, // Walker's Razor Digital headset [Razor]
+          { "Item": "5645bcc04bdc2d363b8b4572" } // Peltor ComTac II headset (OD Green) [ComTac II]
+        ],
+        // Early Game Headset
+        [
+          { "Item": "5b432b965acfc47a8774094e" }, // GSSh-01 active headset [GSSh-01]
+          { "Item": "5b432b965acfc47a8774094e" }, // GSSh-01 active headset [GSSh-01]
+          { "Item": "5645bcc04bdc2d363b8b4572" }, // Peltor ComTac II headset (OD Green) [ComTac II]
+          { "Item": "5645bcc04bdc2d363b8b4572" }, // Peltor ComTac II headset (OD Green) [ComTac II]
+          { "Item": "5645bcc04bdc2d363b8b4572" }, // Peltor ComTac II headset (OD Green) [ComTac II]
+          { "Item": "6033fa48ffd42c541047f728" }, // OPSMEN Earmor M32 headset [M32]
+          { "Item": "6033fa48ffd42c541047f728" }, // OPSMEN Earmor M32 headset [M32]
+          { "Item": "6033fa48ffd42c541047f728" }, // OPSMEN Earmor M32 headset [M32]
+          { "Item": "693bb59250fafa102607aeb7" }, // M32 White (WTT)
+          { "Item": "5e4d34ca86f774264f758330" }, // Walker's Razor Digital headset [Razor]
+          { "Item": "5e4d34ca86f774264f758330" }, // Walker's Razor Digital headset [Razor]
+          { "Item": "5aa2ba71e5b5b000137b758f" }, // MSA Sordin Supreme PRO-X/L headset [Sordin]
+          { "Item": "5c165d832e2216398b5a7e36" }  // Peltor Tactical Sport headset [Tactical Sport]
+        ],
+        // Mid Game Headset
+        [
+          { "Item": "6033fa48ffd42c541047f728" }, // OPSMEN Earmor M32 headset [M32]
+          { "Item": "693bb59250fafa102607aeb7" }, // M32 White (WTT)
+          { "Item": "5e4d34ca86f774264f758330" }, // Walker's Razor Digital headset [Razor]
+          { "Item": "5aa2ba71e5b5b000137b758f" }, // MSA Sordin Supreme PRO-X/L headset [Sordin]
+          { "Item": "5aa2ba71e5b5b000137b758f" }, // MSA Sordin Supreme PRO-X/L headset [Sordin]
+          { "Item": "5c165d832e2216398b5a7e36" }, // Peltor Tactical Sport headset [Tactical Sport]
+          { "Item": "5c165d832e2216398b5a7e36" }, // Peltor Tactical Sport headset [Tactical Sport]
+          { "Item": "5645bcc04bdc2d363b8b4572" }, // Peltor ComTac II headset (OD Green) [ComTac II]
+          { "Item": "5645bcc04bdc2d363b8b4572" }, // Peltor ComTac II headset (OD Green) [ComTac II]
+          { "Item": "66b5f68de98be930d701c00e" }, // Safariland Liberator HP 2.0 Hearing Protection...
+          { "Item": "5f60cd6cf2bcbb675b00dac6" }, // Walker's XCEL 500BT Digital headset
+          { "Item": "5f60cd6cf2bcbb675b00dac6" }, // Walker's XCEL 500BT Digital headset
+          { "Item": "628e4e576d783146b124c64d" }, // Peltor ComTac IV Hybrid headset (Coyote Brown)
+          { "Item": "628e4e576d783146b124c64d" }, // Peltor ComTac IV Hybrid headset (Coyote Brown)
+          { "Item": "68bf405779c8186398099017" } // Peltor TEP-300 tactical earplug (Coyote Brown) (WTT)
+        ],
+        // Late Game Headset
+        [
+          { "Item": "5c165d832e2216398b5a7e36" }, // Peltor Tactical Sport headset [Tactical Sport]
+          { "Item": "66b5f68de98be930d701c00e" }, // Safariland Liberator HP 2.0 Hearing Protection...
+          { "Item": "5aa2ba71e5b5b000137b758f" }, // MSA Sordin Supreme PRO-X/L headset [Sordin]
+          { "Item": "5aa2ba71e5b5b000137b758f" }, // MSA Sordin Supreme PRO-X/L headset [Sordin]
+          { "Item": "5f60cd6cf2bcbb675b00dac6" }, // Walker's XCEL 500BT Digital headset
+          { "Item": "5f60cd6cf2bcbb675b00dac6" }, // Walker's XCEL 500BT Digital headset
+          { "Item": "628e4e576d783146b124c64d" }, // Peltor ComTac IV Hybrid headset (Coyote Brown)
+          { "Item": "628e4e576d783146b124c64d" }, // Peltor ComTac IV Hybrid headset (Coyote Brown)
+          { "Item": "628e4e576d783146b124c64d" }, // Peltor ComTac IV Hybrid headset (Coyote Brown)
+          { "Item": "628e4e576d783146b124c64d" }, // Peltor ComTac IV Hybrid headset (Coyote Brown)
+          { "Item": "66b5f693acff495a294927e3" }, // Peltor ComTac V headset (OD Green)
+          { "Item": "66b5f693acff495a294927e3" }, // Peltor ComTac V headset (OD Green)
+          { "Item": "66b5f6985891c84aab75ca76" }, // Peltor ComTac VI headset (Coyote Brown)
+          { "Item": "66b5f6985891c84aab75ca76" }, // Peltor ComTac VI headset (Coyote Brown)
+          { "Item": "68bf405779c8186398099017" }, // Peltor TEP-300 tactical earplug (Coyote Brown)
+          { "Item": "69413241b1ce1e5fbb09ed0a" } // CENS ProFlex DX5 tactical earplug (WTT)
+        ]
+      ]
+    },
+    "gambling_backpack_mystery_box": {
+      "RewardType": "Item",
+      "Rewards": [
+        // Scav Backpack
+        [
+          { "Item": "5ab8f04f86f774585f4237d8" }, // Tactical sling bag (Khaki)
+          { "Item": "5ab8ee7786f7742d8f33f0b9" }, // VKBO army bag
+          { "Item": "56e33680d2720be2748b4576" }, // Transformer Bag
+          { "Item": "56e33634d2720bd8058b456b" }, // Duffle bag
+          { "Item": "5f5e45cc5021ce62144be7aa" }, // LolKek 3F Transfer tourist backpack
+          { "Item": "544a5cde4bdc2d39388b456b" }, // Flyye MBSS backpack (UCP)
+          { "Item": "66b5f247af44ca0014063c02" }, // Vertx Ready Pack backpack (Red)
+          { "Item": "60a2828e8689911a226117f9" }, // Hazard 4 Pillbox backpack (Black)
+          { "Item": "56e335e4d2720b6c058b456d" }, // Scav backpack
+          { "Item": "5ca20d5986f774331e7c9602" }, // WARTECH Berkut BB-102 backpack (A-TACS FG)
+          { "Item": "5e9dcf5986f7746c417435b3" }, // LBT-8005A Day Pack backpack (MultiCam Black)
+          { "Item": "59e763f286f7742ee57895da" } // Pilgrim tourist backpack
+        ],
+        // Early Game Backpack
+        [
+          { "Item": "544a5cde4bdc2d39388b456b" }, // Flyye MBSS backpack (UCP)
+          { "Item": "544a5cde4bdc2d39388b456b" }, // Flyye MBSS backpack (UCP)
+          { "Item": "66b5f247af44ca0014063c02" }, // Vertx Ready Pack backpack (Red)
+          { "Item": "66b5f247af44ca0014063c02" }, // Vertx Ready Pack backpack (Red)
+          { "Item": "60a2828e8689911a226117f9" }, // Hazard 4 Pillbox backpack (Black)
+          { "Item": "60a2828e8689911a226117f9" }, // Hazard 4 Pillbox backpack (Black)
+          { "Item": "56e335e4d2720b6c058b456d" }, // Scav backpack
+          { "Item": "56e335e4d2720b6c058b456d" }, // Scav backpack
+          { "Item": "5ca20d5986f774331e7c9602" }, // WARTECH Berkut BB-102 backpack (A-TACS FG)
+          { "Item": "5ca20d5986f774331e7c9602" }, // WARTECH Berkut BB-102 backpack (A-TACS FG)
+          { "Item": "5e9dcf5986f7746c417435b3" }, // LBT-8005A Day Pack backpack (MultiCam Black)
+          { "Item": "5e9dcf5986f7746c417435b3" }, // LBT-8005A Day Pack backpack (MultiCam Black)
+          { "Item": "618cfae774bb2d036a049e7c" }, // LBT-1476A 3Day Pack (Woodland)
+          { "Item": "67458794e21e5d724e066976" }, // LBT-1476A 3Day Pack (MultiCam Alpine)
+          { "Item": "656ddcf0f02d7bcea90bf395" }, // Tehinkom RK-PT-25 patrol backpack (Digital Flora)
+          { "Item": "59e763f286f7742ee57895da" }, // Pilgrim tourist backpack
+          { "Item": "618bb76513f5097c8d5aa2d5" }, // Gruppa 99 T20 backpack (Umber Brown)
+          { "Item": "619cf0335771dd3c390269ae" } // Gruppa 99 T20 backpack (MultiCam)
+        ],
+        // Mid Game Backpack
+        [
+          { "Item": "656ddcf0f02d7bcea90bf395" }, // Tehinkom RK-PT-25 patrol backpack (Digital Flora)
+          { "Item": "59e763f286f7742ee57895da" }, // Pilgrim tourist backpack
+          { "Item": "618bb76513f5097c8d5aa2d5" }, // Gruppa 99 T20 backpack (Umber Brown)
+          { "Item": "619cf0335771dd3c390269ae" }, // Gruppa 99 T20 backpack (MultiCam)
+          { "Item": "618cfae774bb2d036a049e7c" }, // LBT-1476A 3Day Pack (Woodland)
+          { "Item": "67458794e21e5d724e066976" }, // LBT-1476A 3Day Pack (MultiCam Alpine)
+          { "Item": "656f198fb27298d6fd005466" }, // Direct Action Dragon Egg Mark II backpack (Black)
+          { "Item": "6038d614d10cbf667352dd44" }, // Hazard 4 Takedown sling backpack (MultiCam)
+          { "Item": "6034d103ca006d2dca39b3f0" }, // Hazard 4 Takedown sling backpack (Black)
+          { "Item": "60a272cc93ef783291411d8e" }, // Hazard 4 Drawbridge backpack (Coyote Tan)
+          { "Item": "5b44c6ae86f7742d1627baea" }, // ANA Tactical Beta 2 Battle backpack (Olive Drab)
+          { "Item": "62a1b7fbc30cfa1d366af586" }, // Gruppa 99 T30 backpack (MultiCam)
+          { "Item": "628e1ffc83ec92260c0f437f" }, // Gruppa 99 T30 backpack (Black)
+          { "Item": "5f5e467b0bc58666c37e7821" }, // Eberlestock F5 Switchblade backpack (Dry Earth)
+          { "Item": "545cdae64bdc2d39198b4568" }, // Camelbak Tri-Zip assault backpack (Foliage)
+          { "Item": "66b5f22b78bbc0200425f904" }, // Camelbak Tri-Zip assault backpack (MultiCam)
+          { "Item": "674da107c512807d1a0e7436" }, // Mystery Ranch Terraframe backpack (Olive Drab)
+          { "Item": "5d5d940f86f7742797262046" } // Oakley Mechanism heavy duty backpack (Black)
+        ],
+        // Late Game Backpack
+        [
+          { "Item": "62a1b7fbc30cfa1d366af586" }, // Gruppa 99 T30 backpack (MultiCam)
+          { "Item": "62a1b7fbc30cfa1d366af586" }, // Gruppa 99 T30 backpack (MultiCam)
+          { "Item": "628e1ffc83ec92260c0f437f" }, // Gruppa 99 T30 backpack (Black)
+          { "Item": "628e1ffc83ec92260c0f437f" }, // Gruppa 99 T30 backpack (Black)
+          { "Item": "545cdae64bdc2d39198b4568" }, // Camelbak Tri-Zip assault backpack (Foliage)
+          { "Item": "545cdae64bdc2d39198b4568" }, // Camelbak Tri-Zip assault backpack (Foliage)
+          { "Item": "66b5f22b78bbc0200425f904" }, // Camelbak Tri-Zip assault backpack (MultiCam)
+          { "Item": "66b5f22b78bbc0200425f904" }, // Camelbak Tri-Zip assault backpack (MultiCam)
+          { "Item": "5f5e467b0bc58666c37e7821" }, // Eberlestock F5 Switchblade backpack (Dry Earth)
+          { "Item": "5f5e467b0bc58666c37e7821" }, // Eberlestock F5 Switchblade backpack (Dry Earth)
+          { "Item": "5b44c6ae86f7742d1627baea" }, // ANA Tactical Beta 2 Battle backpack (Olive Drab)
+          { "Item": "5b44c6ae86f7742d1627baea" }, // ANA Tactical Beta 2 Battle backpack (Olive Drab)
+          { "Item": "5d5d940f86f7742797262046" }, // Oakley Mechanism heavy duty backpack (Black)
+          { "Item": "656e0436d44a1bb4220303a0" }, // Mystery Ranch SATL Bridger Assault Pack (Foliage)
+          { "Item": "68947ab5a733b1602007e2fe" }, // Mystery Ranch 2 Day Assault Pack (Black)
+          { "Item": "6038d614d10cbf667352dd44" }, // Hazard 4 Takedown sling backpack (MultiCam)
+          { "Item": "6034d103ca006d2dca39b3f0" }, // Hazard 4 Takedown sling backpack (Black)
+          { "Item": "5c0e805e86f774683f3dd637" }, // 3V Gear Paratus 3-Day Operator's Tactical backpack (Foliage Grey)
+          { "Item": "59e763f286f7742ee57895da" }, // Pilgrim tourist backpack
+          { "Item": "5ab8ebf186f7742d8b372e80" }, // SSO Attack 2 raid backpack (Khaki)
+          { "Item": "639346cc1c8f182ad90c8972" }, // Tasmanian Tiger Trooper 35 backpack (Khaki)
+          { "Item": "5f5e46b96bdad616ad46d613" }, // Eberlestock F4 Terminator load bearing backpack (Tiger Stripe)
+          { "Item": "5c0e774286f77468413cc5b2" }, // Mystery Ranch Blackjack 50 backpack (MultiCam)
+          { "Item": "5df8a4d786f77412672a1e3b" }, // 6Sh118 raid backpack (Digital Flora)
+          { "Item": "67458730df3c1da90b0b052b" }, // 5.11 Tactical RUSH 100 backpack (Black)
+          // these should be rarer
+          { "Item": "628bc7fb408e2b2e9c0801b1" }, // Mystery Ranch NICE COMM 3 BVS frame system (Coyote)
+          { "Item": "68947a8ce4bf255d1b0ca759" } // Tasmanian Tiger Modular Pack 45 Plus (MultiCam Black)
+          //{ "Item": "66a9f98f3bd5a41b162030f4" }, // Partisan's bag
+          //{ "Item": "5e997f0b86f7741ac73993e2" }, // Sanitar's bag
+        ]
+      ]
+    },
+    "gambling_facecover_mystery_box": {
+      "RewardType": "Item",
+      "Rewards": [
+        // Scav Facecover
+        [
+          { "Item": "5b432c305acfc40019478128" }, // GP-5 gas mask
+          { "Item": "5b432c305acfc40019478128" }, // GP-5 gas mask
+          { "Item": "60363c0c92ec1c31037959f5" }, // GP-7 gas mask
+          { "Item": "60363c0c92ec1c31037959f5" }, // GP-7 gas mask
+          { "Item": "5b432b6c5acfc4001a599bf0" }, // Deadly Skull mask
+          { "Item": "5b432b6c5acfc4001a599bf0" }, // Deadly Skull mask
+          { "Item": "59e7715586f7742ee5789605" }, // Respirator
+          { "Item": "59e7715586f7742ee5789605" }, // Respirator
+          { "Item": "5bd0716d86f774171822ef4b" }, // Misha Mayorov mask
+          { "Item": "5bd0716d86f774171822ef4b" }, // Misha Mayorov mask
+          { "Item": "6176a40f0b8c0312ac75a3d3" }, // Ghoul mask
+          { "Item": "6176a40f0b8c0312ac75a3d3" }, // Ghoul mask
+          { "Item": "5bd071d786f7747e707b93a3" }, // Jason mask
+          { "Item": "5bd071d786f7747e707b93a3" }, // Jason mask
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "675ac888803644528007b3f6" }, // Balaclava (White)
+          { "Item": "675ac888803644528007b3f6" }, // Balaclava (White)
+          { "Item": "675ac888803644528007b3f6" }, // Balaclava (White)
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "5ab8f4ff86f77431c60d91ba" }, // Ghost balaclava
+          { "Item": "5ab8f4ff86f77431c60d91ba" }, // Ghost balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "572b7fa524597762b747ce82" }, // Lower half-mask
+          { "Item": "572b7fa524597762b747ce82" }, // Lower half-mask
+          { "Item": "572b7fa524597762b747ce82" }, // Lower half-mask
+          { "Item": "572b7fa524597762b747ce82" }, // Lower half-mask
+          { "Item": "572b7fa524597762b747ce82" }, // Lower half-mask
+          { "Item": "5b4326435acfc433000ed01d" }, // Neoprene mask
+          { "Item": "5b4326435acfc433000ed01d" }, // Neoprene mask
+          { "Item": "5b4326435acfc433000ed01d" }, // Neoprene mask
+          { "Item": "5b4326435acfc433000ed01d" }, // Neoprene mask
+          { "Item": "5b4326435acfc433000ed01d" } // Neoprene mask
+        ],
+        // Early Game Facecover
+        [
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "675ac888803644528007b3f6" }, // Balaclava (White)
+          { "Item": "675ac888803644528007b3f6" }, // Balaclava (White)
+          { "Item": "67a9ea10c185de5a4d0c2a15" }, // Balaclava (Yellow Oni)
+          { "Item": "67a9e9d04fb4a4a8a00d2826" }, // Balaclava (Red Nose)
+          { "Item": "67a9cd18f05be177170bcd7a" }, // Balaclava (Scratches)
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "67a9dc769de6826a650ee066" }, // Cold Fear infrared balaclava (Green)
+          { "Item": "67a9dce47faa4210bb0807c8" }, // Cold Fear infrared balaclava (MultiCam Tropic)
+          { "Item": "67a9dccf9de6826a650ee06a" }, // Cold Fear infrared balaclava (DPM Desert)
+          { "Item": "6936ff4ec5b365205f082e38" }, // (WTT) Cold Fear infrared balaclava (MultiCam Alpine)
+          { "Item": "5ab8f4ff86f77431c60d91ba" }, // Ghost balaclava
+          { "Item": "5ab8f4ff86f77431c60d91ba" }, // Ghost balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "572b7fa524597762b747ce82" }, // Lower half-mask
+          { "Item": "572b7fa524597762b747ce82" }, // Lower half-mask
+          { "Item": "572b7fa524597762b747ce82" }, // Lower half-mask
+          { "Item": "572b7fa524597762b747ce82" }, // Lower half-mask
+          { "Item": "5b432b2f5acfc4771e1c6622" }, // Shattered lightweight armored mask
+          { "Item": "5b432b2f5acfc4771e1c6622" }, // Shattered lightweight armored mask
+          { "Item": "607f201b3c672b3b3a24a800" }, // Twitch Rivals 2021 balaclava
+          { "Item": "5b4325355acfc40019478126" }, // Shemagh (Tan)
+          { "Item": "5b4325355acfc40019478126" }, // Shemagh (Tan)
+          { "Item": "5b4325355acfc40019478126" }, // Shemagh (Tan)
+          { "Item": "5bd073a586f7747e6f135799" }, // Fake mustache
+          { "Item": "5bd073a586f7747e6f135799" } // Fake mustache
+        ],
+        // Mid Game Facecover
+        [
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "675ac888803644528007b3f6" }, // Balaclava (White)
+          { "Item": "675ac888803644528007b3f6" }, // Balaclava (White)
+          { "Item": "67a9ea39de7fb0f19e077da6" }, // Balaclava (Red Oni)
+          { "Item": "67a9ea39de7fb0f19e077da6" }, // Balaclava (Red Oni)
+          { "Item": "67a9ea10c185de5a4d0c2a15" }, // Balaclava (Yellow Oni)
+          { "Item": "67a9ea10c185de5a4d0c2a15" }, // Balaclava (Yellow Oni)
+          { "Item": "67a9e9d04fb4a4a8a00d2826" }, // Balaclava (Red Nose)
+          { "Item": "67a9cd18f05be177170bcd7a" }, // Balaclava (Scratches)
+          { "Item": "68a9acd9389d6cb1f90af562" }, // Balaclava (Unicorn)
+          { "Item": "67a9cd381fb22063280728a6" }, // Balaclava (Not Nice)
+          { "Item": "67a9cd28cade15e0f00123b6" }, // Balaclava (Born to Die)
+          { "Item": "67a9ccfff05be177170bcd78" }, // Balaclava (Scars)
+          { "Item": "67a9cc9cf05be177170bcd76" }, // Balaclava (Green)
+          { "Item": "68a9adc2bc09b91c4f07dbe6" }, // (WTT) Balaclava (Zaebtsa)
+          { "Item": "69398e94ca94fd2877039504" }, // (WTT) Balaclava Nut Sack
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "67a9dc769de6826a650ee066" }, // Cold Fear infrared balaclava (Green)
+          { "Item": "67a9dc769de6826a650ee066" }, // Cold Fear infrared balaclava (Green)
+          { "Item": "67a9dce47faa4210bb0807c8" }, // Cold Fear infrared balaclava (MultiCam Tropic)
+          { "Item": "67a9dce47faa4210bb0807c8" }, // Cold Fear infrared balaclava (MultiCam Tropic)
+          { "Item": "67a9dccf9de6826a650ee06a" }, // Cold Fear infrared balaclava (DPM Desert)
+          { "Item": "67a9dccf9de6826a650ee06a" }, // Cold Fear infrared balaclava (DPM Desert)
+          { "Item": "68beef6ca3433485d30d5ae3" }, // Cold Fear infrared balaclava (Typhon)
+          { "Item": "68beef6ca3433485d30d5ae3" }, // Cold Fear infrared balaclava (Typhon)
+          { "Item": "67a9dd619de6826a650ee06c" }, // Cold Fear infrared balaclava (Tiger Stripe)
+          { "Item": "67a9dd619de6826a650ee06c" }, // Cold Fear infrared balaclava (Tiger Stripe)
+          { "Item": "67a9dcbac185de5a4d0c2a06" }, // Cold Fear infrared balaclava (Surpat)
+          { "Item": "67a9dcbac185de5a4d0c2a06" }, // Cold Fear infrared balaclava (Surpat)
+          { "Item": "67a9dca99de6826a650ee068" }, // Cold Fear infrared balaclava (Oak)
+          { "Item": "67a9dca99de6826a650ee068" }, // Cold Fear infrared balaclava (Oak)
+          { "Item": "68beef31a3433485d30d5ae1" }, // (WTT) Cold Fear infrared balaclava (Alien)
+          { "Item": "6936ff4ec5b365205f082e38" }, // (WTT) Cold Fear infrared balaclava (MultiCam Alpine)
+          { "Item": "5ab8f4ff86f77431c60d91ba" }, // Ghost balaclava
+          { "Item": "5ab8f4ff86f77431c60d91ba" }, // Ghost balaclava
+          { "Item": "5ab8f4ff86f77431c60d91ba" }, // Ghost balaclava
+          { "Item": "5ab8f4ff86f77431c60d91ba" }, // Ghost balaclava
+          { "Item": "5ab8f4ff86f77431c60d91ba" }, // Ghost balaclava
+          { "Item": "5fd8d28367cb5e077335170f" }, // Smoke balaclava
+          { "Item": "5fd8d28367cb5e077335170f" }, // Smoke balaclava
+          { "Item": "5fd8d28367cb5e077335170f" }, // Smoke balaclava
+          { "Item": "5fd8d28367cb5e077335170f" }, // Smoke balaclava
+          { "Item": "5fd8d28367cb5e077335170f" }, // Smoke balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "607f201b3c672b3b3a24a800" }, // Twitch Rivals 2021 balaclava
+          { "Item": "5b432b2f5acfc4771e1c6622" }, // Shattered lightweight armored mask
+          { "Item": "5b432b2f5acfc4771e1c6622" }, // Shattered lightweight armored mask
+          { "Item": "5b432b2f5acfc4771e1c6622" }, // Shattered lightweight armored mask
+          { "Item": "62a09e08de7ac81993580532" }, // Glorious E lightweight armored mask
+          { "Item": "62a09e08de7ac81993580532" }, // Glorious E lightweight armored mask
+          { "Item": "62a09e08de7ac81993580532" }, // Glorious E lightweight armored mask
+          { "Item": "6570aead4d84f81fd002a033" }, // Death Shadow lightweight armored mask
+          { "Item": "6176a48d732a664031271438" }, // Faceless mask
+          { "Item": "689b880fff8b4adc420f5b56" }, // (WTT) Avon M53A1 gas mask
+          { "Item": "67a5fa01fafb8efd440694ba" }, // Lower half-mask (Balaclavas White)
+          { "Item": "67a5f9e7f7041a25760dda38" }, // Lower half-mask (Balaclavas Red)
+          { "Item": "67a5f9c8fafb8efd440694b8" }, // Lower half-mask (Balaclavas Green)
+          { "Item": "6936fe4a3f4d6dfa3900c33c" }, // (WTT) Lower half-mask (Skull Santa)
+          { "Item": "5ab8f85d86f7745cd93a1cf5" }, // Shemagh (Green)
+          { "Item": "5ab8f85d86f7745cd93a1cf5" }, // Shemagh (Green)
+          { "Item": "5ab8f85d86f7745cd93a1cf5" }, // Shemagh (Green)
+          { "Item": "5ab8f85d86f7745cd93a1cf5" }, // Shemagh (Green)
+          { "Item": "5ab8f85d86f7745cd93a1cf5" }, // Shemagh (Green)
+          { "Item": "5b4325355acfc40019478126" }, // Shemagh (Tan)
+          { "Item": "5b4325355acfc40019478126" }, // Shemagh (Tan)
+          { "Item": "5b4325355acfc40019478126" }, // Shemagh (Tan)
+          { "Item": "5b4325355acfc40019478126" }, // Shemagh (Tan)
+          { "Item": "5b4325355acfc40019478126" }, // Shemagh (Tan)
+          { "Item": "62a09dd4621468534a797ac7" }, // Baddie's red beard
+          { "Item": "62a09dd4621468534a797ac7" }, // Baddie's red beard
+          { "Item": "62a09dd4621468534a797ac7" }, // Baddie's red beard
+          { "Item": "5bd073a586f7747e6f135799" }, // Fake mustache
+          { "Item": "5bd073a586f7747e6f135799" }, // Fake mustache
+          { "Item": "5bd073a586f7747e6f135799" }, // Fake mustache
+          { "Item": "68bedfdd233f2c935b0eda06" }, // (WTT) Hussar mustache
+          { "Item": "68bedfdd233f2c935b0eda06" }, // (WTT) Hussar mustache
+          { "Item": "6571bde39837cc51b800c212" }, // Ghost half-mask
+          { "Item": "6571bde39837cc51b800c212" }, // Ghost half-mask
+          { "Item": "6571bde39837cc51b800c212" }, // Ghost half-mask
+          { "Item": "6571bde39837cc51b800c212" }, // Ghost half-mask
+          { "Item": "5e54f79686f7744022011103" }, // Pestily plague mask 
+          { "Item": "5e54f76986f7740366043752" }, // Shroud half-mask
+          { "Item": "5e71fad086f77422443d4604" }, // Twitch Rivals 2020 half-mask
+          { "Item": "5e71f6be86f77429f2683c44" }, // Twitch Rivals 2020 mask
+          { "Item": "607f201b3c672b3b3a24a800" }, // Twitch Rivals 2021 balaclava
+          { "Item": "68bedfa56b0736bebc012ad9" }, // Wrestling Legend mustache
+          { "Item": "68bedfa56b0736bebc012ad9" }, // Wrestling Legend mustache
+          { "Item": "67aaf84104dca1c82c071cf6" }, // Neoprene mask (Lucha Libre) 
+          { "Item": "67aaf808bf7609058606a926" }, // Neoprene mask (M90 Desert)
+          { "Item": "67aaf851bf7609058606a928" } // Neoprene mask (Zombie)
+        ],
+        // Late Game Facecover
+        [
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "572b7f1624597762ae139822" }, // Balaclava
+          { "Item": "675ac888803644528007b3f6" }, // Balaclava (White)
+          { "Item": "675ac888803644528007b3f6" }, // Balaclava (White)
+          { "Item": "67a9ea39de7fb0f19e077da6" }, // Balaclava (Red Oni)
+          { "Item": "67a9ea39de7fb0f19e077da6" }, // Balaclava (Red Oni)
+          { "Item": "67a9ea10c185de5a4d0c2a15" }, // Balaclava (Yellow Oni)
+          { "Item": "67a9ea10c185de5a4d0c2a15" }, // Balaclava (Yellow Oni)
+          { "Item": "67a9e9d04fb4a4a8a00d2826" }, // Balaclava (Red Nose)
+          { "Item": "67a9cd18f05be177170bcd7a" }, // Balaclava (Scratches)
+          { "Item": "68a9acd9389d6cb1f90af562" }, // Balaclava (Unicorn)
+          { "Item": "67a9cd381fb22063280728a6" }, // Balaclava (Not Nice)
+          { "Item": "67a9cd381fb22063280728a6" }, // Balaclava (Not Nice)
+          { "Item": "67a9cd28cade15e0f00123b6" }, // Balaclava (Born to Die)
+          { "Item": "67a9cd28cade15e0f00123b6" }, // Balaclava (Born to Die)
+          { "Item": "67a9ccfff05be177170bcd78" }, // Balaclava (Scars)
+          { "Item": "67a9cc9cf05be177170bcd76" }, // Balaclava (Green)
+          { "Item": "67a9e9e0c185de5a4d0c2a13" }, // Balaclava (Demon)
+          { "Item": "67a9ea004fb4a4a8a00d2828" }, // Balaclava (Fear)
+          { "Item": "67a9cd6ecade15e0f00123b8" }, // Balaclava (Luxury)
+          { "Item": "67a9e9f09de6826a650ee074" }, // Balaclava (Skull)
+          { "Item": "67a9ea98de7fb0f19e077da8" }, // Balaclava (Smile)
+          { "Item": "67a9ea7e4fb4a4a8a00d282a" }, // Balaclava (White Oni)
+          { "Item": "67a9cd55c2a2d940930aec86" }, // Balaclava (Yellow)
+          { "Item": "67f90180f07898267b0a4ed7" }, // Balaclava Arena Cup Series
+          { "Item": "68a9adc2bc09b91c4f07dbe6" }, // (WTT) Balaclava (Zaebtsa)
+          { "Item": "69398e94ca94fd2877039504" }, // (WTT) Balaclava Nut Sack
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "5ab8f39486f7745cd93a1cca" }, // Cold Fear infrared balaclava
+          { "Item": "67a9dc769de6826a650ee066" }, // Cold Fear infrared balaclava (Green)
+          { "Item": "67a9dc769de6826a650ee066" }, // Cold Fear infrared balaclava (Green)
+          { "Item": "67a9dce47faa4210bb0807c8" }, // Cold Fear infrared balaclava (MultiCam Tropic)
+          { "Item": "67a9dce47faa4210bb0807c8" }, // Cold Fear infrared balaclava (MultiCam Tropic)
+          { "Item": "67a9dccf9de6826a650ee06a" }, // Cold Fear infrared balaclava (DPM Desert)
+          { "Item": "67a9dccf9de6826a650ee06a" }, // Cold Fear infrared balaclava (DPM Desert)
+          { "Item": "68beef6ca3433485d30d5ae3" }, // Cold Fear infrared balaclava (Typhon)
+          { "Item": "68beef6ca3433485d30d5ae3" }, // Cold Fear infrared balaclava (Typhon)
+          { "Item": "67a9dd619de6826a650ee06c" }, // Cold Fear infrared balaclava (Tiger Stripe)
+          { "Item": "67a9dd619de6826a650ee06c" }, // Cold Fear infrared balaclava (Tiger Stripe)
+          { "Item": "67a9dcbac185de5a4d0c2a06" }, // Cold Fear infrared balaclava (Surpat)
+          { "Item": "67a9dcbac185de5a4d0c2a06" }, // Cold Fear infrared balaclava (Surpat)
+          { "Item": "67a9dca99de6826a650ee068" }, // Cold Fear infrared balaclava (Oak)
+          { "Item": "67a9dca99de6826a650ee068" }, // Cold Fear infrared balaclava (Oak)
+          { "Item": "67a9dc997faa4210bb0807c6" }, // Cold Fear infrared balaclava (SBEU)
+          { "Item": "67a9dc997faa4210bb0807c6" }, // Cold Fear infrared balaclava (SBEU)
+          { "Item": "68beef31a3433485d30d5ae1" }, // (WTT) Cold Fear infrared balaclava (Alien)
+          { "Item": "6936ff4ec5b365205f082e38" }, // (WTT) Cold Fear infrared balaclava (MultiCam Alpine)
+          { "Item": "5ab8f4ff86f77431c60d91ba" }, // Ghost balaclava
+          { "Item": "5ab8f4ff86f77431c60d91ba" }, // Ghost balaclava
+          { "Item": "5ab8f4ff86f77431c60d91ba" }, // Ghost balaclava
+          { "Item": "5ab8f4ff86f77431c60d91ba" }, // Ghost balaclava
+          { "Item": "5ab8f4ff86f77431c60d91ba" }, // Ghost balaclava
+          { "Item": "5fd8d28367cb5e077335170f" }, // Smoke balaclava
+          { "Item": "5fd8d28367cb5e077335170f" }, // Smoke balaclava
+          { "Item": "5fd8d28367cb5e077335170f" }, // Smoke balaclava
+          { "Item": "5fd8d28367cb5e077335170f" }, // Smoke balaclava
+          { "Item": "5fd8d28367cb5e077335170f" }, // Smoke balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "5b432f3d5acfc4704b4a1dfb" }, // Momex balaclava
+          { "Item": "607f201b3c672b3b3a24a800" }, // Twitch Rivals 2021 balaclava
+          { "Item": "5b432b2f5acfc4771e1c6622" }, // Shattered lightweight armored mask
+          { "Item": "5b432b2f5acfc4771e1c6622" }, // Shattered lightweight armored mask
+          { "Item": "5b432b2f5acfc4771e1c6622" }, // Shattered lightweight armored mask
+          { "Item": "5b432b2f5acfc4771e1c6622" }, // Shattered lightweight armored mask
+          { "Item": "5b432b2f5acfc4771e1c6622" }, // Shattered lightweight armored mask
+          { "Item": "62a09e08de7ac81993580532" }, // Glorious E lightweight armored mask
+          { "Item": "62a09e08de7ac81993580532" }, // Glorious E lightweight armored mask
+          { "Item": "62a09e08de7ac81993580532" }, // Glorious E lightweight armored mask
+          { "Item": "62a09e08de7ac81993580532" }, // Glorious E lightweight armored mask
+          { "Item": "62a09e08de7ac81993580532" }, // Glorious E lightweight armored mask
+          { "Item": "6570aead4d84f81fd002a033" }, // Death Shadow lightweight armored mask
+          { "Item": "68a9b821cdf661cc5a0626c6" }, // Death Shadow lightweight armored mask (Gold)
+          { "Item": "68a9b852cdf661cc5a0626c9" }, // Death Shadow lightweight armored mask (Gray)
+          { "Item": "68a9b873a4b28d56c80a1818" }, // Death Shadow lightweight armored mask (White)
+          { "Item": "6176a48d732a664031271438" }, // Faceless mask
+          { "Item": "6176a48d732a664031271438" }, // Faceless mask
+          { "Item": "689b880fff8b4adc420f5b56" }, // (WTT) Avon M53A1 gas mask
+          { "Item": "689b880fff8b4adc420f5b56" }, // (WTT) Avon M53A1 gas mask
+          { "Item": "689b880fff8b4adc420f5b56" }, // (WTT) Avon M53A1 gas mask
+          { "Item": "689b880fff8b4adc420f5b56" }, // (WTT) Avon M53A1 gas mask
+          { "Item": "689b880fff8b4adc420f5b56" }, // (WTT) Avon M53A1 gas mask
+          { "Item": "689b880fff8b4adc420f5b56" }, // (WTT) Avon M53A1 gas mask
+          { "Item": "67a5fa01fafb8efd440694ba" }, // Lower half-mask (Balaclavas White)
+          { "Item": "67a5fa01fafb8efd440694ba" }, // Lower half-mask (Balaclavas White)
+          { "Item": "67a5f9e7f7041a25760dda38" }, // Lower half-mask (Balaclavas Red)
+          { "Item": "67a5f9e7f7041a25760dda38" }, // Lower half-mask (Balaclavas Red)
+          { "Item": "67a5f9c8fafb8efd440694b8" }, // Lower half-mask (Balaclavas Green)
+          { "Item": "67a5f9c8fafb8efd440694b8" }, // Lower half-mask (Balaclavas Green)
+          { "Item": "67a5f989f7041a25760dda36" }, // Lower half-mask (El Día de Muertos)
+          { "Item": "67a5f989f7041a25760dda36" }, // Lower half-mask (El Día de Muertos)
+          { "Item": "67a5f968fafb8efd440694b6" }, // Lower half-mask (Moss)
+          { "Item": "67a5f968fafb8efd440694b6" }, // Lower half-mask (Moss)
+          { "Item": "67a5f917dfdf568c9009af6b" }, // Lower half-mask (MultiCam)
+          { "Item": "67a5f917dfdf568c9009af6b" }, // Lower half-mask (MultiCam)
+          { "Item": "67a5f9a193f7b62b6b0f6576" }, // Lower half-mask (Wraith)
+          { "Item": "67a5f9a193f7b62b6b0f6576" }, // Lower half-mask (Wraith)
+          { "Item": "67a5f94e802d287c670bb966" }, // Lower half-mask (Zombie)
+          { "Item": "67a5f94e802d287c670bb966" }, // Lower half-mask (Zombie)
+          { "Item": "6936fe4a3f4d6dfa3900c33c" }, // (WTT) Lower half-mask (Skull Santa)
+          { "Item": "6936fe4a3f4d6dfa3900c33c" }, // (WTT) Lower half-mask (Skull Santa)
+          { "Item": "6571bde39837cc51b800c212" }, // lower half-mask Ghost 
+          { "Item": "6571bde39837cc51b800c212" }, // lower half-mask Ghost 
+          { "Item": "6571bde39837cc51b800c212" }, // lower half-mask Ghost 
+          { "Item": "6571bde39837cc51b800c212" }, // lower half-mask Ghost 
+          { "Item": "6571bde39837cc51b800c212" }, // lower half-mask Ghost 
+          { "Item": "6571bde39837cc51b800c212" }, // lower half-mask Ghost 
+          { "Item": "6571bde39837cc51b800c212" }, // lower half-mask Ghost 
+          { "Item": "5ab8f85d86f7745cd93a1cf5" }, // Shemagh (Green)
+          { "Item": "5ab8f85d86f7745cd93a1cf5" }, // Shemagh (Green)
+          { "Item": "5ab8f85d86f7745cd93a1cf5" }, // Shemagh (Green)
+          { "Item": "5ab8f85d86f7745cd93a1cf5" }, // Shemagh (Green)
+          { "Item": "5ab8f85d86f7745cd93a1cf5" }, // Shemagh (Green)
+          { "Item": "5ab8f85d86f7745cd93a1cf5" }, // Shemagh (Green)
+          { "Item": "5ab8f85d86f7745cd93a1cf5" }, // Shemagh (Green)
+          { "Item": "5b4325355acfc40019478126" }, // Shemagh (Tan)
+          { "Item": "5b4325355acfc40019478126" }, // Shemagh (Tan)
+          { "Item": "5b4325355acfc40019478126" }, // Shemagh (Tan)
+          { "Item": "5b4325355acfc40019478126" }, // Shemagh (Tan)
+          { "Item": "5b4325355acfc40019478126" }, // Shemagh (Tan)
+          { "Item": "5b4325355acfc40019478126" }, // Shemagh (Tan)
+          { "Item": "5b4325355acfc40019478126" }, // Shemagh (Tan)
+          { "Item": "62a09dd4621468534a797ac7" }, // Baddie's red beard
+          { "Item": "62a09dd4621468534a797ac7" }, // Baddie's red beard
+          { "Item": "62a09dd4621468534a797ac7" }, // Baddie's red beard
+          { "Item": "62a09dd4621468534a797ac7" }, // Baddie's red beard
+          { "Item": "62a09dd4621468534a797ac7" }, // Baddie's red beard
+          { "Item": "5bd073a586f7747e6f135799" }, // Fake mustache
+          { "Item": "5bd073a586f7747e6f135799" }, // Fake mustache
+          { "Item": "5bd073a586f7747e6f135799" }, // Fake mustache
+          { "Item": "5bd073a586f7747e6f135799" }, // Fake mustache
+          { "Item": "5bd073a586f7747e6f135799" }, // Fake mustache
+          { "Item": "68bedfdd233f2c935b0eda06" }, // (WTT) Hussar mustache
+          { "Item": "68bedfdd233f2c935b0eda06" }, // (WTT) Hussar mustache
+          { "Item": "68bedfdd233f2c935b0eda06" }, // (WTT) Hussar mustache
+          { "Item": "5e54f79686f7744022011103" }, // Pestily plague mask 
+          { "Item": "5e54f79686f7744022011103" }, // Pestily plague mask 
+          { "Item": "5e54f79686f7744022011103" }, // Pestily plague mask 
+          { "Item": "5e54f79686f7744022011103" }, // Pestily plague mask 
+          { "Item": "5e54f76986f7740366043752" }, // Shroud half-mask
+          { "Item": "5e54f76986f7740366043752" }, // Shroud half-mask
+          { "Item": "5e54f76986f7740366043752" }, // Shroud half-mask
+          { "Item": "5e71fad086f77422443d4604" }, // Twitch Rivals 2020 half-mask
+          { "Item": "5e71f6be86f77429f2683c44" }, // Twitch Rivals 2020 mask
+          { "Item": "607f201b3c672b3b3a24a800" }, // Twitch Rivals 2021 balaclava
+          { "Item": "68bedfa56b0736bebc012ad9" }, // Wrestling Legend mustache
+          { "Item": "68bedfa56b0736bebc012ad9" }, // Wrestling Legend mustache
+          { "Item": "68bedfa56b0736bebc012ad9" }, // Wrestling Legend mustache
+          { "Item": "657089638db3adca1009f4ca" }, // Atomic Defense CQCM up armored ballistic mask (Black)
+          { "Item": "657089638db3adca1009f4ca" }, // Atomic Defense CQCM up armored ballistic mask (Black)
+          { "Item": "657089638db3adca1009f4ca" }, // Atomic Defense CQCM up armored ballistic mask (Black)
+          { "Item": "657089638db3adca1009f4ca" }, // Atomic Defense CQCM up armored ballistic mask (Black)
+          { "Item": "67a4b71ad3228756b6088ee2" }, // Atomic Defense CQCM ballistic mask (Smile)
+          { "Item": "67a5c5b6dfdf568c9009af66" }, // Atomic Defense CQCM ballistic mask (Stop Me) 
+          { "Item": "67a5c5df782ce4655104db14" }, // Atomic Defense CQCM ballistic mask (Scars)
+          { "Item": "67a5c5f37f52620c5b05b4d6" }, // Atomic Defense CQCM ballistic mask (Target)
+          { "Item": "67a5c6068fcd9fb73f0752cf" }, // Atomic Defense CQCM ballistic mask (Skull)
+          { "Item": "67a5c61c7f52620c5b05b4d8" }, // Atomic Defense CQCM ballistic mask (Demon)
+          { "Item": "67a5c657782ce4655104db16" }, // Atomic Defense CQCM ballistic mask (El Día de Muertos)
+          { "Item": "6936ff8734029a096c06f95a" }, // (WTT) Atomic Defense CQCM ballistic mask (Blasted Ice)
+          { "Item": "68a9a1223e1ee5a70504c126" }, // (WTT) Atomic Defense CQCM ballistic mask (Crash Tested)
+          { "Item": "68a9a15d73d52d47830759c9" }, // (WTT) Atomic Defense CQCM ballistic mask (Demonic Face)
+          { "Item": "68d54d0525ac8590a8075ac3" }, // (WTT) Atomic Defense CQCM ballistic mask (Loui Peeton) V1
+          { "Item": "68a9a04373d52d47830759c7" }, // (WTT) Atomic Defense CQCM ballistic mask (Loui Peeton) V2
+          { "Item": "688b3bfa1ed594eccd0c45ee" }, // (WTT) Atomic Defense CQCM ballistic mask (Ping)
+          { "Item": "68a9a0b01696fb8c1e0ee9cc" }, // (WTT) Atomic Defense CQCM ballistic mask (Toxic)
+          { "Item": "68bee22e79c8186398098e6d" }, // (WTT) DevTaс Samurai Menpo Mask
+          { "Item": "68bee238a48c3c320808abc4" }, // (WTT) DevTaс Samurai Menpo Mask (Gold)
+          { "Item": "68bee23f6b0736bebc012add" }, // (WTT) DevTaс Samurai Menpo Mask (Purple)
+          { "Item": "68bee246ede5c8489f08e1b3" }, // (WTT) DevTaс Samurai Menpo Mask (White)
+          { "Item": "69412e1d0045b2176002e4eb" }, // (WTT) Extreme cold weather face mask
+          { "Item": "689b404db49f27df1c0873f6" }, // (WTT) Gentex Ops-Core SOTR respirator
+          { "Item": "62a61bbf8ec41a51b34758d2" }, // Big Pipe's smoking pipe
+          { "Item": "62963c18dbc8ab5f0d382d0b" }, // Death Knight mask
+          { "Item": "67aaf84104dca1c82c071cf6" }, // Neoprene mask (Lucha Libre) 
+          { "Item": "67aaf808bf7609058606a926" }, // Neoprene mask (M90 Desert)
+          { "Item": "67aaf851bf7609058606a928" }, // Neoprene mask (Zombie)
+          { "Item": "67aaf82d508ee9b6440e9c46" }, // Neoprene mask (Loui Peeton)
+          { "Item": "67aaf863de7fb0f19e077db9" }, // Neoprene mask (Say Nothing)
+          { "Item": "67aaf879508ee9b6440e9c48" }, // Neoprene mask (ONI)
+          // very rare
+          { "Item": "6530e8587cbfc1e309011e37" }, // Vengeful Zryachiy's balaclava
+          { "Item": "63626d904aa74b8fe30ab426" } // Zryachiy's balaclava
+
+        ]
+      ]
+    },
+    "gambling_headcover_mystery_box": {
+      "RewardType": "Item",
+      "Rewards": [
+        // Scav Headcover
+        [
+          { "Item": "59e770f986f7742cbe3164ef" }, // Army cap
+          { "Item": "603619720ca681766b6a0fc4" }, // Army cap (Coyote Tan)
+          { "Item": "60361b0b5a45383c122086a1" }, // Army cap (Desert)
+          { "Item": "6040de02647ad86262233012" }, // Army cap (CADPAT)
+          { "Item": "572b7fa124597762b472f9d2" }, // Beanie
+          { "Item": "5aa2b8d7e5b5b00014028f4a" }, // Police cap
+          { "Item": "5b4329075acfc400153b78ff" }, // Pompon hat
+          { "Item": "5ab8f20c86f7745cdb629fb2" }, // Ski hat with holes for eyes
+          { "Item": "5aa2b89be5b5b0001569311f" }, // EMERCOM cap
+          { "Item": "61c18db6dfd64163ea78fbb4" }, // Leather cap
+          { "Item": "5aa2b9ede5b5b000137b758b" }, // Kinda cowboy hat
+          { "Item": "59e7708286f7742cbd762753" } // Ushanka ear flap hat
+
+        ],
+        // Early Game Headcover
+        [
+          { "Item": "5b4329075acfc400153b78ff" }, // Pompon hat
+          { "Item": "5b4329075acfc400153b78ff" }, // Pompon hat
+          { "Item": "572b7fa124597762b472f9d2" }, // Beanie
+          { "Item": "572b7fa124597762b472f9d2" }, // Beanie
+          { "Item": "5aa2b9ede5b5b000137b758b" }, // Kinda cowboy hat
+          { "Item": "5aa2b9ede5b5b000137b758b" }, // Kinda cowboy hat
+          { "Item": "5b43271c5acfc432ff4dce65" }, // Bandana
+          { "Item": "5b43271c5acfc432ff4dce65" }, // Bandana
+          { "Item": "60b52e5bc7d8103275739d67" }, // Stich Profi Chimera boonie hat
+          { "Item": "60b52e5bc7d8103275739d67" }, // Stich Profi Chimera boonie hat
+          { "Item": "5b4327aa5acfc400175496e0" }, // MIL-TEC boonie hat
+          { "Item": "5b4327aa5acfc400175496e0" }, // MIL-TEC boonie hat
+          { "Item": "572b7d8524597762b472f9d1" }, // Baseball cap
+          { "Item": "572b7d8524597762b472f9d1" }, // Baseball cap
+          { "Item": "60361b5a9a15b10d96792291" }, // Army cap (UCP) (expensive)
+          { "Item": "60361b5a9a15b10d96792291" }, // Army cap (UCP) (expensive)
+          { "Item": "5aa2a7e8e5b5b00016327c16" }, // USEC baseball cap (Coyote)
+          { "Item": "5aa2a7e8e5b5b00016327c16" }, // USEC baseball cap (Coyote)
+          { "Item": "5aa2b87de5b5b00016327c25" }, // BEAR baseball cap (Olive Drab)
+          { "Item": "5aa2b87de5b5b00016327c25" }, // BEAR baseball cap (Olive Drab)
+          { "Item": "5b40e5e25acfc4001a599bea" }, // BEAR baseball cap (Black)
+          { "Item": "5b40e5e25acfc4001a599bea" }, // BEAR baseball cap (Black)
+          { "Item": "5b40e61f5acfc4001a599bec" }, // USEC baseball cap (Black)
+          { "Item": "5b40e61f5acfc4001a599bec" }, // USEC baseball cap (Black)
+          { "Item": "5aa2ba19e5b5b00014028f4e" }, // Tactical fleece beanie (Tan)
+          { "Item": "5aa2ba19e5b5b00014028f4e" }, // Tactical fleece beanie (Tan)
+          { "Item": "5aa2ba46e5b5b000137b758d" }, // UX PRO beanie
+          { "Item": "5aa2ba46e5b5b000137b758d" }, // UX PRO beanie
+          { "Item": "5bd073c986f7747f627e796c" } // Kotton beanie
+
+        ],
+        // Mid Game Headcover
+        [
+          { "Item": "5aa2ba46e5b5b000137b758d" }, // UX PRO beanie
+          { "Item": "5aa2b9ede5b5b000137b758b" }, // Kinda cowboy hat
+          { "Item": "5aa2a7e8e5b5b00016327c16" }, // USEC baseball cap (Coyote)
+          { "Item": "5aa2b87de5b5b00016327c25" }, // BEAR baseball cap (Olive Drab)
+          { "Item": "5b40e5e25acfc4001a599bea" }, // BEAR baseball cap (Black)
+          { "Item": "5b40e61f5acfc4001a599bec" }, // USEC baseball cap (Black)
+          { "Item": "5f60e6403b85f6263c14558c" }, // Beret (Black)
+          { "Item": "5f60e7788adaa7100c3adb49" }, // Beret (Blue)
+          { "Item": "5f60e784f2bcbb675b00dac7" }, // Beret (Olive Drab)
+          { "Item": "60361b5a9a15b10d96792291" }, // Army cap (UCP) (expensive)
+          { "Item": "60361a7497633951dc245eb4" }, // Army cap (Flora) (expensive)
+          { "Item": "618aef6d0a5a59657e5f55ee" }, // Jack Pyke Hunting LLCS boonie hat
+          { "Item": "60b52e5bc7d8103275739d67" }, // Stich Profi Chimera boonie hat
+          { "Item": "5b4327aa5acfc400175496e0" }, // MIL-TEC boonie hat
+          { "Item": "5d96141523f0ea1b7f2aacab" }, // Door Kicker boonie hat
+          { "Item": "5bd073c986f7747f627e796c" }, // Kotton beanie
+          { "Item": "5f994730c91ed922dd355de3" }, // Rivals 2020 beanie
+          { "Item": "5f99418230835532b445e954" }, // Rivals 2020 cap
+          { "Item": "60bf74184a63fc79b60c57f6" }, // Bomber beanie
+          { "Item": "60a7acf20c5cb24b01346648" } // BOSS cap
+        ],
+        // Late Game Headcover
+        [
+          { "Item": "5f60e6403b85f6263c14558c" }, // Beret (Black)
+          { "Item": "5f60e7788adaa7100c3adb49" }, // Beret (Blue)
+          { "Item": "5f60e784f2bcbb675b00dac7" }, // Beret (Olive Drab)
+          { "Item": "618aef6d0a5a59657e5f55ee" }, // Jack Pyke Hunting LLCS boonie hat
+          { "Item": "60b52e5bc7d8103275739d67" }, // Stich Profi Chimera boonie hat
+          { "Item": "5b4327aa5acfc400175496e0" }, // MIL-TEC boonie hat
+          { "Item": "5d96141523f0ea1b7f2aacab" }, // Door Kicker boonie hat
+          { "Item": "5bd073c986f7747f627e796c" }, // Kotton beanie
+          { "Item": "5f994730c91ed922dd355de3" }, // Rivals 2020 beanie
+          { "Item": "65749cb8e0423b9ebe0c79c9" }, // Gus baseball cap
+          { "Item": "60361a7497633951dc245eb4" }, // Army cap (Flora) (expensive)
+          { "Item": "603618feffd42c541047f771" }, // Army cap (Black) (expensive)
+          { "Item": "60bf74184a63fc79b60c57f6" }, // Bomber beanie
+          { "Item": "6937efd50543dcc2560a2c81" }, // New Year ushanka hat
+          { "Item": "6937f02dfd6488bb27024839" }, // Domontovich ushanka hat
+          { "Item": "68daab6d1e0a6a3f2f0db279" }, // EFT: ARENA baseball cap
+          { "Item": "68f263f099d2172e150d7ff8" }, // Baseball cap (EFT Patch)
+          { "Item": "65749ccf33fdc9c0cf06d3ca" }, // Basmach leather cap
+          { "Item": "628e4dd1f477aa12234918aa" }, // Big Pipe's bandana
+          { "Item": "60a7acf20c5cb24b01346648" }, // BOSS cap
+          { "Item": "5f99418230835532b445e954" }, // Rivals 2020 cap
+          // extremely expensive
+          { "Item": "6531119b9afebff7ff0a1769" }, // Vengeful Zryachiy's balaclava (folded)
+          { "Item": "636270263f2495c26f00b007" } // Zryachiy's balaclava (folded)
+        ]
       ]
     },
     "gambling_armor_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "Rewards": [
         // Scav Armor
         [
@@ -329,58 +1181,6 @@
                 "_tpl": "656fac30c6baea13cd07e10c",
                 "parentId": "6a0a25c9def64c5d34cc5d1f",
                 "slotId": "Back_plate"
-              }
-            ]
-          },
-          {
-            "Items": [
-              {
-                "_id": "6a0a25f2def64c5d34cc5f9e",
-                "_tpl": "5c0e51be86f774598e797894",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
-              },
-              {
-                "_id": "6a0a25f2def64c5d34cc5f9f",
-                "_tpl": "654a8b0b0337d53f9102c2ae",
-                "parentId": "6a0a25f2def64c5d34cc5f9e",
-                "slotId": "Soft_armor_front"
-              },
-              {
-                "_id": "6a0a25f2def64c5d34cc5fa0",
-                "_tpl": "654a8976f414fcea4004d78b",
-                "parentId": "6a0a25f2def64c5d34cc5f9e",
-                "slotId": "Soft_armor_back"
-              },
-              {
-                "_id": "6a0a25f2def64c5d34cc5fa1",
-                "_tpl": "654a8b3df414fcea4004d78f",
-                "parentId": "6a0a25f2def64c5d34cc5f9e",
-                "slotId": "Soft_armor_left"
-              },
-              {
-                "_id": "6a0a25f2def64c5d34cc5fa2",
-                "_tpl": "654a8b80f414fcea4004d797",
-                "parentId": "6a0a25f2def64c5d34cc5f9e",
-                "slotId": "soft_armor_right"
-              },
-              {
-                "_id": "6a0a25f2def64c5d34cc5fa3",
-                "_tpl": "654a8ae00337d53f9102c2aa",
-                "parentId": "6a0a25f2def64c5d34cc5f9e",
-                "slotId": "Collar"
-              },
-              {
-                "_id": "6a0a25f2def64c5d34cc5fa4",
-                "_tpl": "654a8bc5f414fcea4004d79b",
-                "parentId": "6a0a25f2def64c5d34cc5f9e",
-                "slotId": "Groin"
-              },
-              {
-                "_id": "6a0a2609def64c5d34cc5fa7",
-                "_tpl": "656f57dc27aed95beb08f628",
-                "parentId": "6a0a25f2def64c5d34cc5f9e",
-                "slotId": "Front_plate"
               }
             ]
           },
@@ -1325,6 +2125,218 @@
                 "slotId": "Groin_back"
               }
             ]
+          },
+          {
+            "Items": [
+              {
+                "_id": "6a2a6e1622ba2e2434322425",
+                "_tpl": "5c0e5edb86f77461f55ed1f7",
+                "parentId": "5fe49444ae6628187a2e78b8",
+                "slotId": "hideout"
+              },
+              {
+                "_id": "6a2a6e1622ba2e2434322426",
+                "_tpl": "6571dbd388ead79fcf091d71",
+                "parentId": "6a2a6e1622ba2e2434322425",
+                "slotId": "Soft_armor_front"
+              },
+              {
+                "_id": "6a2a6e1622ba2e2434322427",
+                "_tpl": "6571dbda88ead79fcf091d75",
+                "parentId": "6a2a6e1622ba2e2434322425",
+                "slotId": "Soft_armor_back"
+              },
+              {
+                "_id": "6a2a6e1622ba2e2434322428",
+                "_tpl": "6571dbe07c02ae206002502e",
+                "parentId": "6a2a6e1622ba2e2434322425",
+                "slotId": "Soft_armor_left"
+              },
+              {
+                "_id": "6a2a6e1622ba2e2434322429",
+                "_tpl": "6571dbeaee8ec43d520cf89e",
+                "parentId": "6a2a6e1622ba2e2434322425",
+                "slotId": "soft_armor_right"
+              },
+              {
+                "_id": "6a2a6e1622ba2e243432242a",
+                "_tpl": "6571dbef88ead79fcf091d79",
+                "parentId": "6a2a6e1622ba2e2434322425",
+                "slotId": "Collar"
+              },
+              {
+                "_id": "6a2a6e1622ba2e243432242b",
+                "_tpl": "656f57dc27aed95beb08f628",
+                "parentId": "6a2a6e1622ba2e2434322425",
+                "slotId": "Front_plate"
+              },
+              {
+                "_id": "6a2a6e1622ba2e243432242c",
+                "_tpl": "656fac30c6baea13cd07e10c",
+                "parentId": "6a2a6e1622ba2e2434322425",
+                "slotId": "Back_plate"
+              }
+            ]
+          },
+          {
+            "Items": [
+              {
+                "_id": "6a2a6e5f22ba2e243432242d",
+                "_tpl": "5c0e51be86f774598e797894",
+                "parentId": "5fe49444ae6628187a2e78b8",
+                "slotId": "hideout"
+              },
+              {
+                "_id": "6a2a6e5f22ba2e243432242e",
+                "_tpl": "654a8b0b0337d53f9102c2ae",
+                "parentId": "6a2a6e5f22ba2e243432242d",
+                "slotId": "Soft_armor_front"
+              },
+              {
+                "_id": "6a2a6e5f22ba2e243432242f",
+                "_tpl": "654a8976f414fcea4004d78b",
+                "parentId": "6a2a6e5f22ba2e243432242d",
+                "slotId": "Soft_armor_back"
+              },
+              {
+                "_id": "6a2a6e5f22ba2e2434322430",
+                "_tpl": "654a8b3df414fcea4004d78f",
+                "parentId": "6a2a6e5f22ba2e243432242d",
+                "slotId": "Soft_armor_left"
+              },
+              {
+                "_id": "6a2a6e5f22ba2e2434322431",
+                "_tpl": "654a8b80f414fcea4004d797",
+                "parentId": "6a2a6e5f22ba2e243432242d",
+                "slotId": "soft_armor_right"
+              },
+              {
+                "_id": "6a2a6e5f22ba2e2434322432",
+                "_tpl": "654a8ae00337d53f9102c2aa",
+                "parentId": "6a2a6e5f22ba2e243432242d",
+                "slotId": "Collar"
+              },
+              {
+                "_id": "6a2a6e5f22ba2e2434322433",
+                "_tpl": "654a8bc5f414fcea4004d79b",
+                "parentId": "6a2a6e5f22ba2e243432242d",
+                "slotId": "Groin"
+              },
+              {
+                "_id": "6a2a6e5f22ba2e2434322434",
+                "_tpl": "656f603f94b480b8a500c0d6",
+                "parentId": "6a2a6e5f22ba2e243432242d",
+                "slotId": "Front_plate"
+              },
+              {
+                "_id": "6a2a6e5f22ba2e2434322435",
+                "_tpl": "656efd66034e8e01c407f35c",
+                "parentId": "6a2a6e5f22ba2e243432242d",
+                "slotId": "Back_plate"
+              }
+            ]
+          },
+          {
+            "Items": [
+              {
+                "_id": "6a2a6eb122ba2e2434322436",
+                "_tpl": "59e7635f86f7742cbf2c1095",
+                "parentId": "5fe49444ae6628187a2e78b8",
+                "slotId": "hideout"
+              },
+              {
+                "_id": "6a2a6eb122ba2e2434322437",
+                "_tpl": "65702f87722744627e05cdb8",
+                "parentId": "6a2a6eb122ba2e2434322436",
+                "slotId": "Soft_armor_front"
+              },
+              {
+                "_id": "6a2a6eb122ba2e2434322438",
+                "_tpl": "65702fe593b7ea9c330f4ce8",
+                "parentId": "6a2a6eb122ba2e2434322436",
+                "slotId": "Soft_armor_back"
+              },
+              {
+                "_id": "6a2a6eb122ba2e2434322439",
+                "_tpl": "6570305d93b7ea9c330f4ced",
+                "parentId": "6a2a6eb122ba2e2434322436",
+                "slotId": "Soft_armor_left"
+              },
+              {
+                "_id": "6a2a6eb122ba2e243432243a",
+                "_tpl": "65703472c9030b928a0a8a78",
+                "parentId": "6a2a6eb122ba2e2434322436",
+                "slotId": "soft_armor_right"
+              }
+            ]
+          },
+          {
+            "Items": [
+              {
+                "_id": "6a2a6ec922ba2e24343231be",
+                "_tpl": "5c0e3eb886f7742015526062",
+                "parentId": "5fe49444ae6628187a2e78b8",
+                "slotId": "hideout"
+              },
+              {
+                "_id": "6a2a6ec922ba2e24343231bf",
+                "_tpl": "65764a4cd8537eb26a0355ee",
+                "parentId": "6a2a6ec922ba2e24343231be",
+                "slotId": "Soft_armor_front"
+              },
+              {
+                "_id": "6a2a6ec922ba2e24343231c0",
+                "_tpl": "65764bc22bc38ef78e076485",
+                "parentId": "6a2a6ec922ba2e24343231be",
+                "slotId": "Soft_armor_back"
+              },
+              {
+                "_id": "6a2a6ec922ba2e24343231c1",
+                "_tpl": "65764c39526e320fbe035777",
+                "parentId": "6a2a6ec922ba2e24343231be",
+                "slotId": "Collar"
+              },
+              {
+                "_id": "6a2a6ec922ba2e24343231c2",
+                "_tpl": "65764c6b526e320fbe03577b",
+                "parentId": "6a2a6ec922ba2e24343231be",
+                "slotId": "Groin"
+              }
+            ]
+          },
+          {
+            "Items": [
+              {
+                "_id": "6a2a6edf22ba2e24343231c8",
+                "_tpl": "5d5d646386f7742797261fd9",
+                "parentId": "5fe49444ae6628187a2e78b8",
+                "slotId": "hideout"
+              },
+              {
+                "_id": "6a2a6edf22ba2e24343231c9",
+                "_tpl": "65764e1e2bc38ef78e076489",
+                "parentId": "6a2a6edf22ba2e24343231c8",
+                "slotId": "Soft_armor_front"
+              },
+              {
+                "_id": "6a2a6edf22ba2e24343231ca",
+                "_tpl": "65764fae2bc38ef78e07648d",
+                "parentId": "6a2a6edf22ba2e24343231c8",
+                "slotId": "Soft_armor_back"
+              },
+              {
+                "_id": "6a2a6edf22ba2e24343231cb",
+                "_tpl": "6576504b526e320fbe035783",
+                "parentId": "6a2a6edf22ba2e24343231c8",
+                "slotId": "Groin"
+              },
+              {
+                "_id": "6a2a6edf22ba2e24343231cc",
+                "_tpl": "6576500f526e320fbe03577f",
+                "parentId": "6a2a6edf22ba2e24343231c8",
+                "slotId": "Groin_back"
+              }
+            ]
           }
         ],
         // Early Game Armor
@@ -1334,8 +2346,8 @@
               {
                 "_id": "6a2899be38f5bd4d24354797",
                 "_tpl": "5c0e51be86f774598e797894",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a2899be38f5bd4d24354798",
@@ -1392,8 +2404,8 @@
               {
                 "_id": "6a2899c138f5bd4d243547a0",
                 "_tpl": "5df8a2ca86f7740bfe6df777",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
               },
               {
                 "_id": "6a2899c138f5bd4d243547a2",
@@ -1414,8 +2426,8 @@
               {
                 "_id": "6a2899c638f5bd4d243547a4",
                 "_tpl": "5c0e5bab86f77461f55ed1f3",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a2899c638f5bd4d243547a6",
@@ -1470,74 +2482,10 @@
           {
             "Items": [
               {
-                "_id": "6a2899ca38f5bd4d243547ae",
-                "_tpl": "5c0e57ba86f7747fa141986d",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
-              },
-              {
-                "_id": "6a2899ca38f5bd4d243547af",
-                "_tpl": "65707fc348c7a887f2010432",
-                "parentId": "6a2899ca38f5bd4d243547ae",
-                "slotId": "Soft_armor_front"
-              },
-              {
-                "_id": "6a2899ca38f5bd4d243547b0",
-                "_tpl": "6570800612755ae0d907acf8",
-                "parentId": "6a2899ca38f5bd4d243547ae",
-                "slotId": "Soft_armor_back"
-              },
-              {
-                "_id": "6a2899ca38f5bd4d243547b1",
-                "_tpl": "65708070f65e2491bf00972c",
-                "parentId": "6a2899ca38f5bd4d243547ae",
-                "slotId": "Soft_armor_left"
-              },
-              {
-                "_id": "6a2899ca38f5bd4d243547b2",
-                "_tpl": "657080a212755ae0d907ad04",
-                "parentId": "6a2899ca38f5bd4d243547ae",
-                "slotId": "soft_armor_right"
-              },
-              {
-                "_id": "6a2899ca38f5bd4d243547b3",
-                "_tpl": "657080ca12755ae0d907ad5e",
-                "parentId": "6a2899ca38f5bd4d243547ae",
-                "slotId": "Collar"
-              },
-              {
-                "_id": "6a2899ca38f5bd4d243547b4",
-                "_tpl": "65708122f65e2491bf009755",
-                "parentId": "6a2899ca38f5bd4d243547ae",
-                "slotId": "Groin"
-              },
-              {
-                "_id": "6a2899ca38f5bd4d243547b5",
-                "_tpl": "65708165696fe382cf073255",
-                "parentId": "6a2899ca38f5bd4d243547ae",
-                "slotId": "Groin_back"
-              },
-              {
-                "_id": "6a2899ca38f5bd4d243547b6",
-                "_tpl": "656f603f94b480b8a500c0d6",
-                "parentId": "6a2899ca38f5bd4d243547ae",
-                "slotId": "Front_plate"
-              },
-              {
-                "_id": "6a2899ca38f5bd4d243547b7",
-                "_tpl": "657b22485f444d6dff0c6c2f",
-                "parentId": "6a2899ca38f5bd4d243547ae",
-                "slotId": "Back_plate"
-              }
-            ]
-          },
-          {
-            "Items": [
-              {
                 "_id": "6a2899d938f5bd4d243547b8",
                 "_tpl": "5b44d22286f774172b0c9de8",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a2899d938f5bd4d243547ba",
@@ -1588,8 +2536,8 @@
               {
                 "_id": "6a2899e638f5bd4d243547c9",
                 "_tpl": "59e7635f86f7742cbf2c1095",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
               },
               {
                 "_id": "6a2899e638f5bd4d243547ca",
@@ -1622,8 +2570,8 @@
               {
                 "_id": "6a2899eb38f5bd4d243547ce",
                 "_tpl": "5c0e5edb86f77461f55ed1f7",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a2899eb38f5bd4d243547cf",
@@ -1800,8 +2748,8 @@
               {
                 "_id": "6a289a0938f5bd4d243547e9",
                 "_tpl": "5ab8e4ed86f7742d8e50c7fa",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
               },
               {
                 "_id": "6a289a0938f5bd4d243547ea",
@@ -1834,8 +2782,8 @@
               {
                 "_id": "6a289a1338f5bd4d243547ee",
                 "_tpl": "609e8540d5c319764c2bc2e9",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a289a1338f5bd4d243547ef",
@@ -1926,8 +2874,8 @@
               {
                 "_id": "6a289a1d38f5bd4d243547fc",
                 "_tpl": "64be79c487d1510151095552",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
               },
               {
                 "_id": "6a289a1d38f5bd4d243547fd",
@@ -1948,8 +2896,8 @@
               {
                 "_id": "6a289a1f38f5bd4d243547ff",
                 "_tpl": "64be79e2bf8412471d0d9bcc",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
               },
               {
                 "_id": "6a289a1f38f5bd4d24354800",
@@ -1970,8 +2918,8 @@
               {
                 "_id": "6a289a2538f5bd4d24354802",
                 "_tpl": "5648a7494bdc2d9d488b4583",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
               },
               {
                 "_id": "6a289a2538f5bd4d24354804",
@@ -2042,14 +2990,14 @@
                 "slotId": "hideout"
               },
               {
-                "_id": "6a289a6438f5bd4d243555b7",
-                "_tpl": "6943c85be2f21398e70378cc",
+                "_id": "6a2a703722ba2e243432718f",
+                "_tpl": "656fac30c6baea13cd07e10c",
                 "parentId": "6a289a6438f5bd4d243555b6",
                 "slotId": "Front_plate"
               },
               {
-                "_id": "6a289a6438f5bd4d243555b8",
-                "_tpl": "6943c85be2f21398e70378cc",
+                "_id": "6a2a703922ba2e2434327190",
+                "_tpl": "656fac30c6baea13cd07e10c",
                 "parentId": "6a289a6438f5bd4d243555b6",
                 "slotId": "Back_plate"
               }
@@ -2064,14 +3012,14 @@
                 "slotId": "hideout"
               },
               {
-                "_id": "6a289a6638f5bd4d2435582f",
-                "_tpl": "6943c85be2f21398e70378cc",
+                "_id": "6a2a703622ba2e243432718d",
+                "_tpl": "656fac30c6baea13cd07e10c",
                 "parentId": "6a289a6638f5bd4d2435582e",
                 "slotId": "Front_plate"
               },
               {
-                "_id": "6a289a6638f5bd4d24355830",
-                "_tpl": "6943c85be2f21398e70378cc",
+                "_id": "6a2a703622ba2e243432718e",
+                "_tpl": "656fac30c6baea13cd07e10c",
                 "parentId": "6a289a6638f5bd4d2435582e",
                 "slotId": "Back_plate"
               }
@@ -2452,16 +3400,6 @@
           {
             "Items": [
               {
-                "_id": "6a289ce038f5bd4d2435ced9",
-                "_tpl": "66b6295a8ca68c6461709efa",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
-              }
-            ]
-          },
-          {
-            "Items": [
-              {
                 "_id": "6a289cf638f5bd4d2435ceda",
                 "_tpl": "64a536392d2c4e6e970f4121",
                 "parentId": "5fe49444ae6628187a2e78b8",
@@ -2498,8 +3436,8 @@
               {
                 "_id": "6a289d1838f5bd4d2435dc4e",
                 "_tpl": "5df8a2ca86f7740bfe6df777",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
               },
               {
                 "_id": "6a289d1838f5bd4d2435dc50",
@@ -2520,8 +3458,8 @@
               {
                 "_id": "6a289d1d38f5bd4d2435dc52",
                 "_tpl": "609e8540d5c319764c2bc2e9",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a289d1d38f5bd4d2435dc53",
@@ -2566,8 +3504,8 @@
               {
                 "_id": "6a289d2038f5bd4d2435dc59",
                 "_tpl": "5b44d22286f774172b0c9de8",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a289d2038f5bd4d2435dc5b",
@@ -2618,8 +3556,8 @@
               {
                 "_id": "6a289d2538f5bd4d2435dc62",
                 "_tpl": "5c0e5bab86f77461f55ed1f3",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a289d2538f5bd4d2435dc63",
@@ -2676,8 +3614,8 @@
               {
                 "_id": "6a289d2d38f5bd4d2435dc6b",
                 "_tpl": "5c0e51be86f774598e797894",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a289d2d38f5bd4d2435dc6c",
@@ -2734,8 +3672,8 @@
               {
                 "_id": "6a289d2e38f5bd4d2435dc74",
                 "_tpl": "5c0e51be86f774598e797894",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a289d2e38f5bd4d2435dc75",
@@ -2792,8 +3730,8 @@
               {
                 "_id": "6a289d3238f5bd4d2435dc7d",
                 "_tpl": "5c0e5bab86f77461f55ed1f3",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a289d3238f5bd4d2435dc7f",
@@ -2850,8 +3788,8 @@
               {
                 "_id": "6a289d5038f5bd4d2435df24",
                 "_tpl": "5c0e57ba86f7747fa141986d",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a289d5038f5bd4d2435df25",
@@ -2914,8 +3852,8 @@
               {
                 "_id": "6a289d5c38f5bd4d2435eedb",
                 "_tpl": "67ab2f28dafe3b22670c9116",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a289d5c38f5bd4d2435eedc",
@@ -2966,8 +3904,8 @@
               {
                 "_id": "6a289d5e38f5bd4d2435eee3",
                 "_tpl": "67ab2f28dafe3b22670c9116",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a289d5e38f5bd4d2435eee4",
@@ -3018,8 +3956,8 @@
               {
                 "_id": "6a289d8d38f5bd4d2435eef0",
                 "_tpl": "59e7635f86f7742cbf2c1095",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
               },
               {
                 "_id": "6a289d8d38f5bd4d2435eef1",
@@ -3052,8 +3990,8 @@
               {
                 "_id": "6a289dbd38f5bd4d2435fd2e",
                 "_tpl": "5648a7494bdc2d9d488b4583",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
               },
               {
                 "_id": "6a289dbd38f5bd4d2435fd2f",
@@ -3086,8 +4024,8 @@
               {
                 "_id": "6a289dbe38f5bd4d2435fd33",
                 "_tpl": "5648a7494bdc2d9d488b4583",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
               },
               {
                 "_id": "6a289dbe38f5bd4d2435fd34",
@@ -3120,8 +4058,8 @@
               {
                 "_id": "6a289dc338f5bd4d2435fd38",
                 "_tpl": "5648a7494bdc2d9d488b4583",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
               },
               {
                 "_id": "6a289dc338f5bd4d2435fd39",
@@ -3154,8 +4092,8 @@
               {
                 "_id": "6a289dc738f5bd4d2435fd3d",
                 "_tpl": "5648a7494bdc2d9d488b4583",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
               },
               {
                 "_id": "6a289dc738f5bd4d2435fd3f",
@@ -3188,8 +4126,8 @@
               {
                 "_id": "6a289dce38f5bd4d2435fd43",
                 "_tpl": "5c0e5edb86f77461f55ed1f7",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a289dce38f5bd4d2435fd44",
@@ -3240,8 +4178,8 @@
               {
                 "_id": "6a289dcf38f5bd4d2435fd4b",
                 "_tpl": "5c0e5edb86f77461f55ed1f7",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a71c422ba2e243432beb1",
+                "slotId": "main"
               },
               {
                 "_id": "6a289dcf38f5bd4d2435fd4c",
@@ -3284,40 +4222,6 @@
                 "_tpl": "656fac30c6baea13cd07e10c",
                 "parentId": "6a289dcf38f5bd4d2435fd4b",
                 "slotId": "Back_plate"
-              }
-            ]
-          },
-          {
-            "Items": [
-              {
-                "_id": "6a289dda38f5bd4d2435fd53",
-                "_tpl": "59e7635f86f7742cbf2c1095",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
-              },
-              {
-                "_id": "6a289dda38f5bd4d2435fd54",
-                "_tpl": "65702f87722744627e05cdb8",
-                "parentId": "6a289dda38f5bd4d2435fd53",
-                "slotId": "Soft_armor_front"
-              },
-              {
-                "_id": "6a289dda38f5bd4d2435fd55",
-                "_tpl": "65702fe593b7ea9c330f4ce8",
-                "parentId": "6a289dda38f5bd4d2435fd53",
-                "slotId": "Soft_armor_back"
-              },
-              {
-                "_id": "6a289dda38f5bd4d2435fd56",
-                "_tpl": "6570305d93b7ea9c330f4ced",
-                "parentId": "6a289dda38f5bd4d2435fd53",
-                "slotId": "Soft_armor_left"
-              },
-              {
-                "_id": "6a289dda38f5bd4d2435fd57",
-                "_tpl": "65703472c9030b928a0a8a78",
-                "parentId": "6a289dda38f5bd4d2435fd53",
-                "slotId": "soft_armor_right"
               }
             ]
           },
@@ -3424,8 +4328,8 @@
               {
                 "_id": "6a289e4338f5bd4d24361ca1",
                 "_tpl": "64be79c487d1510151095552",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
               },
               {
                 "_id": "6a289e4338f5bd4d24361ca2",
@@ -3446,8 +4350,8 @@
               {
                 "_id": "6a289e4838f5bd4d24361ca4",
                 "_tpl": "64be79e2bf8412471d0d9bcc",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
               },
               {
                 "_id": "6a289e4838f5bd4d24361ca5",
@@ -3502,8 +4406,8 @@
               {
                 "_id": "6a289e9f38f5bd4d24362a77",
                 "_tpl": "5ab8e4ed86f7742d8e50c7fa",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
               },
               {
                 "_id": "6a289e9f38f5bd4d24362a79",
@@ -3632,40 +4536,6 @@
           {
             "Items": [
               {
-                "_id": "6a289ee238f5bd4d243638b0",
-                "_tpl": "5c0e446786f7742013381639",
-                "parentId": "5fe49444ae6628187a2e78b8",
-                "slotId": "hideout"
-              },
-              {
-                "_id": "6a289ee238f5bd4d243638b1",
-                "_tpl": "657087577f6d4590ac0d2109",
-                "parentId": "6a289ee238f5bd4d243638b0",
-                "slotId": "Soft_armor_front"
-              },
-              {
-                "_id": "6a289ee238f5bd4d243638b2",
-                "_tpl": "6570880f4a747dbb63005ee5",
-                "parentId": "6a289ee238f5bd4d243638b0",
-                "slotId": "Soft_armor_back"
-              },
-              {
-                "_id": "6a289ee238f5bd4d243638b3",
-                "_tpl": "65708afe4a747dbb63005eee",
-                "parentId": "6a289ee238f5bd4d243638b0",
-                "slotId": "Collar"
-              },
-              {
-                "_id": "6a289ee238f5bd4d243638b4",
-                "_tpl": "65708b4c4a747dbb63005ef3",
-                "parentId": "6a289ee238f5bd4d243638b0",
-                "slotId": "Groin"
-              }
-            ]
-          },
-          {
-            "Items": [
-              {
                 "_id": "6a289ee638f5bd4d243638b5",
                 "_tpl": "5d5d646386f7742797261fd9",
                 "parentId": "5fe49444ae6628187a2e78b8",
@@ -3700,34 +4570,158 @@
           {
             "Items": [
               {
-                "_id": "6a289f0538f5bd4d243638ba",
+                "_id": "6a2a717822ba2e243432ad1d",
+                "_tpl": "64be79e2bf8412471d0d9bcc",
+                "parentId": "6a2a714c22ba2e243432ad1c",
+                "slotId": "main"
+              },
+              {
+                "_id": "6a2a717822ba2e243432ad1e",
+                "_tpl": "6570495b45d573133d0d6adb",
+                "parentId": "6a2a717822ba2e243432ad1d",
+                "slotId": "Soft_armor_front"
+              },
+              {
+                "_id": "6a2a717822ba2e243432ad1f",
+                "_tpl": "657049d23425b19bbc0502f0",
+                "parentId": "6a2a717822ba2e243432ad1d",
+                "slotId": "Soft_armor_back"
+              }
+            ]
+          },
+          {
+            "Items": [
+              {
+                "_id": "6a2a721a22ba2e243432cda0",
                 "_tpl": "5d5d646386f7742797261fd9",
                 "parentId": "5fe49444ae6628187a2e78b8",
                 "slotId": "hideout"
               },
               {
-                "_id": "6a289f0538f5bd4d243638bb",
+                "_id": "6a2a721a22ba2e243432cda1",
                 "_tpl": "65764e1e2bc38ef78e076489",
-                "parentId": "6a289f0538f5bd4d243638ba",
+                "parentId": "6a2a721a22ba2e243432cda0",
                 "slotId": "Soft_armor_front"
               },
               {
-                "_id": "6a289f0538f5bd4d243638bc",
+                "_id": "6a2a721a22ba2e243432cda2",
                 "_tpl": "65764fae2bc38ef78e07648d",
-                "parentId": "6a289f0538f5bd4d243638ba",
+                "parentId": "6a2a721a22ba2e243432cda0",
                 "slotId": "Soft_armor_back"
               },
               {
-                "_id": "6a289f0538f5bd4d243638bd",
+                "_id": "6a2a721a22ba2e243432cda3",
                 "_tpl": "6576504b526e320fbe035783",
-                "parentId": "6a289f0538f5bd4d243638ba",
+                "parentId": "6a2a721a22ba2e243432cda0",
                 "slotId": "Groin"
               },
               {
-                "_id": "6a289f0538f5bd4d243638be",
+                "_id": "6a2a721a22ba2e243432cda4",
                 "_tpl": "6576500f526e320fbe03577f",
-                "parentId": "6a289f0538f5bd4d243638ba",
+                "parentId": "6a2a721a22ba2e243432cda0",
                 "slotId": "Groin_back"
+              }
+            ]
+          },
+          {
+            "Items": [
+              {
+                "_id": "6a2a721b22ba2e243432cda5",
+                "_tpl": "5d5d646386f7742797261fd9",
+                "parentId": "5fe49444ae6628187a2e78b8",
+                "slotId": "hideout"
+              },
+              {
+                "_id": "6a2a721b22ba2e243432cda6",
+                "_tpl": "65764e1e2bc38ef78e076489",
+                "parentId": "6a2a721b22ba2e243432cda5",
+                "slotId": "Soft_armor_front"
+              },
+              {
+                "_id": "6a2a721b22ba2e243432cda7",
+                "_tpl": "65764fae2bc38ef78e07648d",
+                "parentId": "6a2a721b22ba2e243432cda5",
+                "slotId": "Soft_armor_back"
+              },
+              {
+                "_id": "6a2a721b22ba2e243432cda8",
+                "_tpl": "6576504b526e320fbe035783",
+                "parentId": "6a2a721b22ba2e243432cda5",
+                "slotId": "Groin"
+              },
+              {
+                "_id": "6a2a721b22ba2e243432cda9",
+                "_tpl": "6576500f526e320fbe03577f",
+                "parentId": "6a2a721b22ba2e243432cda5",
+                "slotId": "Groin_back"
+              }
+            ]
+          },
+          {
+            "Items": [
+              {
+                "_id": "6a2a723c22ba2e243432cdaa",
+                "_tpl": "5c0e446786f7742013381639",
+                "parentId": "5fe49444ae6628187a2e78b8",
+                "slotId": "hideout"
+              },
+              {
+                "_id": "6a2a723c22ba2e243432cdab",
+                "_tpl": "657087577f6d4590ac0d2109",
+                "parentId": "6a2a723c22ba2e243432cdaa",
+                "slotId": "Soft_armor_front"
+              },
+              {
+                "_id": "6a2a723c22ba2e243432cdac",
+                "_tpl": "6570880f4a747dbb63005ee5",
+                "parentId": "6a2a723c22ba2e243432cdaa",
+                "slotId": "Soft_armor_back"
+              },
+              {
+                "_id": "6a2a723c22ba2e243432cdad",
+                "_tpl": "65708afe4a747dbb63005eee",
+                "parentId": "6a2a723c22ba2e243432cdaa",
+                "slotId": "Collar"
+              },
+              {
+                "_id": "6a2a723c22ba2e243432cdae",
+                "_tpl": "65708b4c4a747dbb63005ef3",
+                "parentId": "6a2a723c22ba2e243432cdaa",
+                "slotId": "Groin"
+              }
+            ]
+          },
+          {
+            "Items": [
+              {
+                "_id": "6a2a723d22ba2e243432dc79",
+                "_tpl": "5c0e446786f7742013381639",
+                "parentId": "5fe49444ae6628187a2e78b8",
+                "slotId": "hideout"
+              },
+              {
+                "_id": "6a2a723d22ba2e243432dc7a",
+                "_tpl": "657087577f6d4590ac0d2109",
+                "parentId": "6a2a723d22ba2e243432dc79",
+                "slotId": "Soft_armor_front"
+              },
+              {
+                "_id": "6a2a723d22ba2e243432dc7b",
+                "_tpl": "6570880f4a747dbb63005ee5",
+                "parentId": "6a2a723d22ba2e243432dc79",
+                "slotId": "Soft_armor_back"
+              },
+              {
+                "_id": "6a2a723d22ba2e243432dc7c",
+                "_tpl": "65708afe4a747dbb63005eee",
+                "parentId": "6a2a723d22ba2e243432dc79",
+                "slotId": "Collar"
+              },
+              {
+                "_id": "6a2a723d22ba2e243432dc7d",
+                "_tpl": "65708b4c4a747dbb63005ef3",
+                "parentId": "6a2a723d22ba2e243432dc79",
+                "slotId": "Groin"
               }
             ]
           }
@@ -10183,7 +11177,7 @@
       ]
     },
     "gambling_helmet_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "Rewards": [
         // Late Game Helmets
         [
@@ -16962,7 +17956,7 @@
       ]
     },
     "gambling_weapon_mystery_box": {
-      "RewardType": "preset",
+      "RewardType": "Preset",
       "Rewards": [
         // Late Game Weapons
         [

@@ -12,14 +12,25 @@ class GamblerTraderHelper(GamblerData gamblerData)
         foreach (var (name, props) in gamblerData.lootBoxInfo.Items)
         {
             gamblerData.logger.Info($"Adding {name} to trader with id {traderId}");
-            if (gamblerData.config.Items[name].sold_by_trader)
+            var itemProps = gamblerData.config.Items[name];
+            if (itemProps.sold_by_trader)
             {
-                gamblerData.assortCreator.CreateSingleAssortItem(props._id)
+                var newItem = gamblerData.assortCreator.CreateSingleAssortItem(props._id)
                     .AddUnlimitedStackCount()
-                    .AddBuyRestriction(gamblerData.config.Items[name].trader_stock)
-                    .AddMoneyCost(Money.ROUBLES, gamblerData.config.Items[name].trader_price_roubles)
-                    .AddLoyaltyLevel(gamblerData.config.Items[name].loyalty_level)
-                    .Export(traderId);
+                    .AddBuyRestriction(itemProps.trader_stock)
+                    .AddLoyaltyLevel(itemProps.loyalty_level);
+                if (itemProps.barter is not null)
+                {
+                    foreach (var (item, amount) in itemProps.barter)
+                    {
+                        newItem.AddBarterCost(item, amount);
+                    }
+                }
+                else
+                {
+                    newItem.AddMoneyCost(Money.ROUBLES, itemProps.trader_price_roubles);
+                }
+                newItem.Export(traderId);
             }
         }
 

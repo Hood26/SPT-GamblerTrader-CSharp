@@ -19,5 +19,6 @@ public class ConfigProps
     public int trader_stock { get; set; }
     public int loyalty_level { get; set; }
     public float profit_percentage { get; set; }
+    public Dictionary<string, int>? barter {get; set;}
     public required Dictionary<string, float> odds { get; set; }
 }
