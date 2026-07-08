@@ -24,7 +24,7 @@ using SPTarkov.Server.Core.Services.Mod;
 namespace SPT_GamblerTrader_CSharp;
 
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 15)]
+[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 25)]
 public class GamblerTrader(
     ISptLogger<GamblerTrader> logger,
     ModHelper modHelper,

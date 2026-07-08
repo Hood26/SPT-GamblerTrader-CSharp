@@ -1,5 +1,305 @@
 {
     "Items": {
+      "gambling_7.62x25": {
+        "_id": "67b7b98b4767af842e052000",
+        "_name": "gambling_7.62x25",
+        "prefab": "assets/content/items/ammo/patrons/patron_762x25tt_pst_gzh.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 7.62x25 Rounds",
+        "shortName": "7.62x25",
+        "desc": "Test"
+      },
+      "gambling_9x18": {
+        "_id": "67b7b98b4767af842e052001",
+        "_name": "gambling_9x18",
+        "prefab": "assets/content/items/ammo/patrons/patron_9x18pm_pbm.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 9x18 Rounds",
+        "shortName": "9x18",
+        "desc": "Test"
+      },
+      "gambling_9x19": {
+        "_id": "67b7b98b4767af842e052002",
+        "_name": "gambling_9x19",
+        "prefab": "assets/content/items/ammo/patrons/patron_9x19_7n31.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 9x19 Rounds",
+        "shortName": "9x19",
+        "desc": "A PMC can never have enough ammo! Gamble your roubles for a chance at better Ammunition!\n==============================\nCommon Rounds - {Common Rounds}%\nUncommon Rounds - {Uncommon Rounds}%\nRare Rounds - {Rare Rounds}%"
+      },
+      "gambling_9x21": {
+        "_id": "67b7b98b4767af842e052003",
+        "_name": "gambling_9x21",
+        "prefab": "assets/content/items/ammo/patrons/patron_9x21_7n42.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 9x21 Rounds",
+        "shortName": "9x21",
+        "desc": "Test"
+      },
+      "gambling_.357": {
+        "_id": "67b7b98b4767af842e052004",
+        "_name": "gambling_.357",
+        "prefab": "assets/content/items/ammo/patrons/patron_9x33r_fmj.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery .357 Rounds",
+        "shortName": ".357",
+        "desc": "Test"
+      },
+      "gambling_.45": {
+        "_id": "67b7b98b4767af842e052005",
+        "_name": "gambling_.45",
+        "prefab": "assets/content/items/ammo/patrons/patron_1143x23_acp_ap.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery .45 ACP Rounds",
+        "shortName": ".45",
+        "desc": "Test"
+      },
+      "gambling_.50_Action": {
+        "_id": "67b7b98b4767af842e052006",
+        "_name": "gambling_.50_Action",
+        "prefab": "assets/content/items/ammo/patrons/patron_127x33_fmj.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery .50 Action Express Rounds",
+        "shortName": ".50 Action",
+        "desc": "Test"
+      },
+      "gambling_4.6x30": {
+        "_id": "67b7b98b4767af842e052007",
+        "_name": "gambling_4.6x30",
+        "prefab": "assets/content/items/ammo/patrons/patron_46x30_ap_sx.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 4.6x30mm HK Rounds",
+        "shortName": "4.6x30",
+        "desc": "Test"
+      },
+      "gambling_5.7x28": {
+        "_id": "67b7b98b4767af842e052008",
+        "_name": "gambling_5.7x28",
+        "prefab": "assets/content/items/ammo/patrons/patron_57x28_ss190.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 5.7x28mm FN Rounds",
+        "shortName": "5.7x28",
+        "desc": "Test"
+      },
+      "gambling_5.45x39": {
+        "_id": "67b7b98b4767af842e052009",
+        "_name": "gambling_5.45x39",
+        "prefab": "assets/content/items/ammo/patrons/patron_545x39_bs.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 5.45x39mm Rounds",
+        "shortName": "5.45x39",
+        "desc": "Test"
+      },
+      "gambling_5.56x45": {
+        "_id": "67b7b98b4767af842e05200a",
+        "_name": "gambling_5.56x45",
+        "prefab": "assets/content/items/ammo/patrons/patron_556x45_m995.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 5.56x45mm NATO Rounds",
+        "shortName": "5.56x45",
+        "desc": "Test"
+      },
+      "gambling_6.8x51": {
+        "_id": "67b7b98b4767af842e05200b",
+        "_name": "gambling_6.8x51",
+        "prefab": "assets/content/items/ammo/patrons/patron_68x51.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 6.8x51mm Rounds",
+        "shortName": "6.8x51",
+        "desc": "Test"
+      },
+      "gambling_.300": {
+        "_id": "67b7b98b4767af842e05200c",
+        "_name": "gambling_.300",
+        "prefab": "assets/content/items/ammo/patrons/patron_762x35_ap.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery .300 Blackout Rounds",
+        "shortName": ".300",
+        "desc": "Test"
+      },
+      "gambling_7.62x39": {
+        "_id": "67b7b98b4767af842e05200d",
+        "_name": "gambling_7.62x39",
+        "prefab": "assets/content/items/ammo/patrons/patron_762x39_bp.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 7.62x39mm Rounds",
+        "shortName": "7.62x39",
+        "desc": "Test"
+      },
+      "gambling_7.62x51": {
+        "_id": "67b7b98b4767af842e05200e",
+        "_name": "gambling_7.62x51",
+        "prefab": "assets/content/items/ammo/patrons/patron_762x51.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 7.62x51mm NATO Rounds",
+        "shortName": "7.62x51",
+        "desc": "Test"
+      },
+      "gambling_7.62x54": {
+        "_id": "67b7b98b4767af842e05200f",
+        "_name": "gambling_7.62x54",
+        "prefab": "assets/content/items/ammo/patrons/patron_762x54r_7n14.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 7.62x54mmR Rounds",
+        "shortName": "7.62x54",
+        "desc": "Test"
+      },
+      "gambling_.338": {
+        "_id": "67b7b98b4767af842e052011",
+        "_name": "gambling_.338",
+        "prefab": "assets/content/items/ammo/patrons/patron_86x70_lapua_magnum.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery .338 Lapua Magnum Rounds",
+        "shortName": ".338",
+        "desc": "Test"
+      },
+      "gambling_9x39": {
+        "_id": "67b7b98b4767af842e052012",
+        "_name": "gambling_9x39",
+        "prefab": "assets/content/items/ammo/patrons/patron_9x39_pab9.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 9x39mm Rounds",
+        "shortName": "9x39",
+        "desc": "Test"
+      },
+      "gambling_.366": {
+        "_id": "67b7b98b4767af842e052013",
+        "_name": "gambling_.366",
+        "prefab": "assets/content/items/ammo/patrons/patron_366_custom_ap.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery .366 TKM Rounds",
+        "shortName": ".366",
+        "desc": "Test"
+      },
+      "gambling_12.7x55": {
+        "_id": "67b7b98b4767af842e052014",
+        "_name": "gambling_12.7x55",
+        "prefab": "assets/content/items/ammo/patrons/patron_12,7x55_ps12b.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 12.7x55mm Rounds",
+        "shortName": "12.7x55",
+        "desc": "Test"
+      },
+      "gambling_.50_BMG": {
+        "_id": "67b7b98b4767af842e052015",
+        "_name": "gambling_.50_BMG",
+        "prefab": "assets/content/items/ammo/patrons/patron_127x99_m903.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery .50 BMG Rounds",
+        "shortName": ".50 BMG",
+        "desc": "Test"
+      },
+      "gambling_12/70": {
+        "_id": "67b7b98b4767af842e052016",
+        "_name": "gambling_12/70",
+        "prefab": "assets/content/items/ammo/patrons/patron_12x70.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 12/70 Rounds",
+        "shortName": "12/70",
+        "desc": "Test"
+      },
+      "gambling_20/70": {
+        "_id": "67b7b98b4767af842e052017",
+        "_name": "gambling_20/70",
+        "prefab": "assets/content/items/ammo/patrons/patron_20x70.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 20/70 Rounds",
+        "shortName": "20/70",
+        "desc": "Test"
+      },
+      "gambling_23x75": {
+        "_id": "67b7b98b4767af842e052018",
+        "_name": "gambling_23x75",
+        "prefab": "assets/content/items/ammo/patrons/patron_23x75_shrapnel_25.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery 23x75 Rounds",
+        "shortName": "23x75",
+        "desc": "Test"
+      },
+      "gambling_rounds": {
+        "_id": "67b7b98b4767af842e052019",
+        "_name": "gambling_rounds",
+        "prefab": "assets/content/items/ammo/boxes/item_ammo_box_545x39_30.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery Random Rounds (30 Count)",
+        "shortName": "Random Rounds",
+        "desc": "Test"
+      },
+      "gambling_pistol_rounds": {
+        "_id": "67b7b98b4767af842e05202a",
+        "_name": "gambling_pistol_rounds",
+        "prefab": "assets/content/items/ammo/boxes/item_ammo_box_9x18pm_16.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery Pistol Rounds",
+        "shortName": "Pistol",
+        "desc": "Test"
+      },
+      "gambling_shotgun_rounds": {
+        "_id": "67b7b98b4767af842e05202b",
+        "_name": "gambling_shotgun_rounds",
+        "prefab": "assets/content/items/ammo/boxes/item_ammo_box_12_70.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery Shotgun Rounds",
+        "shortName": "Shotgun",
+        "desc": "Test"
+      },
+      "gambling_submachine_gun_rounds": {
+        "_id": "67b7b98b4767af842e05202c",
+        "_name": "gambling_submachine_gun_rounds",
+        "prefab": "assets/content/items/ammo/boxes/item_ammo_box_5_7x28mm.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery Submachine Gun Rounds",
+        "shortName": "SMG",
+        "desc": "Test"
+      },
+      "gambling_assault_rifle_rounds": {
+        "_id": "67b7b98b4767af842e05202d",
+        "_name": "gambling_assault_rifle_rounds",
+        "prefab": "assets/content/items/ammo/boxes/item_ammo_box_5_56x45mm_100_crtg.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery Assault Rifle Rounds",
+        "shortName": "AR",
+        "desc": "Test"
+      },
+      "gambling_sniper_rifle_rounds": {
+        "_id": "67b7b98b4767af842e05202e",
+        "_name": "gambling_sniper_rifle_rounds",
+        "prefab": "assets/content/items/ammo/boxes/item_ammo_box_7_62x54mm_r.bundle",
+        "width": 1,
+        "height": 1,
+        "name": "Mystery Sniper Rifle Rounds",
+        "shortName": "Sniper",
+        "desc": "Test"
+      },
       "gambling_wallet": {
         "_id": "67b7b98b4767af842e0521e5",
         "_name": "gambling_wallet",
@@ -13,7 +313,7 @@
       "gambling_coinflip_25k_roubles": {
         "_id": "67b7b98b4767af842e0521e6",
         "_name": "gambling_coinflip_25k_roubles",
-        "prefab": "assets/content/items/barter/wallet/item_wallet.bundle",
+        "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
         "width": 1,
         "height": 1,
         "name": "Coinflip 25k Roubles",
@@ -23,7 +323,7 @@
       "gambling_coinflip_50k_roubles": {
         "_id": "67b7b98b4767af842e0521e7",
         "_name": "gambling_coinflip_50k_roubles",
-        "prefab": "assets/content/items/barter/wallet/item_wallet.bundle",
+        "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
         "width": 1,
         "height": 1,
         "name": "Coinflip 50k Roubles",
@@ -33,7 +333,7 @@
       "gambling_coinflip_100k_roubles": {
         "_id": "67b7b98b4767af842e0521e8",
         "_name": "gambling_coinflip_100k_roubles",
-        "prefab": "assets/content/items/barter/wallet/item_wallet.bundle",
+        "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
         "width": 1,
         "height": 1,
         "name": "Coinflip 100k Roubles",
@@ -43,7 +343,7 @@
       "gambling_coinflip_250k_roubles": {
         "_id": "67b7b98b4767af842e0521e9",
         "_name": "gambling_coinflip_250k_roubles",
-        "prefab": "assets/content/items/barter/wallet/item_wallet.bundle",
+        "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
         "width": 1,
         "height": 1,
         "name": "Coinflip 250k Roubles",
@@ -53,7 +353,7 @@
       "gambling_coinflip_500k_roubles": {
         "_id": "67b7b98b4767af842e0521ea",
         "_name": "gambling_coinflip_500k_roubles",
-        "prefab": "assets/content/items/barter/wallet/item_wallet.bundle",
+        "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
         "width": 1,
         "height": 1,
         "name": "Coinflip 500k Roubles",
@@ -63,7 +363,7 @@
       "gambling_coinflip_1m_roubles": {
         "_id": "67b7b98b4767af842e0521eb",
         "_name": "gambling_coinflip_1m_roubles",
-        "prefab": "assets/content/items/barter/wallet/item_wallet.bundle",
+        "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
         "width": 1,
         "height": 1,
         "name": "Coinflip 1 Million Roubles",
@@ -73,7 +373,7 @@
       "gambling_coinflip_2.5m_roubles": {
         "_id": "67b7b98b4767af842e0521ec",
         "_name": "gambling_coinflip_2.5m_roubles",
-        "prefab": "assets/content/items/barter/wallet/item_wallet.bundle",
+        "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
         "width": 1,
         "height": 1,
         "name": "Coinflip 2.5 Million Roubles",
@@ -83,7 +383,7 @@
       "gambling_coinflip_5m_roubles": {
         "_id": "67b7b98b4767af842e0521ed",
         "_name": "gambling_coinflip_5m_roubles",
-        "prefab": "assets/content/items/barter/wallet/item_wallet.bundle",
+        "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
         "width": 1,
         "height": 1,
         "name": "Coinflip 5 Million Roubles",
@@ -93,7 +393,7 @@
       "gambling_coinflip_10m_roubles": {
         "_id": "67b7b98b4767af842e0521ee",
         "_name": "gambling_coinflip_10m_roubles",
-        "prefab": "assets/content/items/barter/wallet/item_wallet.bundle",
+        "prefab": "assets/content/items/barter/item_barter_walletwz/item_barter_walletwz.bundle",
         "width": 1,
         "height": 1,
         "name": "Coinflip 10 Million Roubles",

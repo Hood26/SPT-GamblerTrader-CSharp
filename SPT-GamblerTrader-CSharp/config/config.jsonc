@@ -3,6 +3,516 @@
   "trader_update_max_time": 4000, // 4000 Seconds
 
   "Items": {
+    "gambling_7.62x25": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_9x18": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_9x19": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_9x21": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_.357": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_.45": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_.50_Action": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_4.6x30": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_5.7x28": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_5.45x39": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_5.56x45": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_6.8x51": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_.300": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_7.62x39": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_7.62x51": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_7.62x54": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_.338": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_9x39": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_.366": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_12.7x55": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_.50_BMG": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_12/70": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_20/70": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_23x75": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_rounds": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_pistol_rounds": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_shotgun_rounds": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_submachine_gun_rounds": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_assault_rifle_rounds": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
+    "gambling_sniper_rifle_rounds": {
+      "enable": true,
+      "manual_pricing": true,
+      "sold_by_trader": true,
+      "flea_banned": false,
+      "trader_price_roubles": 10000,
+      "flea_price_roubles": 15000,
+      "handbook_price_roubles": 15000,
+      "trader_stock": 999,
+      "loyalty_level": 1,
+      "profit_percentage": 1.0,
+      "odds": {
+        "Common Rounds": 45.0,
+        "Uncommon Rounds": 35.0,
+        "Rare Rounds": 20.0
+      }
+    },
     "gambling_wallet": {
       "enable": true,
       "manual_pricing": true,
@@ -263,8 +773,7 @@
       "trader_stock": 999,
       "loyalty_level": 1,
       "profit_percentage": 1.0,
-      "odds": {
-      }
+      "odds": {}
     },
     "gambling_keys_shoreline": {
       "enable": true,
@@ -277,8 +786,7 @@
       "trader_stock": 999,
       "loyalty_level": 1,
       "profit_percentage": 1.0,
-      "odds": {
-      }
+      "odds": {}
     },
     "gambling_keys_reserve": {
       "enable": true,
@@ -291,8 +799,7 @@
       "trader_stock": 999,
       "loyalty_level": 1,
       "profit_percentage": 1.0,
-      "odds": {
-      }
+      "odds": {}
     },
     "gambling_keys_interchange": {
       "enable": true,
@@ -305,8 +812,7 @@
       "trader_stock": 999,
       "loyalty_level": 1,
       "profit_percentage": 1.0,
-      "odds": {
-      }
+      "odds": {}
     },
     "gambling_keys_streets": {
       "enable": true,
@@ -319,8 +825,7 @@
       "trader_stock": 999,
       "loyalty_level": 1,
       "profit_percentage": 1.0,
-      "odds": {
-      }
+      "odds": {}
     },
     "gambling_keys_Lighthouse": {
       "enable": true,
@@ -333,8 +838,7 @@
       "trader_stock": 999,
       "loyalty_level": 1,
       "profit_percentage": 1.0,
-      "odds": {
-      }
+      "odds": {}
     },
     "gambling_streamer_mystery_box": {
       "enable": true,

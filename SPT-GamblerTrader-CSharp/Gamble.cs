@@ -2,6 +2,7 @@ using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Eft.Inventory;
 using SPTarkov.Server.Core.Models.Enums;
+using SPTarkov.Server.Core.Services;
 using SPTarkov.Server.Core.Utils;
 
 namespace SPT_GamblerTrader_CSharp;
@@ -32,13 +33,12 @@ public class Gamble(GamblerData gamblerData, string containerName)
         var containerProps = _gamblerData.LootBoxData.Containers[_containerName];
         int rewardIndex = GetIndex();
         if (rewardIndex == -1) return;
-
         _containerName = containerProps.RewardContainer ?? _containerName;
         var reward = GetReward(rewardIndex);
 
         if (reward is null)
         {
-            _gamblerData.logger.Error($"[Gambler] No valid reward found for index '{rewardIndex}'");
+            _gamblerData.logger.Error($"[Gambler Trader] No valid reward found for index '{rewardIndex}'");
             return;
         }
         if (containerProps.RewardType == "Preset")
@@ -68,9 +68,26 @@ public class Gamble(GamblerData gamblerData, string containerName)
     {
         var containers = _gamblerData.LootBoxData.Containers;
         var rewards = containers[_containerName].Rewards[index];
-        int randomRewardIndex = Random.Shared.Next(0, rewards.Count);
-        _gamblerData.logger.Info($"index = {randomRewardIndex}");
-        return rewards[randomRewardIndex];
+        int maxAttempts = 50;
+
+        // Reward can be from a mod that may not be installed and must be validated
+        for(var i = 0; i < maxAttempts; i++)
+        {
+            int randomRewardIndex = Random.Shared.Next(0, rewards.Count);
+            _gamblerData.logger.Info($"[Gambler Trader] chosen index = {randomRewardIndex} from rarity index {index} from container {_containerName}");
+
+
+            if (rewards[randomRewardIndex] is null) return null;
+
+            else if(containers[_containerName].RewardType == "Preset") return rewards[randomRewardIndex];
+
+            else if(IsValidItem(rewards[randomRewardIndex].Item))
+            {
+                return rewards[randomRewardIndex];
+            }
+            _gamblerData.logger.Info($"[Gambler Trader] Invalid Item = {rewards[randomRewardIndex].Item}");
+        }
+        return null;
     }
 
     // Returns the rewarding index in a container for a randomized roll
@@ -80,7 +97,6 @@ public class Gamble(GamblerData gamblerData, string containerName)
         float roll = RandomRoll();
         var itemProps = _gamblerData.config.Items[_containerName].odds;
         float sum = 0;
-
         for (int i = 0; i < itemProps.Count; i++)
         {
             var item = itemProps.ElementAt(i);
@@ -101,6 +117,15 @@ public class Gamble(GamblerData gamblerData, string containerName)
         }
         _gamblerData.logger.Error($"[Gambler Trader] GetIndex() Could not find index returned -1 for container {_containerName}");
         return -1;
+    }
+
+    private bool IsValidItem(MongoId? id) 
+    {
+        if (id is null) return true; // null items like coinflips are valid...
+        var db = _gamblerData.db;
+        var tables = db.GetTables();
+        if (tables.Templates.Items.TryGetValue((MongoId)id, out _)) return true;
+        return false;
     }
 
     private bool IsStackable(MongoId id)
