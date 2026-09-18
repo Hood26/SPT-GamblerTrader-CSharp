@@ -10,6 +10,54 @@
         ]
       },
       {
+        "key": "assets/gambler_loadout.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders",
+          "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+      },
+      {
+        "key": "assets/gambler_scav_loadout.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders",
+          "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+      },
+      {
+        "key": "assets/gambler_early_game_loadout.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders",
+          "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+      },
+      {
+        "key": "assets/gambler_mid_game_loadout.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders",
+          "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+      },
+      {
+        "key": "assets/gambler_late_game_loadout.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders",
+          "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+      },
+      {
+        "key": "assets/gambler_premium_loadout.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders",
+          "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+      },
+      {
         "key": "assets/weapon_mystery_box_early_wipe.bundle",
         "dependencyKeys": [
           "cubemaps",

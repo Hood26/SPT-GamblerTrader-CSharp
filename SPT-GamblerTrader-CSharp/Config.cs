@@ -14,11 +14,13 @@ public class ConfigProps
     public bool sold_by_trader { get; set; }
     public bool flea_banned { get; set; }
     public int trader_price_roubles { get; set; }
+    public string trader_currency_type { get; set; } = "roubles";
     public int flea_price_roubles { get; set; }
     public int handbook_price_roubles { get; set; }
     public int trader_stock { get; set; }
     public int loyalty_level { get; set; }
     public float profit_percentage { get; set; }
-    public Dictionary<string, int>? barter {get; set;}
+    public Dictionary<string, int>? barter { get; set; }
+    public int[]? amount_generated { get; set; }
     public required Dictionary<string, float> odds { get; set; }
 }

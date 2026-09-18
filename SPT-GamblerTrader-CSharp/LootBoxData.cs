@@ -17,6 +17,7 @@ public class LootBoxData
 
     public class Reward {
         public string? Item { get; set; } = null;
+        public string? Container { get; set; } = null;
         public int Amount { get; set; } = 1;
         public string? Id { get; set; } 
         public string? Name { get; set; } 

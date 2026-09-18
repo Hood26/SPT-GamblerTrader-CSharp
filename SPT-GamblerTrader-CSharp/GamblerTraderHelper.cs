@@ -1,4 +1,6 @@
+using JetBrains.Annotations;
 using SPT_GamblerTrader_CSharp;
+using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Enums;
 
 namespace HoodsEnergyDrinks_CSharp;
@@ -13,6 +15,7 @@ class GamblerTraderHelper(GamblerData gamblerData)
         {
             gamblerData.logger.Info($"Adding {name} to trader with id {traderId}");
             var itemProps = gamblerData.config.Items[name];
+            var currencyType = getCurrencyType(itemProps.trader_currency_type);
             if (itemProps.sold_by_trader)
             {
                 var newItem = gamblerData.assortCreator.CreateSingleAssortItem(props._id)
@@ -28,11 +31,31 @@ class GamblerTraderHelper(GamblerData gamblerData)
                 }
                 else
                 {
-                    newItem.AddMoneyCost(Money.ROUBLES, itemProps.trader_price_roubles);
+                    newItem.AddMoneyCost(currencyType, itemProps.trader_price_roubles);
                 }
                 newItem.Export(traderId);
             }
         }
+    }
+
+        // Defaults to Roubles if currencyType is invalid
+    public MongoId getCurrencyType(string currencyType)
+    {
+        Dictionary<string, MongoId> currencyTypes =  new()
+        {
+            {"roubles", Money.ROUBLES},
+            {"dollars", Money.DOLLARS},
+            {"euros", Money.EUROS}
+        };
+
+        if(currencyTypes.TryGetValue(currencyType, out var result))
+        {
+            return result;
+        }
+
+        return Money.ROUBLES;
+    }
+
 
 
         /*
@@ -58,7 +81,6 @@ class GamblerTraderHelper(GamblerData gamblerData)
         }
         */
 
-    }
 
 
 }

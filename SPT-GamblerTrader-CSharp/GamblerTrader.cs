@@ -66,6 +66,32 @@ public class GamblerTrader(
         itemCreator.BuildItems(customItemService);
         var gamblerTraderHelper = new GamblerTraderHelper(gamblerData);
         gamblerTraderHelper.AddSingleItemToTrader("67b7b52a4767af842e0521d0");
+
+        // Flea Ban Container
+        foreach (var (name, props) in gamblerData.lootBoxInfo.Items)
+        {
+            var itemConfig = gamblerData.config.Items[name];
+            if (itemConfig.flea_banned)
+            {
+                if (_ragfairConfig is not null)
+                {
+                    gamblerData.logger.Info($"Flea Banned {props._id}");
+                    _ragfairConfig.Dynamic.Blacklist.Custom.Add(props._id);
+                }
+                else
+                {
+                    gamblerData.logger.Info($"AHHHHHHHHHHHHHHHHHHHHHHHH");
+                }
+            }
+            else
+            {
+                gamblerData.logger.Info($"ERRRRRRRRRRRRRRRRRRRRRRRRRR");
+            }
+        }
+
+
+
+
         logger.Info("Gambler Trader Loaded Successfully!");
 
 
@@ -128,25 +154,29 @@ public class GamblerTrader(
                 };
 
                 // Prevent original OpenRandomLootContainer from running 
-                logger.Success("[Gambler Trader] This container is a Gambler Item...");
                 if (gamblerData is null) return false;
                 Gamble gamble = new Gamble(GamblerTrader.gamblerData, isGamblingContainer);
                 gamble.NewGamble();
 
                 if (gamble.newItemsRequest?.ItemsWithModsToAdd?.Count() != 0)
                 {
-                    newItemsRequest.ItemsWithModsToAdd = gamble.newItemsRequest?.ItemsWithModsToAdd;
-                    newItemsRequest.FoundInRaid = gamble.newItemsRequest?.FoundInRaid;
+                    inventoryHelper.RemoveItem(pmcData, request.Item, sessionId, output);
+                    foreach ( var item in gamble.newItemsRequest?.ItemsWithModsToAdd)
+                    {
+                        newItemsRequest.ItemsWithModsToAdd = [item];
+                        newItemsRequest.FoundInRaid = gamble.newItemsRequest?.FoundInRaid;
 
-                    if (inventoryHelper.CanPlaceItemsInInventory(sessionId, newItemsRequest.ItemsWithModsToAdd))
-                    {
-                        inventoryHelper.RemoveItem(pmcData, request.Item, sessionId, output);
-                        inventoryHelper.AddItemsToStash(sessionId, newItemsRequest, pmcData, output);
+                        if (inventoryHelper.CanPlaceItemsInInventory(sessionId, newItemsRequest.ItemsWithModsToAdd))
+                        {
+                            //inventoryHelper.RemoveItem(pmcData, request.Item, sessionId, output);
+                            inventoryHelper.AddItemsToStash(sessionId, newItemsRequest, pmcData, output);
+                        }
+                        else
+                        {
+                            logger.Error("[Gambler Trader] Cannot Open Container! Inventory Is Full!");
+                        }
                     }
-                    else
-                    {
-                        logger.Error("[Gambler Trader] Cannot Open Container! Inventory Is Full!");
-                    }
+
                 }
                 else
                 {
